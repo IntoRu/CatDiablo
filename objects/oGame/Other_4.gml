@@ -2,12 +2,12 @@
 
 layer_set_visible("Col",false)
 
-//if(room == rVillage){
-//	if(spawnEnemy){
-//		instance_create_layer(215,125,"Instances",oSLime)
-//		spawnEnemy = false
-//	}
-//}
+
+// уничтожаем обьекты в листе(те которые мы уничтожили)
+for(i = 0; i < ds_list_size(global.testDeath); i++){
+	instance_deactivate_object(ds_list_find_value(global.testDeath,i))
+	
+}
 
 
 

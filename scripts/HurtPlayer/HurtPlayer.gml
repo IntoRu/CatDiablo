@@ -12,7 +12,7 @@ function HurtPlayer(_direction,_force,_damage){ // направление, си�
 				moveDistanceRemaining = _force
 				ScreenShake(2,10)
 				flash = 0.7
-				invulnerable = invTime
+				invulnerable = global.invTime[global.level]
 			}
 		}
 		else{

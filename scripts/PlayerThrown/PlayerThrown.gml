@@ -14,6 +14,6 @@ function PlayerThrown(){
 		xstart = x
 		ystart = y
 	}
-	PlayerActOutAnimation(spriteLift[level])
+	PlayerActOutAnimation(global.spriteLift[global.level])
 	global.iLifted = noone
 }

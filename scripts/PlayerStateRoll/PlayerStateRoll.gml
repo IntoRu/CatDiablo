@@ -7,7 +7,7 @@ function PlayerStateRoll(){
 	moveDistanceRemaining = max(0,moveDistanceRemaining - speedRoll)
 	var _collided = PlayerCollision()
 	
-	sprite_index = spriteRoll[level]
+	sprite_index = global.spriteRoll[global.level]
 	var _totalFrames = sprite_get_number(sprite_index)/4
 	image_index = (CARDINAL_DIR * _totalFrames) + min(((1 - (moveDistanceRemaining / distanceRoll))*_totalFrames), _totalFrames - 1)
 	

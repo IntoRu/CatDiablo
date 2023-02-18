@@ -1,8 +1,8 @@
 
 function AttackSlash(){
-	if(sprite_index != spriteAttackSlash[level]){
+	if(sprite_index != global.spriteAttackSlash[global.level]){
 		// анимация аттаки
-		sprite_index = spriteAttackSlash[level]
+		sprite_index = global.spriteAttackSlash[global.level]
 		localFrame = 0
 		image_index = 0
 		
@@ -41,7 +41,7 @@ function CalcAttack(){
 					// действия при попадании по сущьности
 					if(object_is_ancestor(object_index,pEnemy)){
 						// ЛОГИКА УРОНА И ОТБРОСА ВРАГА
-						HurtEnemy(id,other.slashDamage,other.id,other.slashRecoil)
+						HurtEnemy(id,global.slashDamage[global.level],other.id,global.slashRecoil[global.level])
 					}
 					else if(entityHitScript != -1) script_execute(entityHitScript)
 				}

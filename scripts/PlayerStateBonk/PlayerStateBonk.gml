@@ -6,7 +6,7 @@ function PlayerStateBonk(){
 	moveDistanceRemaining = max(0,moveDistanceRemaining - speedBonk)
 	var _collided = PlayerCollision()
 	
-	sprite_index = spriteHurt[level]
+	sprite_index = global.spriteHurt[global.level]
 	image_index = CARDINAL_DIR - 2
 	
 	// изменение высоты

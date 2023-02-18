@@ -17,9 +17,9 @@ function PlayerStateFree(){
 	var _oldSprite = sprite_index
 	if (inputMagnitude != 0){
 		direction = inputDirection
-		sprite_index = spriteRun[level]
+		sprite_index = global.spriteRun[global.level]
 	}
-	else sprite_index = spriteIdle[level]
+	else sprite_index = global.spriteIdle[global.level]
 
 	if(_oldSprite != sprite_index) localFrame = 0
 

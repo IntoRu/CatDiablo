@@ -1,0 +1,132 @@
+В функции PlayerThrown я закоментировал строку persisten = false
+
+
+Главное спрайты должны иметь одинаковое кол-во кадров для всех направлений
+--------------------------------------------------------------------------------------
+Уровень персоонажа
+	уровень задействует машину состояний
+	взято от сюда    https://www.youtube.com/watch?v=2QtxSfxA7s4&t=412s
+	в обьекте oPlayer Create в уровне прописываем в массив урон и здоровье и другие важные характеристики
+	сам уровень присваивается переменной level
+	В зависимости от уровня автоматически повышается скорость аттаки мечом
+	(он зависит и настраевается в редакторе спрайтов - скорость анимации)
+	
+	сама логика урона и отброса врага прописана в PlayerAttackFunction
+	
+	
+	в создании плеера есть параметр времени неуязвимости при получении урона
+--------------------------------------------------------------------------------------------------
+Пробел - активировать что либо
+Shift - атака
+Control - предмет
+R - перезапуск игры
+ESC - пауза
+--------------------------------------------------------------------------
+Скорость текста в oGame Create
+
+Вызов диалога NewTextBox() в entityActivateScript
+
+Сам диалог и ответы прописываем на карте в Creation Code
+В скрипте DialogueResponses описывается ветвление диалогов
+(там же можно прописать увеличение уровня и т.д)
+-----------------------------------------------------------------------------------
+Решение проблемы с бесконечным циклом диалогов:
+	For anyone wondering about this issue in the future,
+	I managed to fix it by changing the following line of code in the oText object:
+
+	FROM
+	if (keyboard_check_pressed(vk_space))
+
+	TO
+	if (oPlayer.keyActivate)
+
+Исправлен баг сложно выбрать место для разговора с нпс
+	About "1. Check for entity to activate", i found the dollowing script to work better. Because the origin of sPlayer is center bottom and sprite for entities are top left. They key point is to remove 8 pixels on "Y" :
+		var _activateX = lengthdir_x(8, direction);	
+		var _activateY = lengthdir_y(8, direction);
+		activate = instance_position(x+_activateX, y-8+_activateY, pEntity);
+		
+Исправлена ошибка в 11 эпизоде
+	Hey all, I kept having a problem when I would try to talk to the npc a second time (i.e. I talked to them once and the first conversation worked, then it would crash on the second try). The error would be something like 'unable to convert string "" to number'. This is because instead of copying argument[2] into responses, you are just making responses point to argument[2]. To fix this, you can replace 'responses = argument[2]' with the code below.
+
+	var _array=argument[2];
+
+	for(var _i=0;_i<array_length(_array)  ;_i++)
+	{
+	 responses[_i]=_array[_i];
+	}
+
+
+	I hope this helps
+
+	
+--------------------------------------------------
+переменные сущности
+	entityNPC -если нпс то он будет поворичиватся к нам
+	entityShadow - если тень
+	z - высота от тени(рисуем выше. зффект прыжка или т п)
+	entityHitScript - сценарий при аттаке на сущьность(entityHitSolid / EntityHitDestroy)
+	entityFragmentCount - кол-во осколков
+	entityFragment - какие будут осколки (oFragPlant)
+	в entityActivateScript можно вызывать диалог (NewTextBox)
+	или делать предметы переносимыми(ActivateLiftable)
+	entityThrowBreak - можем ли мы поднять предмет и бросить его
+	entityThrowDistance - дистанция на которую можем бросить предмет
+
+----------------------------------------------------
+переменные врагов
+enemyWanderDistance  - дистанция блуждания
+enemySpeed - скорость врага
+enemyAggroRadius - радиус с которого враг начинает агрессию
+enemyAttackRadius - радиус аттаки
+enemyHP - жизни
+enemyForceTouch - отброс игрока расстояние
+enemyDamageTouch - урон по игроку
+--------------------------------------------------
+переменные осколков oFragment
+	bounceCount - кол-во отскоков
+
+------------------------------------------------------
+дополнительно сделал рисовку восклицательного знака если есть что активировать
+	(в игроке в создании переменная readyMess по умолчанию выкл.
+	если она активируется то рисуем. туда же надо добавить звук)
+	
+--------------------------------------------------------------
+		КАК СДЕЛАТЬ РАСЧЛЕНЁНКУ
+создаём обьект кидаем туда спрайт расчленёнки (пример sFragPlant )
+родитель у данного обьекта будет oFragment
+в переменных настраиваем параметры расчленёнки
+а в переменных самого врага (родитель у него должен быть pEntity)
+прописываем переменные кол-во кусков расчлинения и фрагменты расчленёнки
+пример как сделан обьект oPlant
+
+-----------------------------------------------
+	ЭФФЕКТ ПЕРЕХОДА ИЗ КОМНАТЫ В КОМНАТУ
+в макросах параметры а именно скорость эффекта перехода
+
+----------------------------------------------------------
+
+функция урона по игроку - HurtPlayer
+далее просто в коллизии с игроком пишем эту функцию с аргументами (пример есть в pEnemy)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

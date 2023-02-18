@@ -1,19 +1,26 @@
 
 randomize()
 
+//---------------------------------
+#region
+// для квеста шляпы
+global.questStatus = ds_map_create()
+global.questStatus[? "TheHatQuest"] = 0 // квест не начат(1- начат 2 завершён)
+#endregion квест шляпы
+
 // ------------------------------------------------------------
 #region уровень персоонажа
 global.level = LEVEL0
 
 // здоровье
-global.playerHealth[LEVEL0] = 3
-global.playerHealth[LEVEL1] = 4
-global.playerHealth[LEVEL2] = 5
-global.playerHealth[LEVEL3] = 6
-global.playerHealthMax[LEVEL0] = 3
-global.playerHealthMax[LEVEL1] = 4
-global.playerHealthMax[LEVEL2] = 5
-global.playerHealthMax[LEVEL3] = 6
+global.playerHealth[LEVEL0] = 1
+global.playerHealth[LEVEL1] = 2
+global.playerHealth[LEVEL2] = 3
+global.playerHealth[LEVEL3] = 4
+global.playerHealthMax[LEVEL0] = 1
+global.playerHealthMax[LEVEL1] = 2
+global.playerHealthMax[LEVEL2] = 3
+global.playerHealthMax[LEVEL3] = 4
 
 // урон
 global.slashDamage[LEVEL0] = 5
@@ -74,8 +81,21 @@ global.spriteDie[LEVEL1] = sPlayerDieL1
 global.spriteDie[LEVEL2] = sPlayerDieL2
 global.spriteDie[LEVEL3] = sPlayerDieL3
 
+global.spriteCarry[LEVEL0] = sPlayerCarry
+global.spriteCarry[LEVEL1] = sPlayerCarryL1
+global.spriteCarry[LEVEL2] = sPlayerCarryL2
+global.spriteCarry[LEVEL3] = sPlayerCarryL3
+
+global.spriteRunCarry[LEVEL0] = sPlayerRunCarry
+global.spriteRunCarry[LEVEL1] = sPlayerRunCarryL1
+global.spriteRunCarry[LEVEL2] = sPlayerRunCarryL2
+global.spriteRunCarry[LEVEL3] = sPlayerRunCarryL3
+
 #endregion
 //---------------------------------------------------
+
+// для квестов
+
 
 global.gamePaused = false
 

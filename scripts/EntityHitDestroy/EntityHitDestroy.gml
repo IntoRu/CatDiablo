@@ -2,6 +2,5 @@
 
 function EntityHitDestroy(){
 	
-	instance_destroy()
-	
+	instance_destroy()	
 }

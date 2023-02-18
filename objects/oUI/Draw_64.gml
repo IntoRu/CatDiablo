@@ -14,3 +14,7 @@ for(var i = 1; i <= _playerHealthMax; i++){
 	}
 	draw_sprite(sHealth,_imageIndex,8+((i-1)*16),8)
 }
+
+
+
+

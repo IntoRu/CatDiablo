@@ -13,3 +13,4 @@ enemyScript[ENEMYSTATE.CHASE] = SlimeChese
 enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt
 enemyScript[ENEMYSTATE.DIE] = SlimeDie
+

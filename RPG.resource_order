@@ -5,6 +5,7 @@
     {"name":"Entity","order":7,"path":"folders/Entity.yy",},
     {"name":"Enviroment","order":3,"path":"folders/Enviroment.yy",},
     {"name":"Game","order":4,"path":"folders/Game.yy",},
+    {"name":"Items","order":9,"path":"folders/Items.yy",},
     {"name":"NPC","order":6,"path":"folders/NPC.yy",},
     {"name":"Player","order":2,"path":"folders/Player.yy",},
     {"name":"Scins","order":6,"path":"folders/Player/Scins.yy",},
@@ -17,6 +18,7 @@
   "ResourceOrderSettings": [
     {"name":"tTiles","order":4,"path":"tilesets/tTiles/tTiles.yy",},
     {"name":"sPlayerRunCarryL3","order":9,"path":"sprites/sPlayerRunCarryL3/sPlayerRunCarryL3.yy",},
+    {"name":"sCoin","order":2,"path":"sprites/sCoin/sCoin.yy",},
     {"name":"RoomTransition","order":17,"path":"scripts/RoomTransition/RoomTransition.yy",},
     {"name":"sSlimeDie","order":4,"path":"sprites/sSlimeDie/sSlimeDie.yy",},
     {"name":"sHealth","order":5,"path":"sprites/sHealth/sHealth.yy",},
@@ -105,6 +107,7 @@
     {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
     {"name":"EnemyWait","order":9,"path":"scripts/EnemyWait/EnemyWait.yy",},
     {"name":"shRedFlash","order":12,"path":"shaders/shRedFlash/shRedFlash.yy",},
+    {"name":"oCoin","order":1,"path":"objects/oCoin/oCoin.yy",},
     {"name":"PlayerStateDead","order":22,"path":"scripts/PlayerStateDead/PlayerStateDead.yy",},
     {"name":"sTiles","order":3,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sPlayerHurtL1","order":3,"path":"sprites/sPlayerHurtL1/sPlayerHurtL1.yy",},

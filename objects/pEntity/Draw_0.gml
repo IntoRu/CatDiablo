@@ -2,7 +2,8 @@
 if(entityShadow) draw_sprite(sShadow,0,x,y)
 
 if(flash != 0){
-	shader_set(shWhiteFlash)
+	shader_set(flashShader)
+	uFlash = shader_get_uniform(flashShader,"flash")
 	shader_set_uniform_f(uFlash,flash)
 }
 

@@ -10,7 +10,7 @@ if(!global.gamePaused){
 			if(ds_list_find_index(collisionHistory,_entity) == -1){
 				with(_entity){
 					if(object_is_ancestor(object_index,pEnemy)){
-						HurtEnemy(id,oBomb.damge,other.id,oBomb.throwExplode) // урон от бомбы походу
+						HurtEnemy(id,global.bombDamge,other.id,global.bombDistanceThrow) // урон от бомбы походу
 					}
 					else{
 						if(entityHitScript != -1) script_execute(entityHitScript)

@@ -18,7 +18,7 @@ for(var i = 1; i <= _playerHealthMax; i++){
 // рисуем монеты
 var _xx, _yy
 
-_xx = 8
+_xx = 28
 _yy = 31
 draw_sprite(sCoinUI,0,_xx,_yy)
 
@@ -28,7 +28,7 @@ draw_set_font(fText)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 _xx += sprite_get_width(sCoin)+4
-_yy = 27
+_yy = 29
 var _str = string(global.playerMoney)
 draw_text(_xx+1,_yy,_str)
 draw_text(_xx-1,_yy,_str)
@@ -37,7 +37,27 @@ draw_text(_xx,_yy-1,_str)
 draw_set_color(c_white)
 draw_text(_xx,_yy,_str)
 
+//рисуем предметы
+_xx = 8
+_yy = 24
 
+draw_sprite(sItemUIBox,0,_xx,_yy){
+	if(global.playerHasAnyItems){
+		draw_sprite(sItemUI,global.playerEquipped,_xx,_yy)
+		// рисуем кол-во боеприпасов
+		if(global.playerAmmo[global.playerEquipped] != -1){
+			draw_set_font(fAmmo)
+			draw_set_halign(fa_right)
+			draw_set_valign(fa_bottom)
+			draw_set_color(c_white)
+			draw_text(
+				_xx+sprite_get_width(sItemUIBox)+1,
+				_yy+sprite_get_height(sItemUIBox)+1,
+				string(global.playerAmmo[global.playerEquipped])
+			)
+		}
+	}
+}
 
 
 

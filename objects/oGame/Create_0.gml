@@ -6,8 +6,33 @@ randomize()
 //(они теперь не спавнятся после перехода в комнаты)
 global.testDeath = ds_list_create()
 //---------------------------------
+
 global.playerMoney = 0
 
+//--------------------------------------------
+// предметы
+global.playerHasAnyItems = false
+global.playerEquipped = ITEM.BOMB // первый предмет который у нас появляется(по умолчанию)
+global.playerAmmo = array_create(ITEM.TYPE_COUNT,-1)
+global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT,false)
+global.playerAmmo[ITEM.BOMB] = 0
+global.playerAmmo[ITEM.BOW] = 0
+global.playerAmmo[ITEM.HILL] = 0
+
+//урон от предметов
+global.bombDamge = 25
+global.bombDistanceThrow = 30 // дистанция отброса от взрыва
+global.hillPlus = 0.5
+
+// временный раздел(разблокируем и даём бомбы)
+global.playerItemUnlocked[ITEM.BOMB] = true
+global.playerHasAnyItems = true
+global.playerAmmo[ITEM.BOMB] = 5
+
+//global.playerEquipped = ITEM.HILL
+//global.playerItemUnlocked[ITEM.HILL] = true
+//global.playerHasAnyItems = true
+//global.playerAmmo[ITEM.HILL] = 5
 
 //-----------------------------------
 #region квест шляпы

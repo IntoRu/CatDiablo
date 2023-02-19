@@ -22,5 +22,14 @@ enum ENEMYSTATE{
 	WAIT
 }
 
+enum ITEM{
+	NONE,
+	BOMB,
+	BOW,
+	HOOK,
+	HILL,
+	TYPE_COUNT
+}
+
 
 

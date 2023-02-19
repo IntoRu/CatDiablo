@@ -92,4 +92,15 @@ function PlayerStateFree(){
 	}
 	if(activate == noone or activate.entityActivateScript == -1) readyMess = false
 	else readyMess = true
+	
+	// используем предметы
+	if(keyItem) and (!keyActivate) and (global.playerHasAnyItems) and (global.playerEquipped != ITEM.NONE){
+		switch(global.playerEquipped){
+			case ITEM.BOMB: UseItemBomb(); break;
+			case ITEM.BOW: UseItemBow(); break;
+			case ITEM.HOOK: UseItemHook(); break;
+			case ITEM.HILL: UseItemHill(); break;
+			default: break
+		}
+	}
 }

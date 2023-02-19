@@ -6,6 +6,8 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityShadow","path":"objects/pEntity/pEntity.yy",},"value":"False",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pCollectible","path":"objects/pCollectible/pCollectible.yy",},"propertyId":{"name":"collectScript","path":"objects/pCollectible/pCollectible.yy",},"value":"CollectCoins",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pCollectible","path":"objects/pCollectible/pCollectible.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/pCollectible/pCollectible.yy",},"value":"1",},
   ],
   "parent": {
     "name": "Items",

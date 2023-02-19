@@ -22,10 +22,17 @@ global.playerAmmo[ITEM.HILL] = 0
 //урон от предметов
 global.bombDamge = 25
 global.bombDistanceThrow = 30 // дистанция отброса от взрыва
+global.bowDamage = 10
+global.bowDistanceThrow = 20
 global.hillPlus = 0.5
 
 // временный раздел(разблокируем и даём бомбы)
 
+global.playerHasAnyItems = true
+
+global.playerAmmo[ITEM.BOMB] = 0
+global.playerAmmo[ITEM.BOW] = 0
+global.playerAmmo[ITEM.HILL] = 0
 
 global.playerItemUnlocked[ITEM.BOW] = true
 global.playerItemUnlocked[ITEM.BOMB] = true
@@ -123,6 +130,11 @@ global.spriteRunCarry[LEVEL0] = sPlayerRunCarry
 global.spriteRunCarry[LEVEL1] = sPlayerRunCarryL1
 global.spriteRunCarry[LEVEL2] = sPlayerRunCarryL2
 global.spriteRunCarry[LEVEL3] = sPlayerRunCarryL3
+
+global.spriteBow[LEVEL0] = sPlayerBow
+global.spriteBow[LEVEL1] = sPlayerBowL1
+global.spriteBow[LEVEL2] = sPlayerBowL2
+global.spriteBow[LEVEL3] = sPlayerBowL3
 
 #endregion
 //---------------------------------------------------

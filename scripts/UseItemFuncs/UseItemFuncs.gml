@@ -10,7 +10,10 @@ function UseItemBomb(){
 }
 
 function UseItemBow(){
-
+	if(global.playerAmmo[ITEM.BOW] > 0) and (global.iLifted == noone){
+		global.playerAmmo[ITEM.BOW]--
+		PlayerActOutAnimation(global.spriteBow[global.level],PlayerFireArrow)
+	}
 }
 
 function UseItemHook(){
@@ -23,5 +26,16 @@ function UseItemHill(){
 			global.playerAmmo[ITEM.HILL]--
 			global.playerHealth[global.level] += global.hillPlus
 		}
+	}
+}
+
+//---------------------------------------------------------------
+function PlayerFireArrow(){
+	with(instance_create_depth(floor(x),floor(y)-7,depth,oArrow)){
+		direction = other.direction
+		direction = CARDINAL_DIR * 90
+		image_speed = 0
+		image_index = CARDINAL_DIR
+		speed = 6
 	}
 }

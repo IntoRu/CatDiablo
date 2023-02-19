@@ -25,14 +25,14 @@ global.bombDistanceThrow = 30 // дистанция отброса от взры
 global.hillPlus = 0.5
 
 // временный раздел(разблокируем и даём бомбы)
-global.playerItemUnlocked[ITEM.BOMB] = true
-global.playerHasAnyItems = true
-global.playerAmmo[ITEM.BOMB] = 5
 
-//global.playerEquipped = ITEM.HILL
-//global.playerItemUnlocked[ITEM.HILL] = true
-//global.playerHasAnyItems = true
-//global.playerAmmo[ITEM.HILL] = 5
+
+global.playerItemUnlocked[ITEM.BOW] = true
+global.playerItemUnlocked[ITEM.BOMB] = true
+global.playerItemUnlocked[ITEM.HILL] = true
+global.playerItemUnlocked[ITEM.HOOK] = true
+
+
 
 //-----------------------------------
 #region квест шляпы

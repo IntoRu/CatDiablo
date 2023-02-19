@@ -133,6 +133,9 @@ enemyDamageTouch - урон по игроку
 - использование предметов описано в PlayerStateFree,  UseItemsFunsc а прописываются сами предметы
 в MACROS и oGame Create
 
+		ВЫПАДЕНИЕ ПРЕДМЕТОВ
+- во врагах траве и др предметов в create в entityDropList пишем вероятность выпадения чего либо
+
 
 
 

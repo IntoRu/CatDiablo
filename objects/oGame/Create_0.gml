@@ -103,10 +103,10 @@ global.spriteHurt[LEVEL1] = sPlayerHurtL1
 global.spriteHurt[LEVEL2] = sPlayerHurtL2
 global.spriteHurt[LEVEL3] = sPlayerHurtL3
 
-global.spriteAttackSlash[LEVEL0] = sPlayerAttackSlash
-global.spriteAttackSlash[LEVEL1] = sPlayerAttackSlashL1
-global.spriteAttackSlash[LEVEL2] = sPlayerAttackSlashL2
-global.spriteAttackSlash[LEVEL3] = sPlayerAttackSlashL3
+global.spriteAttackSlash[LEVEL0] = sPlayerAttackSlashNew
+global.spriteAttackSlash[LEVEL1] = sPlayerAttackSlashNewL1
+global.spriteAttackSlash[LEVEL2] = sPlayerAttackSlashNewL2
+global.spriteAttackSlash[LEVEL3] = sPlayerAttackSlashNewL3
 
 global.spriteLift[LEVEL0] = sPlayerLift
 global.spriteLift[LEVEL1] = sPlayerLiftL1

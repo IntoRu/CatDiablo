@@ -161,3 +161,5 @@ function SlimeDie(){
 	instance_destroy()
 }
 
+
+

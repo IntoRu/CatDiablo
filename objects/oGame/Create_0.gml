@@ -25,6 +25,8 @@ global.bombDistanceThrow = 30 // дистанция отброса от взры
 global.bowDamage = 10
 global.bowDistanceThrow = 20
 global.hillPlus = 0.5
+global.hookDamage = 0
+global.hookDistanceThrow = 15
 
 // временный раздел(разблокируем и даём бомбы)
 
@@ -135,6 +137,11 @@ global.spriteBow[LEVEL0] = sPlayerBow
 global.spriteBow[LEVEL1] = sPlayerBowL1
 global.spriteBow[LEVEL2] = sPlayerBowL2
 global.spriteBow[LEVEL3] = sPlayerBowL3
+
+global.spriteHook[LEVEL0] = sPlayerHook
+global.spriteHook[LEVEL1] = sPlayerHookL1
+global.spriteHook[LEVEL2] = sPlayerHookL2
+global.spriteHook[LEVEL3] = sPlayerHookL3
 
 #endregion
 //---------------------------------------------------

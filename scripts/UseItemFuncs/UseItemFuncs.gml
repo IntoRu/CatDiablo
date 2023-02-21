@@ -17,7 +17,8 @@ function UseItemBow(){
 }
 
 function UseItemHook(){
-
+	state = PlayerStateHook
+	localFrame = 0
 }
 
 function UseItemHill(){

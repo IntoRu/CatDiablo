@@ -1,1 +1,1 @@
-LoadGame(global.gameSaveSlot)
+//LoadGame(global.gameSaveSlot)

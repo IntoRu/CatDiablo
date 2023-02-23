@@ -10,4 +10,5 @@ if(entityDropList != -1){
 
 
 // записываем в лист что бы потом удалить именно уничтоженные обьекты
-ds_list_add(global.testDeath,id)
+//ds_list_add(global.testDeath,id)
+array_push(global.entityDeath,id)

@@ -7,7 +7,7 @@ function PlayerStateFree(){
 	PlayerCollision()
 	
 	// аттака
-	if (keyAttack){
+	if (keyAttack) and (global.iLifted == noone){
 		state = PlayerStateAttack
 		stateAttack = AttackSlash
 	}
@@ -94,7 +94,7 @@ function PlayerStateFree(){
 	else readyMess = true
 	
 	// используем предметы
-	if(keyItem) and (!keyActivate) and (global.playerHasAnyItems) and (global.playerEquipped != ITEM.NONE){
+	if(keyItem) and (!keyActivate) and (global.playerHasAnyItems) and (global.playerEquipped != ITEM.NONE) and (global.iLifted == noone){
 		switch(global.playerEquipped){
 			case ITEM.BOMB: UseItemBomb(); break;
 			case ITEM.BOW: UseItemBow(); break;

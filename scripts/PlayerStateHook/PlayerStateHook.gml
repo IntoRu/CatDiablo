@@ -8,7 +8,7 @@ function PlayerStateHook(){
 		hookStatus = HOOKSTATUS.EXTENDING
 		hookEntity = noone
 		
-		sprite_index = sPlayerHook
+		sprite_index = global.spriteHook[global.level]
 		image_index = CARDINAL_DIR
 		image_speed = 0
 	}

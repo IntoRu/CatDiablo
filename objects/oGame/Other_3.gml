@@ -1,1 +1,1 @@
-ds_list_destroy(global.testDeath)
+//ds_list_destroy(global.testDeath)

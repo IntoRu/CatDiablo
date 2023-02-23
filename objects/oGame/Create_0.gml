@@ -4,7 +4,8 @@ randomize()
 //---------------------------------
 //удаляем унистоженные обьекты
 //(они теперь не спавнятся после перехода в комнаты)
-global.testDeath = ds_list_create()
+//global.testDeath = ds_list_create()
+global.entityDeath = []
 //---------------------------------
 
 global.playerMoney = 0
@@ -27,6 +28,8 @@ global.bowDistanceThrow = 20
 global.hillPlus = 0.5
 global.hookDamage = 0
 global.hookDistanceThrow = 15
+global.potDamage = 5
+global.potDistanceThrow = 25
 
 // временный раздел(разблокируем и даём бомбы)
 

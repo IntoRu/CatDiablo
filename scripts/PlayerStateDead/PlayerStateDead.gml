@@ -7,6 +7,10 @@ function PlayerStateDead(){
 		sprite_index = global.spriteDie[global.level]
 		image_speed = 0
 		image_speed = 0.7	
+		//global.playerMoney -= 5
+		if(global.playerMoney >=10){
+			global.playerMoney -= floor(global.playerMoney*0.3)
+		}
 	}
 	
 	if(image_index + image_speed > image_number){
@@ -26,4 +30,5 @@ function PlayerStateDead(){
 			RoomTransition(TRANS_TYPE.SLIDE,rVillage)
 		}
 	}
+	
 }

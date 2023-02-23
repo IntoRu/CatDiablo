@@ -38,6 +38,10 @@ if(global.gamePaused){
 				SaveGame()
 				game_end()
 			}break;
+			case 3:{// начать новую игру
+				file_delete("save"+string(global.gameSaveSlot)+".sav")
+				game_restart()
+			}break
 		}
 	}
 }

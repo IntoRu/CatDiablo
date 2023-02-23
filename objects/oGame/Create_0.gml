@@ -36,7 +36,7 @@ global.hookDamage = 0
 global.hookDistanceThrow = 15
 global.potDamage = 2
 global.potDistanceThrow = 25
-global.rockDamage = 5
+global.rockDamage = 2
 global.rockDistanceThrow = 30
 
 // временный раздел(разблокируем)

@@ -143,7 +143,7 @@ enemyDamageTouch - урон по игроку
 
 
 
-
+and item !== ITEM.HOOK
 
 
 

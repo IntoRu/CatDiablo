@@ -1,1 +1,1 @@
-HurtEnemy(id,global.potDamage,other.id,global.potDistanceThrow)
+HurtEnemy(id,global.rockDamage,other.id,global.rockDistanceThrow)

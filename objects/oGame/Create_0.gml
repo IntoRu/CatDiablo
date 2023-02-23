@@ -28,21 +28,23 @@ global.bowDistanceThrow = 20
 global.hillPlus = 0.5
 global.hookDamage = 0
 global.hookDistanceThrow = 15
-global.potDamage = 5
+global.potDamage = 2
 global.potDistanceThrow = 25
+global.rockDamage = 5
+global.rockDistanceThrow = 30
 
-// временный раздел(разблокируем и даём бомбы)
+// временный раздел(разблокируем)
 
-global.playerHasAnyItems = true
+//global.playerHasAnyItems = true
 
-global.playerAmmo[ITEM.BOMB] = 0
-global.playerAmmo[ITEM.BOW] = 0
-global.playerAmmo[ITEM.HILL] = 0
+//global.playerAmmo[ITEM.BOMB] = 0
+//global.playerAmmo[ITEM.BOW] = 0
+//global.playerAmmo[ITEM.HILL] = 0
 
-global.playerItemUnlocked[ITEM.BOW] = true
-global.playerItemUnlocked[ITEM.BOMB] = true
-global.playerItemUnlocked[ITEM.HILL] = true
-global.playerItemUnlocked[ITEM.HOOK] = true
+//global.playerItemUnlocked[ITEM.BOW] = true
+//global.playerItemUnlocked[ITEM.BOMB] = true
+//global.playerItemUnlocked[ITEM.HILL] = true
+//global.playerItemUnlocked[ITEM.HOOK] = true
 
 
 

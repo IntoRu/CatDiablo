@@ -52,8 +52,8 @@ function SaveGame(){
 	_map[? "level"] = global.level
 
 	
-	//_map[? "playerHealth"] = global.playerHealth
-	//_map[? "playerHealthMax"] = global.playerHealthMax
+	_map[? "playerHealth"] = global.playerHealth[global.level]
+	_map[? "playerHealthMax"] = global.playerHealthMax[global.level]
 	_map[? "deathCount"] = global.deathCount 
 	_map[? "playerMoney"] = global.playerMoney
 	_map[? "playerItemUnlocked"] = global.playerItemUnlocked

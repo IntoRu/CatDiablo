@@ -16,6 +16,7 @@ function PurchaseItem(_item,_amount,_cost){
 			case ITEM.HILL: _desc = "Ну будет чем опохмелится"; break
 			default: _desc = "Описание не найдено"; break
 		}
+		NewTextBox(_desc,1)
 	}else{
 		NewTextBox("Недостаточно золота",1)
 	}

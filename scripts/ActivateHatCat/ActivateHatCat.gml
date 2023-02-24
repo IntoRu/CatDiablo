@@ -23,8 +23,8 @@ function ActivateHatCat(){
 				global.spriteRun[LEVEL1] = sPlayerRunL1
 				global.spriteRun[LEVEL2] = sPlayerRunL2
 				global.spriteRun[LEVEL3] = sPlayerRunL3
-				
-				global.level++
+				// повышаем уровень
+				//if(global.level != 3) global.level++
 			}
 			else{
 				// предлагаем квест

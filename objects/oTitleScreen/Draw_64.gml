@@ -32,6 +32,9 @@ if(slotVisible > 0){
 			// название комнаты
 			draw_text(_x+8,_y+8, RoomToAreaName(slotData[_slot][? "room"]))
 			
+			// уровень персоонажа
+			draw_text(_x+80,_y+30,"Уровень : "+string(slotData[_slot][? "level"]))
+			
 			// здоровье
 			var _playerHealth = slotData[_slot][? "playerHealth"]
 			var _playerHealthMax = slotData[_slot][? "playerHealthMax"]

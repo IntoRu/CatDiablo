@@ -38,7 +38,7 @@ global.questStatus[? "TheHatQuest"] = 0 // квест не начат(1- нач�
 
 // ------------------------------------------------------------
 #region уровень персоонажа
-global.level = LEVEL0
+global.level = LEVEL3
 
 // здоровье
 global.playerHealth[LEVEL0] = 1

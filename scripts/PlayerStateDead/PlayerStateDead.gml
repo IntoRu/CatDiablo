@@ -27,7 +27,14 @@ function PlayerStateDead(){
 			image_index = image_number - 1
 			global.targetX = -1
 			global.targetY = -1
-			RoomTransition(TRANS_TYPE.SLIDE,rVillage)
+			//RoomTransition(TRANS_TYPE.SLIDE,rVillage)
+			// появляемся в комнате последнего сохранения
+			var _file = "save"+string(global.gameSaveSlot)+".sav"
+			if(file_exists(_file)){
+				var _json = LoadJSONFromFile(_file)
+				RoomTransition(TRANS_TYPE.SLIDE,_json[? "room"])
+				ds_map_destroy(_json)
+			}
 		}
 	}
 	

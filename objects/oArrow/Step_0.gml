@@ -4,7 +4,7 @@ var _break = false
 if(_entity != noone){
 	with(_entity){
 		if(object_is_ancestor(object_index,pEnemy)){
-			HurtEnemy(id,global.bowDamage,other.id,global.bowDistanceThrow)
+			HurtEnemy(id,global.bowDamage[global.level],other.id,global.bowDistanceThrow[global.level])
 			_break = true
 		}
 		else{

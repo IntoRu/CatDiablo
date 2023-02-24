@@ -14,7 +14,7 @@ global.deathCount = 0 // без этой хуйни невозможно сох�
 global.entityDeath = []
 //---------------------------------
 
-global.playerMoney = 1000
+global.playerMoney = 0
 
 //--------------------------------------------
 // предметы
@@ -26,33 +26,8 @@ global.playerAmmo[ITEM.BOMB] = 0
 global.playerAmmo[ITEM.BOW] = 0
 global.playerAmmo[ITEM.HILL] = 0
 
-//урон от предметов
-global.bombDamge = 25
-global.bombDistanceThrow = 30 // дистанция отброса от взрыва
-global.bowDamage = 10
-global.bowDistanceThrow = 20
+// аптечка
 global.hillPlus = 0.5
-global.hookDamage = 0
-global.hookDistanceThrow = 15
-global.potDamage = 2
-global.potDistanceThrow = 25
-global.rockDamage = 2
-global.rockDistanceThrow = 30
-
-// временный раздел(разблокируем)
-
-//global.playerHasAnyItems = true
-
-//global.playerAmmo[ITEM.BOMB] = 0
-//global.playerAmmo[ITEM.BOW] = 0
-//global.playerAmmo[ITEM.HILL] = 0
-
-//global.playerItemUnlocked[ITEM.BOW] = true
-//global.playerItemUnlocked[ITEM.BOMB] = true
-//global.playerItemUnlocked[ITEM.HILL] = true
-//global.playerItemUnlocked[ITEM.HOOK] = true
-
-
 
 //-----------------------------------
 #region квест шляпы
@@ -75,17 +50,67 @@ global.playerHealthMax[LEVEL1] = 2
 global.playerHealthMax[LEVEL2] = 3
 global.playerHealthMax[LEVEL3] = 4
 
-// урон
+// урон мечь
 global.slashDamage[LEVEL0] = 5
 global.slashDamage[LEVEL1] = 10
 global.slashDamage[LEVEL2] = 15
 global.slashDamage[LEVEL3] = 20
+// урон бомба
+global.bombDamge[LEVEL0] = 25
+global.bombDamge[LEVEL1] = 35
+global.bombDamge[LEVEL2] = 45
+global.bombDamge[LEVEL3] = 50
+// урон лук
+global.bowDamage[LEVEL0] = 10
+global.bowDamage[LEVEL1] = 20
+global.bowDamage[LEVEL2] = 30
+global.bowDamage[LEVEL3] = 40
+// урон горшок
+global.potDamage[LEVEL0] = 2
+global.potDamage[LEVEL1] = 4
+global.potDamage[LEVEL2] = 6
+global.potDamage[LEVEL3] = 8
+// урон камень
+global.rockDamage[LEVEL0] = 3
+global.rockDamage[LEVEL1] = 6
+global.rockDamage[LEVEL2] = 9
+global.rockDamage[LEVEL3] = 12
+// урон крюк
+global.hookDamage[LEVEL0] = 0
+global.hookDamage[LEVEL1] = 0
+global.hookDamage[LEVEL2] = 0
+global.hookDamage[LEVEL3] = 0
 
-// отброс врага
+// отброс врага мечь
 global.slashRecoil[LEVEL0] = 10
 global.slashRecoil[LEVEL1] = 15
 global.slashRecoil[LEVEL2] = 20
 global.slashRecoil[LEVEL3] = 25
+// отброс врага бомба
+global.bombDistanceThrow[LEVEL0] = 30
+global.bombDistanceThrow[LEVEL1] = 35
+global.bombDistanceThrow[LEVEL2] = 40
+global.bombDistanceThrow[LEVEL3] = 45
+// отброс врага лук
+global.bowDistanceThrow[LEVEL0] = 20
+global.bowDistanceThrow[LEVEL1] = 25
+global.bowDistanceThrow[LEVEL2] = 30
+global.bowDistanceThrow[LEVEL3] = 35
+// отброс врага горшок
+global.potDistanceThrow[LEVEL0] = 25
+global.potDistanceThrow[LEVEL1] = 30
+global.potDistanceThrow[LEVEL2] = 35
+global.potDistanceThrow[LEVEL3] = 40
+// отброс врага камень
+global.rockDistanceThrow[LEVEL0] = 30
+global.rockDistanceThrow[LEVEL1] = 35
+global.rockDistanceThrow[LEVEL2] = 40
+global.rockDistanceThrow[LEVEL3] = 45
+// отброс врага крюк
+global.hookDistanceThrow[LEVEL0] = 15
+global.hookDistanceThrow[LEVEL1] = 20
+global.hookDistanceThrow[LEVEL2] = 25
+global.hookDistanceThrow[LEVEL3] = 30
 
 // время неуязвимости при получении урона
 global.invTime[LEVEL0] = 100

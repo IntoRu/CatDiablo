@@ -1,1 +1,1 @@
-HurtEnemy(id,global.rockDamage,other.id,global.rockDistanceThrow)
+HurtEnemy(id,global.rockDamage[global.level],other.id,global.rockDistanceThrow[global.level])

@@ -32,7 +32,7 @@ function PlayerStateHook(){
 				switch(_hookHit.entityHookable){
 					default:{
 						if(object_is_ancestor(_hookHit.object_index,pEnemy)){
-							HurtEnemy(_hookHit,global.hookDamage,id,global.hookDistanceThrow)
+							HurtEnemy(_hookHit,global.hookDamage[global.level],id,global.hookDistanceThrow[global.level])
 							hookStatus = HOOKSTATUS.MISSED
 						}
 						else{

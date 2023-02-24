@@ -1,1 +1,1 @@
-HurtEnemy(id,global.potDamage,other.id,global.potDistanceThrow)
+HurtEnemy(id,global.potDamage[global.level],other.id,global.potDistanceThrow[global.level])

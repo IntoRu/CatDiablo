@@ -22,10 +22,14 @@ function UseItemHook(){
 }
 
 function UseItemHill(){
-	if(global.playerAmmo[ITEM.HILL] > 0) and (global.iLifted == noone){
+	if(global.playerAmmo[ITEM.HILL] > 0) and (global.iLifted == noone) and global.playerHealth[global.level] != global.playerHealthMax[global.level]{
 		if(global.playerHealth[global.level] <= global.playerHealthMax[global.level]-global.hillPlus){
 			global.playerAmmo[ITEM.HILL]--
 			global.playerHealth[global.level] += global.hillPlus
+		}
+		else{
+			global.playerAmmo[ITEM.HILL]--
+			global.playerHealth[global.level] = global.playerHealthMax[global.level]
 		}
 	}
 }

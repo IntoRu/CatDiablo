@@ -15,13 +15,15 @@ enemyScript[ENEMYSTATE.HURT] = SlimeHurt // общие сценарии как �
 enemyScript[ENEMYSTATE.DIE] = SlimeDie
 
 entityDropList = choose(
-	[oCoin],
-	[oBombDrop],
-	[oHillDrop],
-	[oArrowDrop],
-	-1,
-	-1,
-	-1,
-	-1
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin,oCoin,oArrowDrop],
+	[oCoin,oCoin,oCoin,oArrowDrop],
+	[oCoin,oCoin,oCoin,oHillDrop]
 )
 

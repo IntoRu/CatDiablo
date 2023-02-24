@@ -2,6 +2,6 @@
 event_inherited();
 
 entityDropList = choose(
-	[oCoin,oCoin,oCoin],
+	[oCoin,oCoin],
 	-1
 )

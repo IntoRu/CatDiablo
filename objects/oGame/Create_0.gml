@@ -45,11 +45,11 @@ global.playerHealth[LEVEL0] = 1
 global.playerHealth[LEVEL1] = 2
 global.playerHealth[LEVEL2] = 3
 global.playerHealth[LEVEL3] = 4
-global.playerHealthMax[LEVEL0] = 1
-global.playerHealthMax[LEVEL1] = 2
-global.playerHealthMax[LEVEL2] = 3
-global.playerHealthMax[LEVEL3] = 4
-
+global.playerHealthMax[LEVEL0] = global.playerHealth[LEVEL0]
+global.playerHealthMax[LEVEL1] = global.playerHealth[LEVEL1]
+global.playerHealthMax[LEVEL2] = global.playerHealth[LEVEL2]
+global.playerHealthMax[LEVEL3] = global.playerHealth[LEVEL3]
+													 
 // урон мечь
 global.slashDamage[LEVEL0] = 5
 global.slashDamage[LEVEL1] = 10

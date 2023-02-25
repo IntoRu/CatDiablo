@@ -1,4 +1,4 @@
-
+var _messageLength = string_length(messege)
 lerpProgress += (1 - lerpProgress) / 50
 textProgress += global.textSpeed
 
@@ -14,12 +14,20 @@ var _min = 0
 if(responseSelected > _max) responseSelected = _min
 if(responseSelected < _min) responseSelected = _max
 
+// звуки
+if keyUp or keyDown audio_play_sound(sndText,5,false)
+
+if(textProgress <= _messageLength) and soundStep = true{
+	audio_play_sound(sndText,5,false,0.1,0,1)
+	soundStep = false
+	alarm[0] = 5
+}
+
 // если сообщение прочитано и нажать пробел текстовое окно уничтожется
 // если не прочитано то ускорится
 if(oPlayer.keyActivate){
-	var _messageLength = string_length(messege)
+	//var _messageLength = string_length(messege)
 	if(textProgress >= _messageLength){
-		
 		if(responses[0] != -1){
 			with(originInstances){
 				DialogueResponses(other.responseScripts[other.responseSelected])

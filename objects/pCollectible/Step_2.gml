@@ -20,6 +20,7 @@ if(instance_exists(oPlayer)){
 				if(collectScript != -1) script_execute(collectScript)
 			}
 			instance_destroy()
+			audio_play_sound(sndCoinPick,0,false)
 		}
 	}
 }

@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+soundStepHit = true
+
 state = ENEMYSTATE.WANDER
 
 sprMove = sBat

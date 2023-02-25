@@ -78,7 +78,7 @@ function SlimeChese(){
 		sprite_index = sprAttack
 		image_index = 0
 		image_speed = 1.0
-		
+		audio_play_sound(sndSlimeAttack,5,false)
 		xTo += lengthdir_x(8,dir)
 		yTo += lengthdir_y(8,dir)
 	}
@@ -131,7 +131,12 @@ function SlimeHurt(){
 	else{
 		x = xTo
 		y = yTo
-		if(statePrevious != ENEMYSTATE.ATTACK) state = statePrevious; else state = ENEMYSTATE.CHASE
+		if(statePrevious != ENEMYSTATE.ATTACK){
+			state = statePrevious;
+		}  
+		else{
+			state = ENEMYSTATE.CHASE
+		} 
 	}
 }
 

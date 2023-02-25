@@ -1,4 +1,8 @@
 
+soundStepFoot = true
+soundStepBonk = true
+soundStepDead = true
+
 state = PlayerStateFree
 stateAttack = AttackSlash
 lastState = state

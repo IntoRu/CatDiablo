@@ -31,6 +31,7 @@ function UseItemHill(){
 			global.playerAmmo[ITEM.HILL]--
 			global.playerHealth[global.level] = global.playerHealthMax[global.level]
 		}
+		audio_play_sound(sndHill,5,false)
 	}
 }
 

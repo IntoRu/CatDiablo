@@ -10,13 +10,14 @@ var _print = string_copy(messege,1,textProgress)
 
 // рисуем ответы
 if(responses[0] != -1) and (textProgress >= string_length(messege)){
+	
 	for(var i = 0; i < array_length_1d(responses); i++){
 		_print += "\n"
 		if(i == responseSelected) _print += "> "
 		_print += responses[i]
-		if(i == responseSelected) _print += " <"
-			
 		
+		if(i == responseSelected) _print += " <"
+	
 	}
 }
 

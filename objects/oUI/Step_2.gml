@@ -12,6 +12,9 @@ if(global.gamePaused){
 	if(pauseOptionSelected < 0) pauseOptionSelected = array_length(pauseOption) - 1
 	
 	keyActivate = keyboard_check_pressed(vk_space)
+	
+	// звуки
+	if keyUp or keyDown or keyActivate audio_play_sound(sndText,5,false)
 	if(keyActivate){
 		switch(pauseOptionSelected){
 			case 0:// продолжить
@@ -38,7 +41,10 @@ if(global.gamePaused){
 				SaveGame()
 				game_end()
 			}break;
-			case 3:{// начать новую игру
+			case 3:{// выйти без сохранения
+				game_end()
+			}break
+			case 4:{// начать новую игру
 				file_delete("save"+string(global.gameSaveSlot)+".sav")
 				game_restart()
 			}break

@@ -1,4 +1,5 @@
 function PlayerStateHook(){
+	
 	hSpeed = 0
 	vSpeed = 0
 	
@@ -11,6 +12,7 @@ function PlayerStateHook(){
 		sprite_index = global.spriteHook[global.level]
 		image_index = CARDINAL_DIR
 		image_speed = 0
+		audio_play_sound(sndHook,5,false)
 	}
 	
 	var _speedHookTemp = speedHook

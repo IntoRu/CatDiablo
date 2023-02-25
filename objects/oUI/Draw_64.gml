@@ -1,3 +1,6 @@
+var _xx, _yy
+
+
 // рисуем здоровье
 
 var _playerHealth = global.playerHealth[global.level]
@@ -16,7 +19,7 @@ for(var i = 1; i <= _playerHealthMax; i++){
 }
 
 // рисуем монеты
-var _xx, _yy
+
 
 _xx = 28
 _yy = 31
@@ -59,6 +62,8 @@ draw_sprite(sItemUIBox,0,_xx,_yy){
 	}
 }
 
+
+
 //рисуем меню паузы
 if(global.gamePaused){
 	draw_set_color(c_black)
@@ -83,6 +88,22 @@ if(global.gamePaused){
 			draw_text(RESOLUTION_W*0.5,RESOLUTION_H*0.5+18+(i*12),_print)
 			draw_set_alpha(1)
 	}		
+}
+
+// рисуем задания по квесту
+if (global.questStatus[? "TheHatQuest"] == 1){
+	xx = 80
+	yy = 50
+	draw_set_font(fTextQuest)
+	draw_set_halign(fa_right)
+	draw_set_valign(fa_bottom)
+	draw_set_color(c_red)
+	draw_text(xx+1,yy,"Найти шляпу")
+	draw_text(xx-1,yy,"Найти шляпу")
+	draw_text(xx,yy-1,"Найти шляпу")
+	draw_text(xx,yy+1,"Найти шляпу")
+	draw_set_color(c_white)
+	draw_text(xx,yy,"Найти шляпу")
 }
 
 

@@ -9,6 +9,7 @@ function DialogueResponses(){
 			audio_play_sound(sndQuestHatStart,5,false)
 			NewTextBox("Спасибо",2)
 			NewTextBox("Я думаю что я потерял свою шляпу в пещере",2)
+			NewTextBox("В меню паузы ты увидишь текущие задания",2)
 			global.questStatus[? "TheHatQuest"] = 1 // меняем статус авеста на взят
 		}break
 		case 2:{// не согласились на квест

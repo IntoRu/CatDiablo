@@ -91,19 +91,49 @@ if(global.gamePaused){
 }
 
 // рисуем задания по квесту
-if (global.questStatus[? "TheHatQuest"] == 1){
-	xx = 80
-	yy = 50
+if(global.gamePaused){
+	
+	xx = 120
+	yy = 20
 	draw_set_font(fTextQuest)
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_bottom)
-	draw_set_color(c_red)
-	draw_text(xx+1,yy,"Найти шляпу")
-	draw_text(xx-1,yy,"Найти шляпу")
-	draw_text(xx,yy-1,"Найти шляпу")
-	draw_text(xx,yy+1,"Найти шляпу")
+	draw_set_color(c_black)
+	draw_text(xx+1,yy,"Текущие задания")
+	draw_text(xx-1,yy,"Текущие задания")
+	draw_text(xx,yy-1,"Текущие задания")
+	draw_text(xx,yy+1,"Текущие задания")
 	draw_set_color(c_white)
-	draw_text(xx,yy,"Найти шляпу")
+	draw_text(xx,yy,"Текущие задания")
+	
+	if(global.questStatus[? "TheHatQuest"] == 1){
+		xx = 80
+		yy = 40
+		draw_set_font(fTextQuest)
+		draw_set_halign(fa_right)
+		draw_set_valign(fa_bottom)
+		draw_set_color(c_black)
+		draw_text(xx+1,yy,"Найти шляпу")
+		draw_text(xx-1,yy,"Найти шляпу")
+		draw_text(xx,yy-1,"Найти шляпу")
+		draw_text(xx,yy+1,"Найти шляпу")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Найти шляпу")
+	}
+	else{
+		xx = 80
+		yy = 40
+		draw_set_font(fTextQuest)
+		draw_set_halign(fa_right)
+		draw_set_valign(fa_bottom)
+		draw_set_color(c_black)
+		draw_text(xx+1,yy,"Заданий нет")
+		draw_text(xx-1,yy,"Заданий нет")
+		draw_text(xx,yy-1,"Заданий нет")
+		draw_text(xx,yy+1,"Заданий нет")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Заданий нет")
+	}
 }
 
 

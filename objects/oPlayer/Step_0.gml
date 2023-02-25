@@ -35,8 +35,10 @@ if (left or right or up or down) and (soundStepFoot = true) and (!global.gamePau
 }
 
 // звук меча
-if(keyAttack) and (!global.gamePaused){
+if(keyAttack) and (!global.gamePaused) and (global.iLifted == noone) and (soundStepBonk = true){
 	audio_play_sound(sndPlayerSword,10,false)
+	soundStepBonk = false
+	alarm[1] = 40
 }
 // звук переката
 if(state == PlayerStateRoll) and (keyActivate){

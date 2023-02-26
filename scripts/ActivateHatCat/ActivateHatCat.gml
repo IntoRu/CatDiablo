@@ -1,4 +1,5 @@
-// активация квеста
+// активация квеста про шляпу
+
 function ActivateHatCat(){
 	var _hasHat = (global.iLifted != noone) && (global.iLifted.object_index == oHat)
 	switch(global.questStatus[? "TheHatQuest"]){
@@ -9,7 +10,7 @@ function ActivateHatCat(){
 				NewTextBox("Ахуеть, ты нашёл мою шляпу!!!",2)
 				NewTextBox("Ты читаешь мои мысли чувак!!!",2)
 				global.questStatus[? "TheHatQuest"] = 2 // завершаем квест
-				//global.level = LEVEL2 // при желании можно добавить уровень и т д
+
 				with(oQuestNPC) sprite_index = sQuesty_Hat
 				with(oHat) instance_destroy()
 				global.iLifted = noone
@@ -25,13 +26,13 @@ function ActivateHatCat(){
 				global.spriteRun[LEVEL3] = sPlayerRunL3
 				audio_play_sound(sndQuestHatComplited,5,false)
 				// повышаем уровень
-				//if(global.level != 3) global.level++
+				if(global.level != 3) global.level++
 			}
 			else{
 				// предлагаем квест
 				NewTextBox("Привет. Ты похож на героя!\nМне как раз нужен такой как ты!",2)
 				NewTextBox("Поможешь мне найти моя шляпу???",2,
-				["1:Конечно!","2:Иди нахуй придурок!!!!","3:Возможно позже...."])
+				["1:Конечно!","3:Возможно позже...."])
 				
 			}
 		}break
@@ -42,7 +43,7 @@ function ActivateHatCat(){
 				NewTextBox("Оооо... Это то что мне нужно",2)
 				NewTextBox("С меня магарычь...",2)
 				global.questStatus[? "TheHatQuest"] = 2 // завершаем квест
-				//global.level = LEVEL3 // при желании можно добавить уровень и т д
+				global.hasQuest = false
 				with(oQuestNPC) sprite_index = sQuesty_Hat
 				with(oHat) instance_destroy()
 				global.iLifted = noone
@@ -57,12 +58,14 @@ function ActivateHatCat(){
 				global.spriteRun[LEVEL2] = sPlayerRunL2
 				global.spriteRun[LEVEL3] = sPlayerRunL3
 				
-				//global.level++
+				// повышаем уровень
+				if(global.level != 3) global.level++
 				audio_play_sound(sndQuestHatComplited,5,false)
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
 				NewTextBox("Я думаю что я потерял свою шляпу в пещере",2)
+				NewTextBox("Вход в пещеру в речной долине",2)
 				NewTextBox("Тебе может понадобятся некоторые предметы!",2)						
 			}
 		}break

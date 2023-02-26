@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sTitle",
+  "name": "sTitle100",
   "bbox_bottom": 155,
-  "bbox_left": 0,
-  "bbox_right": 201,
-  "bbox_top": 0,
+  "bbox_left": 20,
+  "bbox_right": 249,
+  "bbox_top": 13,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2c5187c1-59f9-4fdb-8be9-e32fd9673f7e","path":"sprites/sTitle/sTitle.yy",},},},"Disabled":false,"id":"613da9a3-3b29-4b36-8892-a1566debd823","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"efdef691-17b9-4d2f-b032-0e2a77a3fda5","path":"sprites/sTitle/sTitle.yy",},},},"Disabled":false,"id":"a974148d-69bb-4d22-9a99-fe0dfe5cec38","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2c5187c1-59f9-4fdb-8be9-e32fd9673f7e","path":"sprites/sTitle100/sTitle100.yy",},},},"Disabled":false,"id":"7d9f8426-3c18-476d-a2f2-ebf01c6d04a0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"efdef691-17b9-4d2f-b032-0e2a77a3fda5","path":"sprites/sTitle100/sTitle100.yy",},},},"Disabled":false,"id":"3b257ae1-ac98-4c3d-92dc-46244529b894","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -31,16 +31,19 @@ global.playerAmmo[ITEM.HILL] = 0
 // аптечка
 global.hillPlus = 0.5
 
-//-----------------------------------
 #region квест шляпы
+// найти шляпу коту
 // для квеста шляпы
-global.questStatus = ds_map_create()
+global.questStatus = ds_map_create() // создаётся один раз для всех квестов
 global.questStatus[? "TheHatQuest"] = 0 // квест не начат(1- начат 2 завершён)
 #endregion 
 
 
 #region квест синего слизня
+// убить всех врагов в родной деревне
 global.count = 0 // сколько врагов убито
+global.questStatus[? "TheDeadVillage"] = 0 // квест не начат(1- начат 2 завершён)
+// не забываем прописать в загрузке и сохранении статус квестов
 #endregion
 
 // ------------------------------------------------------------

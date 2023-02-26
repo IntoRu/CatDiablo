@@ -78,6 +78,7 @@ function PlayerStateFree(){
 		
 		// 3. а если что то есть то активируем сущность
 		else{
+			
 			ScriptExecuteArray(activate.entityActivateScript,activate.entityActiveteArgs)
 		
 		// 4. если эта сущность нпс то поворачиваем его к нам
@@ -88,6 +89,7 @@ function PlayerStateFree(){
 				}
 			}
 		}
+		
 		
 		
 	}

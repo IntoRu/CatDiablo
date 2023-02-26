@@ -1,0 +1,1 @@
+entityActiveteArgs = ["Shift - атака мечём\nSpace - куворок или активировать диалог",0]

@@ -106,7 +106,23 @@ if(global.gamePaused){
 	draw_set_color(c_white)
 	draw_text(xx,yy,"Текущие задания")
 	
-	if(global.questStatus[? "TheHatQuest"] == 1){
+
+	//if(!global.questStatus[? "TheHatQuest"] == 1) and (!global.questStatus[? "TheDeadVillage"] == 1){
+	//	xx = 80
+	//	yy = 40
+	//	draw_set_font(fTextQuest)
+	//	draw_set_halign(fa_right)
+	//	draw_set_valign(fa_bottom)
+	//	draw_set_color(c_black)
+	//	draw_text(xx+1,yy,"Заданий нет")
+	//	draw_text(xx-1,yy,"Заданий нет")
+	//	draw_text(xx,yy-1,"Заданий нет")
+	//	draw_text(xx,yy+1,"Заданий нет")
+	//	draw_set_color(c_blue)
+	//	draw_text(xx,yy,"Заданий нет")
+	//}
+	
+	    if(global.questStatus[? "TheHatQuest"] == 1){
 		xx = 80
 		yy = 40
 		draw_set_font(fTextQuest)
@@ -120,20 +136,34 @@ if(global.gamePaused){
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Найти шляпу")
 	}
-	else{
-		xx = 80
-		yy = 40
+	if(global.questStatus[? "TheDeadVillage"] == 1){
+		xx = 110
+		yy = 55
 		draw_set_font(fTextQuest)
 		draw_set_halign(fa_right)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
-		draw_text(xx+1,yy,"Заданий нет")
-		draw_text(xx-1,yy,"Заданий нет")
-		draw_text(xx,yy-1,"Заданий нет")
-		draw_text(xx,yy+1,"Заданий нет")
+		draw_text(xx+1,yy,"Убей всю нечисть")
+		draw_text(xx-1,yy,"Убей всю нечисть")
+		draw_text(xx,yy-1,"Убей всю нечисть")
+		draw_text(xx,yy+1,"Убей всю нечисть")
 		draw_set_color(c_blue)
-		draw_text(xx,yy,"Заданий нет")
+		draw_text(xx,yy,"Убей всю нечисть")
 	}
+	//else{
+	//	xx = 80
+	//	yy = 40
+	//	draw_set_font(fTextQuest)
+	//	draw_set_halign(fa_right)
+	//	draw_set_valign(fa_bottom)
+	//	draw_set_color(c_black)
+	//	draw_text(xx+1,yy,"Заданий нет")
+	//	draw_text(xx-1,yy,"Заданий нет")
+	//	draw_text(xx,yy-1,"Заданий нет")
+	//	draw_text(xx,yy+1,"Заданий нет")
+	//	draw_set_color(c_blue)
+	//	draw_text(xx,yy,"Заданий нет")
+	//}
 }
 
 // Рисуем название локации

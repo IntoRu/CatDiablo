@@ -10,7 +10,6 @@ function SaveGame(){
 	_map[? "room"] = room
 	_map[? "level"] = global.level
 
-	
 	_map[? "count"] = global.count
 	_map[? "playerHealth"] = global.playerHealth[global.level]
 	_map[? "playerHealthMax"] = global.playerHealthMax[global.level]

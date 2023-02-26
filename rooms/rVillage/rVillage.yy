@@ -8,8 +8,6 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_329EED7A","path":"rooms/rVillage/rVillage.yy",},
-    {"name":"inst_66E3FC1","path":"rooms/rVillage/rVillage.yy",},
-    {"name":"inst_55F73A78","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_463148D","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_2DFB3151","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_3C69BD90","path":"rooms/rVillage/rVillage.yy",},
@@ -35,15 +33,12 @@
     {"name":"inst_1A0DEEB1","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_7631A903","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_4A67EDF0","path":"rooms/rVillage/rVillage.yy",},
+    {"name":"inst_55F73A78","path":"rooms/rVillage/rVillage.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_329EED7A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_329EED7A","path":"rooms/rParent/rParent.yy",},"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":56.0,"y":136.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66E3FC1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSignPost","path":"objects/oSignPost/oSignPost.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"value":"True",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55F73A78","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSignPost","path":"objects/oSignPost/oSignPost.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"value":"True",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},

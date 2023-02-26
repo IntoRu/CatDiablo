@@ -16,7 +16,7 @@ for(i=0;i<array_length(global.entityDeath);i++){
 audio_stop_all()
 switch(room){
 	case rTitle:audio_play_sound(sndRoomTitle,5,true);break
-	case rVillage: audio_play_sound(sndRoomVillage,5,true);break
+	case rNewVillage: audio_play_sound(sndRoomVillage,5,true);break
 	case rShop: audio_play_sound(sndRoomShop,5,true);break
 	case rRiver: audio_play_sound(sndRoomRiver,5,true);break
 	case rCave: audio_play_sound(sndRoomCave,5,true);break

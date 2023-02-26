@@ -16,6 +16,7 @@ enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt
 enemyScript[ENEMYSTATE.DIE] = SlimeDie
 
+
 entityDropList = choose(
 	[oCoin,oCoin,oCoin],
 	[oCoin,oCoin,oCoin],

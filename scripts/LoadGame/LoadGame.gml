@@ -5,6 +5,7 @@ function LoadGame(_slot){
 	if(file_exists(_file)){
 		
 		var _json = LoadJSONFromFile(_file)
+		global.count = _json[? "count"]
 		global.level = _json[? "level"]
 		global.playerHealth[global.level] = _json[? "playerHealth"]
 		global.playerHealthMax[global.level] = _json[? "playerHealthMax"]

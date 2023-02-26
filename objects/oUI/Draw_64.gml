@@ -136,4 +136,19 @@ if(global.gamePaused){
 	}
 }
 
-
+// Рисуем название локации
+if(global.gamePaused){
+	xx = 250
+	yy = 20
+	draw_set_font(fTextQuest)
+	draw_set_halign(fa_right)
+	draw_set_valign(fa_bottom)
+	draw_set_color(c_black)
+	var _str = RoomToAreaName(room)
+	draw_text(xx+1,yy,_str)
+	draw_text(xx-1,yy,_str)
+	draw_text(xx,yy-1,_str)
+	draw_text(xx,yy+1,_str)
+	draw_set_color(c_green)
+	draw_text(xx,yy,_str)
+}

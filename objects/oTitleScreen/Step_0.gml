@@ -20,7 +20,7 @@ if((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))) && (k
 	audio_play_sound(sndText,5,false)  
 	global.gameSaveSlot = slotSelected
 	if(!LoadGame(global.gameSaveSlot)){
-		RoomTransition(TRANS_TYPE.SLIDE,rVillage)
+		RoomTransition(TRANS_TYPE.SLIDE,ROOM_NEW_GAME)
 	}
 	loadingStarted = true
 }

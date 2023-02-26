@@ -20,6 +20,7 @@ switch(room){
 	case rShop: audio_play_sound(sndRoomShop,5,true);break
 	case rRiver: audio_play_sound(sndRoomRiver,5,true);break
 	case rCave: audio_play_sound(sndRoomCave,5,true);break
+	case rForest: audio_play_sound(sndRoomForest,5,true);break
 }
 
 

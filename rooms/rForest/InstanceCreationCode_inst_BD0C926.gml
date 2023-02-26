@@ -1,0 +1,1 @@
+entityActiveteArgs = ["Непонятная пещера....",0]

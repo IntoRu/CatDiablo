@@ -66,3 +66,35 @@ if sprite_index = global.spriteDie[global.level] and soundStepDead = true{
 	soundStepDead = false
 }
 else if sprite_index = global.spriteDead[global.level] soundStepDead = true
+
+
+
+//-----------------------------------------
+// ---------------- УРОН ПРИ ПЕРЕКАТЕ ------------
+if state == PlayerStateRoll{
+	global.rollDamage = true
+	alarm[2] = 30
+}
+
+if global.rollDamage == true{
+var _entity = instance_place(x,y,pEntity)
+
+if(_entity != noone){
+	with(_entity){
+		if(object_is_ancestor(object_index,pEnemy)){
+			HurtEnemy(id,5,other.id,40)
+			oPlayer.state = PlayerStateBonk
+			
+		}
+		else{
+			if(entityHitScript != -1){
+				script_execute(entityHitScript)
+				
+			}
+		}
+	}
+}
+}
+
+
+

@@ -1,7 +1,7 @@
 
 randomize()
 
-
+global.rollDamage = false
 
 // для сохранения
 global.gameSaveSlot = 0

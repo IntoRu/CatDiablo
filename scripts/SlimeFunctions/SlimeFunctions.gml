@@ -86,6 +86,7 @@ function SlimeChese(){
 
 
 function SlimeAttack(){
+
 	var _spd = enemySpeed
 	if(image_index < 2) _spd = 0
 	if (floor(image_index) == 3) or (floor(image_index) == 5) image_speed = 0	
@@ -110,6 +111,7 @@ function SlimeAttack(){
 			state = ENEMYSTATE.WAIT
 		}
 	}
+	
 }
 
 

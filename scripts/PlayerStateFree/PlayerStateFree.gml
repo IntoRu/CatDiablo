@@ -13,7 +13,6 @@ function PlayerStateFree(){
 		stateAttack = AttackSlash
 	}
 
-
 	// анимация
 	var _oldSprite = sprite_index
 	if (inputMagnitude != 0){

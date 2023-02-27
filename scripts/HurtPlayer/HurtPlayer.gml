@@ -2,6 +2,7 @@
 
 
 function HurtPlayer(_direction,_force,_damage){ // направление, сила отброса и дамаг
+	
 	if(oPlayer.invulnerable <= 0){
 		global.playerHealth[global.level] = max(0,global.playerHealth[global.level] - _damage)
 		
@@ -19,4 +20,5 @@ function HurtPlayer(_direction,_force,_damage){ // направление, си�
 		 with(oPlayer) state = PlayerStateDead
 		}
 	}
+	
 }

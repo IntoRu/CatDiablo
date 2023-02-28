@@ -1,2 +1,3 @@
 
-if(global.rollDamage == false) HurtPlayer(point_direction(x,y,oPlayer.x,oPlayer.y),enemyForceTouch,enemyDamageTouch)
+
+if global.damage HurtPlayer(point_direction(x,y,oPlayer.x,oPlayer.y),enemyForceTouch,enemyDamageTouch)

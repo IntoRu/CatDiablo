@@ -29,6 +29,7 @@ enum ITEM{
 	BOW,
 	HOOK,
 	HILL,
+	SHIT,
 	TYPE_COUNT
 }
 

@@ -105,6 +105,7 @@ function PlayerStateFree(){
 			default: break
 		}
 	}
+
 	
 	// преключение предметов
 	if(global.playerHasAnyItems){

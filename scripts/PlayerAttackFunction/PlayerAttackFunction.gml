@@ -32,6 +32,7 @@ function AttackRoll(){
 				HurtEnemy(id,5,other.id,40)
 				audio_play_sound(sndRollDamafe,5,false)
 				oPlayer.state = PlayerStateBonk
+				global.playerAmmo[ITEM.SHIT] --
 			
 			}
 			else{
@@ -42,6 +43,7 @@ function AttackRoll(){
 			}
 		}
 	}
+
 }
 
 // функция обнаружения попаданий

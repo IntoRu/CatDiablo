@@ -35,6 +35,8 @@ function UseItemHill(){
 	}
 }
 
+
+
 //---------------------------------------------------------------
 function PlayerFireArrow(){
 	with(instance_create_depth(floor(x),floor(y)-7,depth,oArrow)){

@@ -70,31 +70,16 @@ else if sprite_index = global.spriteDead[global.level] soundStepDead = true
 
 //-----------------------------------------
 // ---------------- УРОН ПРИ ПЕРЕКАТЕ ------------
-if state == PlayerStateRoll{
-	global.rollDamage = true
-	alarm[2] = 30
-}
+//if keyActivate and state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.playerAmmo[ITEM.SHIT] >= 0{
+//	global.playerAmmo[ITEM.SHIT] -= 1
+//}
 
-if global.rollDamage == true{
-//var _entity = instance_place(x,y,pEntity)
+if state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.playerAmmo[ITEM.SHIT] >0{
 
-//	if(_entity != noone){
-//		with(_entity){
-//			if(object_is_ancestor(object_index,pEnemy)){
-//				HurtEnemy(id,5,other.id,40)
-//				audio_play_sound(sndRollDamafe,5,false)
-//				oPlayer.state = PlayerStateBonk
-			
-//			}
-//			else{
-//				if(entityHitScript != -1){
-//					script_execute(entityHitScript)
-				
-//				}
-//			}
-//		}
-//	}
 	AttackRoll()
+	global.damage = false
+	alarm[2] = 40
+
 }
 
 

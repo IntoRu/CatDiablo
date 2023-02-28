@@ -35,12 +35,12 @@ function AttackRoll(){
 				global.playerAmmo[ITEM.SHIT] --
 			
 			}
-			//else{ // если раскоментировать то при перекате со щитом будет рубить траву
-			//	if(entityHitScript != -1){
-			//		script_execute(entityHitScript)
+			else{ // если раскоментировать то при перекате со щитом будет рубить траву
+				if(entityHitScript != -1){
+					script_execute(entityHitScript)
 				
-			//	}
-			//}
+				}
+			}
 		}
 	}
 

@@ -14,6 +14,7 @@ function PurchaseItem(_item,_amount,_cost){
 			case ITEM.BOW: _desc = "Ага... луккккк..."; break
 			case ITEM.HOOK: _desc = "Нихеровый такой крюк"; break
 			case ITEM.HILL: _desc = "Ну будет чем опохмелится"; break
+			case ITEM.SHIT: _desc = "С этим щитом мне никакой враг не страшен";break
 			default: _desc = "Описание не найдено"; break
 		}
 		NewTextBox(_desc,1)

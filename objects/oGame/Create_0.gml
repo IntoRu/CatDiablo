@@ -29,13 +29,13 @@ global.playerAmmo[ITEM.BOW] = 0
 global.playerAmmo[ITEM.HILL] = 0
 global.playerAmmo[ITEM.SHIT] = 0
 
-global.playerItemUnlocked[ITEM.SHIT] = true
-global.playerItemUnlocked[ITEM.BOMB] = true
-global.playerItemUnlocked[ITEM.BOW] = true
-global.playerItemUnlocked[ITEM.HOOK] = true
-global.playerItemUnlocked[ITEM.HILL] = true
-global.playerHasAnyItems = true
-global.playerAmmo[ITEM.SHIT] = 5
+//global.playerItemUnlocked[ITEM.SHIT] = true
+//global.playerItemUnlocked[ITEM.BOMB] = true
+//global.playerItemUnlocked[ITEM.BOW] = true
+//global.playerItemUnlocked[ITEM.HOOK] = true
+//global.playerItemUnlocked[ITEM.HILL] = true
+//global.playerHasAnyItems = true
+//global.playerAmmo[ITEM.SHIT] = 5
 
 // аптечка
 global.hillPlus = 0.5

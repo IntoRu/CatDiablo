@@ -42,8 +42,7 @@ if(keyAttack) and (!global.gamePaused) and (global.iLifted == noone) and (soundS
 }
 // звук переката
 if(state == PlayerStateRoll) and (keyActivate){
-	audio_play_sound(sndPlayerRoll,5,false)
-	
+	 audio_play_sound(sndPlayerRoll,5,false)	
 }
 // звук зажигания бомбы и стрелы
 if(keyItem){
@@ -55,7 +54,7 @@ if(keyItem){
 	}
 }
 // звук бонга
-if state = PlayerStateBonk and soundStepBonk = true{
+if state = PlayerStateBonk and soundStepBonk = true and !audio_is_playing(sndRollDamafe){
 	audio_play_sound(sndPlayerBonk,5,false)
 	soundStepBonk = false
 	alarm[1] = 30
@@ -83,6 +82,7 @@ if(_entity != noone){
 	with(_entity){
 		if(object_is_ancestor(object_index,pEnemy)){
 			HurtEnemy(id,5,other.id,40)
+			audio_play_sound(sndRollDamafe,5,false)
 			oPlayer.state = PlayerStateBonk
 			
 		}

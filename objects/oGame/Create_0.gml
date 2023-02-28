@@ -1,7 +1,7 @@
 
 randomize()
 
-global.rollDamage = false
+global.rollDamage = false // урон при перекате
 
 // для сохранения
 global.gameSaveSlot = 0

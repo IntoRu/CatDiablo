@@ -179,6 +179,7 @@
     {"name":"SaveGame","order":19,"path":"scripts/SaveGame/SaveGame.yy",},
     {"name":"oHat","order":7,"path":"objects/oHat/oHat.yy",},
     {"name":"sndPlayerStep","order":6,"path":"sounds/sndPlayerStep/sndPlayerStep.yy",},
+    {"name":"sndRollDamafe","order":33,"path":"sounds/sndRollDamafe/sndRollDamafe.yy",},
     {"name":"sPlayerAttackSlashNewL2","order":12,"path":"sprites/sPlayerAttackSlashNewL2/sPlayerAttackSlashNewL2.yy",},
     {"name":"PlayerStateHook","order":24,"path":"scripts/PlayerStateHook/PlayerStateHook.yy",},
     {"name":"sExplode","order":14,"path":"sprites/sExplode/sExplode.yy",},

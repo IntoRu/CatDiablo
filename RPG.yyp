@@ -203,6 +203,7 @@
     {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},"order":19,},
     {"id":{"name":"oHat","path":"objects/oHat/oHat.yy",},"order":7,},
     {"id":{"name":"sndPlayerStep","path":"sounds/sndPlayerStep/sndPlayerStep.yy",},"order":6,},
+    {"id":{"name":"sndRollDamafe","path":"sounds/sndRollDamafe/sndRollDamafe.yy",},"order":33,},
     {"id":{"name":"sPlayerAttackSlashNewL2","path":"sprites/sPlayerAttackSlashNewL2/sPlayerAttackSlashNewL2.yy",},"order":12,},
     {"id":{"name":"PlayerStateHook","path":"scripts/PlayerStateHook/PlayerStateHook.yy",},"order":24,},
     {"id":{"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},"order":14,},

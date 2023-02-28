@@ -1,2 +1,2 @@
 //global.level++
-global.playerAmmo[ITEM.SHIT] += 5 
+//global.playerAmmo[ITEM.SHIT] += 5 

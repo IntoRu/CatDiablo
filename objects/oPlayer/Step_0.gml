@@ -70,16 +70,11 @@ else if sprite_index = global.spriteDead[global.level] soundStepDead = true
 
 //-----------------------------------------
 // ---------------- УРОН ПРИ ПЕРЕКАТЕ ------------
-//if keyActivate and state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.playerAmmo[ITEM.SHIT] >= 0{
-//	global.playerAmmo[ITEM.SHIT] -= 1
-//}
 
 if state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.playerAmmo[ITEM.SHIT] >0{
-
 	AttackRoll()
 	global.damage = false
 	alarm[2] = 40
-
 }
 
 

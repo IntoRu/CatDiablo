@@ -102,11 +102,11 @@ function PlayerStateFree(){
 			case ITEM.BOW: UseItemBow(); break;
 			case ITEM.HOOK: UseItemHook(); break;
 			case ITEM.HILL: UseItemHill(); break;
+			// использование щита прописано в oPlayer Step
 			default: break
 		}
 	}
 
-	
 	// преключение предметов
 	if(global.playerHasAnyItems){
 		var _cycleDirection = keyItemSelectUp - keyItemSelectDown

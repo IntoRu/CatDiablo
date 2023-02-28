@@ -23,8 +23,25 @@ function AttackSlash(){
 	}
 }
 
-function AttackSpin(){
+function AttackRoll(){
+	var _entity = instance_place(x,y,pEntity)
 
+	if(_entity != noone){
+		with(_entity){
+			if(object_is_ancestor(object_index,pEnemy)){
+				HurtEnemy(id,5,other.id,40)
+				audio_play_sound(sndRollDamafe,5,false)
+				oPlayer.state = PlayerStateBonk
+			
+			}
+			else{
+				if(entityHitScript != -1){
+					script_execute(entityHitScript)
+				
+				}
+			}
+		}
+	}
 }
 
 // функция обнаружения попаданий

@@ -76,24 +76,25 @@ if state == PlayerStateRoll{
 }
 
 if global.rollDamage == true{
-var _entity = instance_place(x,y,pEntity)
+//var _entity = instance_place(x,y,pEntity)
 
-if(_entity != noone){
-	with(_entity){
-		if(object_is_ancestor(object_index,pEnemy)){
-			HurtEnemy(id,5,other.id,40)
-			audio_play_sound(sndRollDamafe,5,false)
-			oPlayer.state = PlayerStateBonk
+//	if(_entity != noone){
+//		with(_entity){
+//			if(object_is_ancestor(object_index,pEnemy)){
+//				HurtEnemy(id,5,other.id,40)
+//				audio_play_sound(sndRollDamafe,5,false)
+//				oPlayer.state = PlayerStateBonk
 			
-		}
-		else{
-			if(entityHitScript != -1){
-				script_execute(entityHitScript)
+//			}
+//			else{
+//				if(entityHitScript != -1){
+//					script_execute(entityHitScript)
 				
-			}
-		}
-	}
-}
+//				}
+//			}
+//		}
+//	}
+	AttackRoll()
 }
 
 

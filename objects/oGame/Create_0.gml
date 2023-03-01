@@ -153,6 +153,11 @@ global.spriteRoll[LEVEL1] = sPlayerRollL1
 global.spriteRoll[LEVEL2] = sPlayerRollL2
 global.spriteRoll[LEVEL3] = sPlayerRollL3
 
+global.spriteRollDamage[LEVEL0] = sPlayerRollDamage
+global.spriteRollDamage[LEVEL1] = sPlayerRollDamageL1
+global.spriteRollDamage[LEVEL2] = sPlayerRollDamageL2
+global.spriteRollDamage[LEVEL3] = sPlayerRollDamageL3
+
 global.spriteHurt[LEVEL0] = sPlayerHurt
 global.spriteHurt[LEVEL1] = sPlayerHurtL1
 global.spriteHurt[LEVEL2] = sPlayerHurtL2

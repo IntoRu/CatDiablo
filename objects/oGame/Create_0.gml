@@ -99,6 +99,11 @@ global.hookDamage[LEVEL0] = 0
 global.hookDamage[LEVEL1] = 0
 global.hookDamage[LEVEL2] = 0
 global.hookDamage[LEVEL3] = 0
+// урон щит
+global.shitDamage[LEVEL0] = 5
+global.shitDamage[LEVEL1] = 10
+global.shitDamage[LEVEL2] = 15
+global.shitDamage[LEVEL3] = 20
 
 // отброс врага мечь
 global.slashRecoil[LEVEL0] = 10
@@ -130,6 +135,11 @@ global.hookDistanceThrow[LEVEL0] = 15
 global.hookDistanceThrow[LEVEL1] = 20
 global.hookDistanceThrow[LEVEL2] = 25
 global.hookDistanceThrow[LEVEL3] = 30
+// отброс врага щит
+global.shitDistanceThrow[LEVEL0] = 20
+global.shitDistanceThrow[LEVEL1] = 30
+global.shitDistanceThrow[LEVEL2] = 40
+global.shitDistanceThrow[LEVEL3] = 50
 
 // время неуязвимости при получении урона
 global.invTime[LEVEL0] = 100

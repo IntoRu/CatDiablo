@@ -29,9 +29,9 @@ function AttackRoll(){
 	if(_entity != noone){
 		with(_entity){
 			if(object_is_ancestor(object_index,pEnemy)){
-				HurtEnemy(id,5,other.id,40)
+				 HurtEnemy(id,global.shitDamage[global.level],other.id,global.shitDistanceThrow[global.level])
 				audio_play_sound(sndRollDamafe,5,false)
-				oPlayer.state = PlayerStateBonk
+			    oPlayer.state = PlayerStateBonk
 				global.playerAmmo[ITEM.SHIT] --
 			
 			}

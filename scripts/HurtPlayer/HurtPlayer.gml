@@ -8,7 +8,7 @@ function HurtPlayer(_direction,_force,_damage){ // направление, си�
 		
 		if(global.playerHealth[global.level] > 0){
 			with(oPlayer){
-				state = PlayerStateBonk
+			state = PlayerStateBonk
 				direction = _direction - 180
 				moveDistanceRemaining = _force
 				ScreenShake(2,10)

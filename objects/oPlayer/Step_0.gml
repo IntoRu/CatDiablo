@@ -80,3 +80,5 @@ if state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.pl
 
 
 
+
+

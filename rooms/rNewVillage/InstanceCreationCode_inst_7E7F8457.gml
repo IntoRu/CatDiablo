@@ -1,1 +1,1 @@
-entityActiveteArgs = ["Shift - атака мечём\nSpace - куворок или активировать диалог",0]
+entityActiveteArgs = ["Shift - атака мечём\nSpace - куворок или активировать диалог\nEsc - меню",0]

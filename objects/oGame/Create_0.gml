@@ -1,7 +1,9 @@
 
 randomize()
 
-global.damage = true
+global.damage = true // это для щита
+
+
 
 // для сохранения
 global.gameSaveSlot = 0

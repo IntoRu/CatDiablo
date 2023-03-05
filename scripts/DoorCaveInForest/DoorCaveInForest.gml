@@ -3,7 +3,7 @@
 function DoorCaveInForest(){
 	if instance_exists(oDoorClose){
 		oSwitchDoorCaveInForest.image_index = 1
-		instance_destroy(oDoorClose)
+		instance_deactivate_object(oDoorClose)
 		audio_play_sound(sndDoorOpen,5,false)
 	}
 }

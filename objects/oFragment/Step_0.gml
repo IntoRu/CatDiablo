@@ -20,7 +20,7 @@ if(!global.gamePaused){
 	}
 	
 	// трение
-	fric = 0.05
+	fric = 0.04
 	if(z == 0) fric = 0.10
 	
 	//движение

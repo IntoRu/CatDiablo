@@ -3,7 +3,7 @@ randomize()
 
 global.damage = true // это для щита
 
-
+global.itemMessage = true // для оповещения что это за предмет в квестах
 
 // для сохранения
 global.gameSaveSlot = 0
@@ -37,7 +37,7 @@ global.playerAmmo[ITEM.SHIT] = 0
 //global.playerItemUnlocked[ITEM.HOOK] = true
 //global.playerItemUnlocked[ITEM.HILL] = true
 //global.playerHasAnyItems = true
-//global.playerAmmo[ITEM.SHIT] = 5
+//global.playerAmmo[ITEM.BOMB] = 10
 
 // аптечка
 global.hillPlus = 0.5
@@ -87,15 +87,15 @@ global.bowDamage[LEVEL1] = 20
 global.bowDamage[LEVEL2] = 30
 global.bowDamage[LEVEL3] = 40
 // урон горшок
-global.potDamage[LEVEL0] = 2
-global.potDamage[LEVEL1] = 4
-global.potDamage[LEVEL2] = 6
-global.potDamage[LEVEL3] = 8
+global.potDamage[LEVEL0] = 0.4
+global.potDamage[LEVEL1] = 0.8
+global.potDamage[LEVEL2] = 1.2
+global.potDamage[LEVEL3] = 1.6
 // урон камень
-global.rockDamage[LEVEL0] = 3
-global.rockDamage[LEVEL1] = 6
-global.rockDamage[LEVEL2] = 9
-global.rockDamage[LEVEL3] = 12
+global.rockDamage[LEVEL0] = 0.6
+global.rockDamage[LEVEL1] = 1.2
+global.rockDamage[LEVEL2] = 1.8
+global.rockDamage[LEVEL3] = 2.2
 // урон крюк
 global.hookDamage[LEVEL0] = 0
 global.hookDamage[LEVEL1] = 0

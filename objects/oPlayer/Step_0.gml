@@ -78,6 +78,14 @@ if state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.pl
 	alarm[2] = 40
 }
 
+//---------------ПИШЕМ ЧЁ ЗА ПРЕДМЕТ------------------------
+
+if distance_to_object(oHat) < 30 and global.itemMessage == true{
+	NewTextBox("Чья то шляпа",2)
+	global.itemMessage = false
+}
+
+
 
 
 

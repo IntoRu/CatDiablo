@@ -32,21 +32,23 @@ global.playerAmmo[ITEM.HILL] = 0
 global.playerAmmo[ITEM.SHIT] = 0
 
 //global.playerItemUnlocked[ITEM.SHIT] = true
-//global.playerItemUnlocked[ITEM.BOMB] = true
+global.playerItemUnlocked[ITEM.BOMB] = true
 //global.playerItemUnlocked[ITEM.BOW] = true
-//global.playerItemUnlocked[ITEM.HOOK] = true
+global.playerItemUnlocked[ITEM.HOOK] = true
 //global.playerItemUnlocked[ITEM.HILL] = true
-//global.playerHasAnyItems = true
-//global.playerAmmo[ITEM.BOMB] = 10
+global.playerHasAnyItems = true
+global.playerAmmo[ITEM.BOMB] = 10
 
 // аптечка
 global.hillPlus = 0.5
 
-#region квест шляпы
-// найти шляпу коту
-// для квеста шляпы
+//--------------КВЕСТЫ----------------
+
+#region квест пропавшего друга
+// Найти пропавшего друга коту
+// для квеста пропавшего дркга
 global.questStatus = ds_map_create() // создаётся один раз для всех квестов
-global.questStatus[? "TheHatQuest"] = 0 // квест не начат(1- начат 2 завершён)
+global.questStatus[? "TheMissingFriend"] = 0 // квест не начат(1- начат 2 завершён)
 #endregion 
 
 
@@ -59,7 +61,7 @@ global.questStatus[? "TheDeadVillage"] = 0 // квест не начат(1- на
 
 // ------------------------------------------------------------
 #region уровень персоонажа
-global.level = LEVEL0
+global.level = LEVEL3
 
 // здоровье
 global.playerHealth[LEVEL0] = 1

@@ -80,8 +80,8 @@ if state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.pl
 
 //---------------ПИШЕМ ЧЁ ЗА ПРЕДМЕТ------------------------
 
-if distance_to_object(oHat) < 30 and global.itemMessage == true{
-	NewTextBox("Чья то шляпа",2)
+if distance_to_object(oHeadDeadCat) < 30 and global.itemMessage == true{
+	NewTextBox("Чья то голова",2)
 	global.itemMessage = false
 }
 

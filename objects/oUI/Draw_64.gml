@@ -107,7 +107,7 @@ if(global.gamePaused){
 	draw_text(xx,yy,"Текущие задания")
 	
 
-	//if(!global.questStatus[? "TheHatQuest"] == 1) and (!global.questStatus[? "TheDeadVillage"] == 1){
+	//if(!global.questStatus[? "TheMissingFriend"] == 1) and (!global.questStatus[? "TheDeadVillage"] == 1){
 	//	xx = 80
 	//	yy = 40
 	//	draw_set_font(fTextQuest)
@@ -122,25 +122,25 @@ if(global.gamePaused){
 	//	draw_text(xx,yy,"Заданий нет")
 	//}
 	
-	    if(global.questStatus[? "TheHatQuest"] == 1){
-		xx = 80
+	    if(global.questStatus[? "TheMissingFriend"] == 1){
+		xx = 10
 		yy = 40
 		draw_set_font(fTextQuest)
-		draw_set_halign(fa_right)
+		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
-		draw_text(xx+1,yy,"Найти шляпу")
-		draw_text(xx-1,yy,"Найти шляпу")
-		draw_text(xx,yy-1,"Найти шляпу")
-		draw_text(xx,yy+1,"Найти шляпу")
+		draw_text(xx+1,yy,"Найти пропавшего друга")
+		draw_text(xx-1,yy,"Найти пропавшего друга")
+		draw_text(xx,yy-1,"Найти пропавшего друга")
+		draw_text(xx,yy+1,"Найти пропавшего друга")
 		draw_set_color(c_blue)
-		draw_text(xx,yy,"Найти шляпу")
+		draw_text(xx,yy,"Найти пропавшего друга")
 	}
 	if(global.questStatus[? "TheDeadVillage"] == 1){
-		xx = 110
+		xx = 10
 		yy = 55
 		draw_set_font(fTextQuest)
-		draw_set_halign(fa_right)
+		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
 		draw_text(xx+1,yy,"Убей всю нечисть")

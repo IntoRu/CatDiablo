@@ -2,12 +2,12 @@
 event_inherited();
 
 if sprite_index = sBossCaveInForest_hurt and soundStepHit = true{
-	audio_play_sound(sndBatHit,5,false)
+	if oPlayer.state != PlayerStateDead  audio_play_sound(sndBatHit,5,false)
 	soundStepHit = false
 	alarm[0] = 80
 }
 
-if spawnEnemy = true and enemyHP < 200{
+if spawnEnemy = true and enemyHP < 100{
 	var _slime = instance_create_layer(x,y,"Instances",oSLime)
 	spawnEnemy = false
 	alarm[1] = 200

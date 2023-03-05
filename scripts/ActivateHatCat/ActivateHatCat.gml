@@ -25,8 +25,8 @@ function ActivateHatCat(){
 				global.spriteRun[LEVEL2] = sPlayerRunL2
 				global.spriteRun[LEVEL3] = sPlayerRunL3
 				audio_play_sound(sndQuestHatComplited,5,false)
-				// повышаем уровень
-				if(global.level != 3) global.level++
+				//// повышаем уровень
+				//if(global.level != 3) global.level++
 			}
 			else{
 				// предлагаем квест
@@ -59,7 +59,7 @@ function ActivateHatCat(){
 				global.spriteRun[LEVEL3] = sPlayerRunL3
 				
 				// повышаем уровень
-				if(global.level != 3) global.level++
+				//if(global.level != 3) global.level++
 				audio_play_sound(sndQuestHatComplited,5,false)
 			}
 			else{

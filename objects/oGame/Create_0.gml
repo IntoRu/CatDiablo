@@ -37,7 +37,7 @@ global.playerAmmo[ITEM.SHIT] = 0
 //global.playerItemUnlocked[ITEM.HOOK] = true
 //global.playerItemUnlocked[ITEM.HILL] = true
 //global.playerHasAnyItems = true
-//global.playerAmmo[ITEM.BOMB] = 10
+//global.playerAmmo[ITEM.SHIT] = 10
 
 // аптечка
 global.hillPlus = 0.5

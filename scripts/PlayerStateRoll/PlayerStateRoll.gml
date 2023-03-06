@@ -16,9 +16,9 @@ function PlayerStateRoll(){
 	}
 	
 	// тряска и откат при солкновении со стеной
-	if(_collided){
-		state = PlayerStateBonk
-		moveDistanceRemaining = distanceBonk
-		ScreenShake(4,30)
-	}
+	//if(_collided){
+	//	state = PlayerStateBonk
+	//	moveDistanceRemaining = distanceBonk
+	//	ScreenShake(4,30)
+	//}
 }

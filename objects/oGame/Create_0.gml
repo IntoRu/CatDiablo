@@ -32,12 +32,12 @@ global.playerAmmo[ITEM.HILL] = 0
 global.playerAmmo[ITEM.SHIT] = 0
 
 //global.playerItemUnlocked[ITEM.SHIT] = true
-global.playerItemUnlocked[ITEM.BOMB] = true
+//global.playerItemUnlocked[ITEM.BOMB] = true
 //global.playerItemUnlocked[ITEM.BOW] = true
-global.playerItemUnlocked[ITEM.HOOK] = true
+//global.playerItemUnlocked[ITEM.HOOK] = true
 //global.playerItemUnlocked[ITEM.HILL] = true
-global.playerHasAnyItems = true
-global.playerAmmo[ITEM.BOMB] = 10
+//global.playerHasAnyItems = true
+//global.playerAmmo[ITEM.BOMB] = 10
 
 // аптечка
 global.hillPlus = 0.5
@@ -61,7 +61,7 @@ global.questStatus[? "TheDeadVillage"] = 0 // квест не начат(1- на
 
 // ------------------------------------------------------------
 #region уровень персоонажа
-global.level = LEVEL3
+global.level = LEVEL0
 
 // здоровье
 global.playerHealth[LEVEL0] = 1

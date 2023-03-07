@@ -9,6 +9,7 @@ function RoomToAreaName(_room){
 		case rNewVillage: return "Родная деревня"; break;
 		case rForest: return "Лес"; break;
 		case rCaveInForest: return "Неизвестная пещера"; break;
+		case rHouseBrotherCat: return "Дом братьев котов"; break;
 		
 		default: return "Неизвестная облать"; break;
 	}

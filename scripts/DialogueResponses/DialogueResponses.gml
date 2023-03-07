@@ -37,7 +37,17 @@ function DialogueResponses(){
 		}break
 		case 6:{
 			NewTextBox("Ну если что я тут.....",2)
-		}
+		}break
+		// квест мёртвого брата
+		case 7:{
+			NewTextBox("В той пещере, куда попёрся мой братец\nобитают только слизни и летучие мыши",2)
+			NewTextBox("И я не думаю что они способны сотворить такое......",2)
+			NewTextBox("Очевидно это дело рук более сильного монстра.....",2)
+			NewTextBox("Выследи и убей эту тварь.......\nа я в долгу не останусь....",2)
+			NewTextBox("В меню паузы ты увидишь текущие задания",2)
+			audio_play_sound(sndQuestHatStart,5,false)	
+			global.questStatus[? "TheBrotherDeadCat"] = 1 // меняем статус авеста на взят
+		}break
 		default: break
 	}
 }

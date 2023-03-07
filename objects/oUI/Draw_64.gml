@@ -150,6 +150,20 @@ if(global.gamePaused){
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Убей всю нечисть")
 	}
+	if(global.questStatus[? "TheBrotherDeadCat"] == 1){
+		xx = 10
+		yy = 70
+		draw_set_font(fTextQuest)
+		draw_set_halign(fa_left)
+		draw_set_valign(fa_bottom)
+		draw_set_color(c_black)
+		draw_text(xx+1,yy,"Выследить и убить монстра")
+		draw_text(xx-1,yy,"Выследить и убить монстра")
+		draw_text(xx,yy-1,"Выследить и убить монстра")
+		draw_text(xx,yy+1,"Выследить и убить монстра")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Выследить и убить монстра")
+	}
 	//else{
 	//	xx = 80
 	//	yy = 40

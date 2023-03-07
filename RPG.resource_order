@@ -215,6 +215,7 @@
     {"name":"sndRoomForest","order":32,"path":"sounds/sndRoomForest/sndRoomForest.yy",},
     {"name":"sPlayerHookL1","order":12,"path":"sprites/sPlayerHookL1/sPlayerHookL1.yy",},
     {"name":"sTilesCave","order":22,"path":"sprites/sTilesCave/sTilesCave.yy",},
+    {"name":"ActivateBrotherDeadCat","order":10,"path":"scripts/ActivateBrotherDeadCat/ActivateBrotherDeadCat.yy",},
     {"name":"oDoorClose","order":7,"path":"objects/oDoorClose/oDoorClose.yy",},
     {"name":"sndRoomCave","order":23,"path":"sounds/sndRoomCave/sndRoomCave.yy",},
     {"name":"oSwitchDoorCaveInForest","order":9,"path":"objects/oSwitchDoorCaveInForest/oSwitchDoorCaveInForest.yy",},

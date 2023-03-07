@@ -59,6 +59,12 @@ global.questStatus[? "TheDeadVillage"] = 0 // квест не начат(1- на
 // не забываем прописать в загрузке и сохранении статус квестов
 #endregion
 
+#region квест брата
+// будет базироватся на основе инфы после убийства монстра в пещере в лесу
+global.informationAboutMonster = false
+global.questStatus[? "TheBrotherDeadCat"] = 0
+#endregion
+
 // ------------------------------------------------------------
 #region уровень персоонажа
 global.level = LEVEL0

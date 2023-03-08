@@ -268,6 +268,7 @@
     {"name":"sWall","order":24,"path":"sprites/sWall/sWall.yy",},
     {"name":"PlayerCollision","order":8,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
     {"name":"tCol1","order":31,"path":"tilesets/tCol1/tCol1.yy",},
+    {"name":"DIALOGUE","order":11,"path":"scripts/DIALOGUE/DIALOGUE.yy",},
     {"name":"rParent","order":1,"path":"rooms/rParent/rParent.yy",},
   ],
 }

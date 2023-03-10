@@ -301,7 +301,6 @@
     {"id":{"name":"oQuestNPC","path":"objects/oQuestNPC/oQuestNPC.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"tCol1","path":"tilesets/tCol1/tCol1.yy",},},
-    {"id":{"name":"DIALOGUE","path":"scripts/DIALOGUE/DIALOGUE.yy",},},
     {"id":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
   ],
   "RoomOrderNodes": [

@@ -53,6 +53,9 @@ if(global.targetX != -1){
 	direction = global.targetDirection
 }
 
+// геймпад
+controller = 0
+
 
 
 

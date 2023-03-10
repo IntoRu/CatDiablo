@@ -18,7 +18,7 @@ else{
 	// рисуем игрока
 	draw_sprite_ext(
 	sprite_index,image_index,
-	floor(x),floor(y-z),
+	x,y,
 	image_xscale,image_yscale,image_angle,
 	image_blend,image_alpha
 	)
@@ -33,8 +33,8 @@ if(state == PlayerStateHook) and (image_index == 3) DrawHookChain()
 if(readyMess) draw_sprite(sAttention,0,x+1,y-23)
 
 function DrawHookChain(){
-	var _originX = floor(x)
-	var _originY = floor(y)-7
+	var _originX = x
+	var _originY = y-7
 	
 	var _chains = hook div hookSize
 	var _hookDirX = sign(hookX)

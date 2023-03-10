@@ -7,7 +7,7 @@ if sprite_index = sBossCaveInForest_hurt and soundStepHit = true{
 	alarm[0] = 80
 }
 
-if spawnEnemy = true and enemyHP < 100{
+if spawnEnemy = true and enemyHP < maxHP {
 	var _slime = instance_create_layer(x,y,"Instances",oSLime)
 	spawnEnemy = false
 	alarm[1] = 200

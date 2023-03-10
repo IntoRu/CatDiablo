@@ -5,13 +5,50 @@ right = keyboard_check(vk_right) or keyboard_check(ord("D"))
 up = keyboard_check(vk_up) or keyboard_check(ord("W"))
 down = keyboard_check(vk_down) or keyboard_check(ord("S"))
 
-
 keyActivate = keyboard_check_pressed(vk_space)
 keyAttack = keyboard_check_pressed(vk_shift)
 keyItem = keyboard_check_pressed(vk_control)
 
 keyItemSelectUp = keyboard_check_pressed(ord("E"))
 keyItemSelectDown = keyboard_check_pressed(ord("Q"))
+
+#region геймпад
+if left or right or up or down {
+	controller = 0
+}
+
+if (abs(gamepad_axis_value(0,gp_axislh)) > 0.2){
+	left = abs(min(gamepad_axis_value(0,gp_axislh),0))
+	right = max(gamepad_axis_value(0,gp_axislh),0)
+	controller = 1
+}
+if (abs(gamepad_axis_value(0,gp_axislv)) > 0.2){
+	up = abs(min(gamepad_axis_value(0,gp_axislv),0))
+	down = max(gamepad_axis_value(0,gp_axislv),0)
+	controller = 1
+}
+
+if gamepad_button_check_pressed(0,gp_shoulderrb){
+	keyAttack = 1
+	controller = 1
+}
+if gamepad_button_check_pressed(0,gp_shoulderlb){
+	keyItem = 1
+	controller = 1
+}
+if gamepad_button_check_pressed(0,gp_shoulderl){
+	keyItemSelectDown = 1
+	controller = 1
+}
+if gamepad_button_check_pressed(0,gp_shoulderr){
+	keyItemSelectUp = 1
+	controller = 1
+}
+if gamepad_button_check_pressed(0,gp_face1){
+	keyActivate = 1
+	controller = 1
+}
+#endregion
 
 inputDirection = point_direction(0,0,right-left,down-up)
 inputMagnitude = (right-left != 0) or (down - up != 0)

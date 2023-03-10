@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+maxHP = enemyHP
+
 spawnEnemy = true
 
 soundStepHit = true

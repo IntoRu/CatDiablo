@@ -16,6 +16,9 @@ if(keyboard_check_pressed(vk_down)){
 	slotSelected += 1
 	if(slotSelected > 2) slotSelected = 0
 }
+
+
+
 if((keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))) && (keyPressed) && (!loadingStarted){
 	audio_play_sound(sndText,5,false)  
 	global.gameSaveSlot = slotSelected

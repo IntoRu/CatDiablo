@@ -1,4 +1,4 @@
-///@desc обновление камеры
+//@desc обновление камеры
 
 if(instance_exists(follow)){
 	xTo = follow.x
@@ -19,4 +19,6 @@ y += random_range(-shakeRemain,shakeRemain)
 shakeRemain = max(0,shakeRemain - ((1/shakeLength)*shakeMagnitude))
 
 camera_set_view_pos(cam,x-viewWidthHalf,y-viewHeightHalf)
+
+
 

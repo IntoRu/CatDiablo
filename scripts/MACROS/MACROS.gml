@@ -2,7 +2,7 @@
 #macro TILE_SIZE 16 // размер плитки коллизии
 #macro CARDINAL_DIR round(direction/90)
 #macro ROOM_START rTitle // начальная лока при загрузке игры
-#macro ROOM_NEW_GAME rCaveInForest // начальная лока при старте новой игры
+#macro ROOM_NEW_GAME rNewVillage // начальная лока при старте новой игры
 
 
 

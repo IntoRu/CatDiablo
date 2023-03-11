@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sFragBossCaveInForest",
-  "bbox_bottom": 22,
+  "bbox_bottom": 20,
   "bbox_left": 2,
   "bbox_right": 22,
   "bbox_top": 2,

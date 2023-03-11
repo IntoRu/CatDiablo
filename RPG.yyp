@@ -195,6 +195,7 @@
     {"id":{"name":"SlimeFunctions","path":"scripts/SlimeFunctions/SlimeFunctions.yy",},},
     {"id":{"name":"sCaveInForest","path":"sprites/sCaveInForest/sCaveInForest.yy",},},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},},
+    {"id":{"name":"Task","path":"notes/Task/Task.yy",},},
     {"id":{"name":"sPlant","path":"sprites/sPlant/sPlant.yy",},},
     {"id":{"name":"ActivateHeadDeadCat","path":"scripts/ActivateHeadDeadCat/ActivateHeadDeadCat.yy",},},
     {"id":{"name":"sPlayerLiftL1","path":"sprites/sPlayerLiftL1/sPlayerLiftL1.yy",},},

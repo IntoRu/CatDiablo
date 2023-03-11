@@ -26,7 +26,10 @@ entityDropList = choose(
 	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oArrowDrop,oArrowDrop,oArrowDrop,oArrowDrop,oArrowDrop,oArrowDrop],
 	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oBombDrop,oBombDrop,oBombDrop,oBombDrop,oBombDrop,oBombDrop,oBombDrop],
 	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oBombDrop,oBombDrop,oBombDrop,oBombDrop,oBombDrop,oBombDrop,oBombDrop],
-	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oHillDrop,oHillDrop,oHillDrop],
-	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oHillDrop,oHillDrop,oHillDrop]
+	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oHillDrop,oHillDrop],
+	[oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oCoin,oHillDrop,oHillDrop]
+	//[oBombDrop,oBombDrop,oBombDrop],
+	//[oHillDrop,oHillDrop],
+	//[oArrowDrop,oArrowDrop,oArrowDrop]
 )
 

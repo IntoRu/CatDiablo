@@ -37,7 +37,7 @@ if(bounceCount != 0){
 	}
 	else z = 0
 
-x += lengthdir_x(spd,direction)
-y += lengthdir_y(spd,direction)
+x += lengthdir_x(spd,direction)*random_range(0.1,0.4)
+y += lengthdir_y(spd,direction)*random_range(0.1,0.4)
 spd = max(spd-fric,0)
 depth = -bbox_bottom

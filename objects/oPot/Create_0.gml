@@ -6,5 +6,10 @@ entityDropList = choose(
 	[oCoin,oCoin,oCoin,oCoin,oCoin],
 	[oCoin,oCoin,oCoin,oCoin,oCoin],
 	[oHillDrop],
-	[oArrowDrop]
+	[oArrowDrop],
+	[oArrowDrop],
+	[oArrowDrop],
+	[oCoin,oCoin],
+	[oCoin,oCoin],
+	[oCoin,oCoin]
 )

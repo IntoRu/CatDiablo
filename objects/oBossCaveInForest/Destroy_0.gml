@@ -8,3 +8,4 @@ audio_play_sound(sndDoorOpen,5,false)
 
 global.informationAboutMonster = true
 audio_play_sound(sndQuestLoss,5,false)
+audio_stop_sound(sndBoss1Fight)

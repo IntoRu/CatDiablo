@@ -1,7 +1,6 @@
 
 randomize()
 
-
 global.damage = true // это для щита
 
 global.itemMessage = true // для оповещения что это за предмет в квестах
@@ -60,6 +59,7 @@ global.questStatus[? "TheDeadVillage"] = 0 // квест не начат(1- на
 #endregion
 
 #region квест брата
+global.fight = false // бой с боссом ещё не начат
 // будет базироватся на основе инфы после убийства монстра в пещере в лесу
 global.informationAboutMonster = false
 global.questStatus[? "TheBrotherDeadCat"] = 0

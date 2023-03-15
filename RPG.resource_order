@@ -189,6 +189,7 @@
     {"name":"sndSlimeAttack","order":13,"path":"sounds/sndSlimeAttack/sndSlimeAttack.yy",},
     {"name":"sndPlantDamage","order":20,"path":"sounds/sndPlantDamage/sndPlantDamage.yy",},
     {"name":"sPlayerRollDamage","order":3,"path":"sprites/sPlayerRollDamage/sPlayerRollDamage.yy",},
+    {"name":"sndBoss1Fight","order":36,"path":"sounds/sndBoss1Fight/sndBoss1Fight.yy",},
     {"name":"sndRoomShop","order":22,"path":"sounds/sndRoomShop/sndRoomShop.yy",},
     {"name":"fTextQuest","order":11,"path":"fonts/fTextQuest/fTextQuest.yy",},
     {"name":"sndText","order":27,"path":"sounds/sndText/sndText.yy",},

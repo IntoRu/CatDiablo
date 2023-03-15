@@ -215,6 +215,7 @@
     {"id":{"name":"sndSlimeAttack","path":"sounds/sndSlimeAttack/sndSlimeAttack.yy",},},
     {"id":{"name":"sndPlantDamage","path":"sounds/sndPlantDamage/sndPlantDamage.yy",},},
     {"id":{"name":"sPlayerRollDamage","path":"sprites/sPlayerRollDamage/sPlayerRollDamage.yy",},},
+    {"id":{"name":"sndBoss1Fight","path":"sounds/sndBoss1Fight/sndBoss1Fight.yy",},},
     {"id":{"name":"sndRoomShop","path":"sounds/sndRoomShop/sndRoomShop.yy",},},
     {"id":{"name":"fTextQuest","path":"fonts/fTextQuest/fTextQuest.yy",},},
     {"id":{"name":"sndText","path":"sounds/sndText/sndText.yy",},},

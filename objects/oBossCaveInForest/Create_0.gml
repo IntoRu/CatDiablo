@@ -1,5 +1,6 @@
 // Inherit the parent event
 event_inherited();
+spawnTime = 300 //  с какой переодичностью спавнет слизней
 
 maxHP = enemyHP
 

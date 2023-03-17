@@ -1,6 +1,8 @@
 
 randomize()
 
+global.strong = false // можем ли мы поднять тяжёлый камень
+
 global.damage = true // это для щита
 
 global.itemMessage = true // для оповещения что это за предмет в квестах
@@ -34,9 +36,9 @@ global.playerAmmo[ITEM.SHIT] = 0
 //global.playerItemUnlocked[ITEM.SHIT] = true
 //global.playerItemUnlocked[ITEM.BOMB] = true
 //global.playerItemUnlocked[ITEM.BOW] = true
-//global.playerItemUnlocked[ITEM.HOOK] = true
+global.playerItemUnlocked[ITEM.HOOK] = true
 //global.playerItemUnlocked[ITEM.HILL] = true
-//global.playerHasAnyItems = true
+global.playerHasAnyItems = true
 //global.playerAmmo[ITEM.SHIT] = 10
 
 // аптечка

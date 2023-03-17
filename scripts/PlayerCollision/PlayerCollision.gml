@@ -25,6 +25,9 @@ function PlayerCollision(){
 			_collision = true
 			_entityCount = 0
 		}
+		else if _entityCheck.entitySlow {
+			hSpeed /=2
+		} 
 		ds_list_delete(_entityList,0)
 		_entityCount--
 	}
@@ -54,6 +57,9 @@ function PlayerCollision(){
 			_collision = true
 			_entityCount = 0
 		}
+		else if _entityCheck.entitySlow {
+			vSpeed /=2
+		} 
 		ds_list_delete(_entityList,0)
 		_entityCount--
 	}

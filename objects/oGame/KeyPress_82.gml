@@ -1,2 +1,2 @@
 //game_restart()
-global.strong = true
+//global.strong = true

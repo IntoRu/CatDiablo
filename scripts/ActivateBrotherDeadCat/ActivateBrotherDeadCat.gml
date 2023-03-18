@@ -15,6 +15,7 @@ function ActivateBrotherDeadCat(){
 					global.playerMoney += 500
 					//// повышаем уровень
 					//if(global.level != 3) global.level++
+					global.strong = true // даём силу
 				}
 				else{
 					// предлагаем квест
@@ -36,6 +37,7 @@ function ActivateBrotherDeadCat(){
 				
 					// повышаем уровень
 					//if(global.level != 3) global.level++
+					global.strong = true // даём силу
 					audio_play_sound(sndQuestHatComplited,5,false)
 				}
 				else{

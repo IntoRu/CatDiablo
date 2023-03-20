@@ -21,7 +21,7 @@ if(slotVisible > 0){
 		NineSliceBoxStretched(sTextBoxBg,_x,_y,312,_y+48,_img)
 		
 		//рисуем инфу сохранений
-		draw_set_font(fText)
+		draw_set_font(fTextNew)
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_top)
 		draw_set_color(c_white)

@@ -178,6 +178,7 @@
     {"id":{"name":"fAmmo","path":"fonts/fAmmo/fAmmo.yy",},},
     {"id":{"name":"sPlayerL3","path":"sprites/sPlayerL3/sPlayerL3.yy",},},
     {"id":{"name":"oBossDoor","path":"objects/oBossDoor/oBossDoor.yy",},},
+    {"id":{"name":"fTextNew","path":"fonts/fTextNew/fTextNew.yy",},},
     {"id":{"name":"sndCoinPick","path":"sounds/sndCoinPick/sndCoinPick.yy",},},
     {"id":{"name":"oPot","path":"objects/oPot/oPot.yy",},},
     {"id":{"name":"LEVELS","path":"scripts/LEVELS/LEVELS.yy",},},

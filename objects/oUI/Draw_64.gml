@@ -71,7 +71,7 @@ if(global.gamePaused){
 	draw_rectangle(0,0,RESOLUTION_W,RESOLUTION_H,false)
 	draw_set_alpha(1)
 	draw_set_color(c_white)
-	draw_set_font(fText)
+	draw_set_font(fTextNew)
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_middle)
 	
@@ -95,7 +95,7 @@ if(global.gamePaused){
 	
 	xx = 120
 	yy = 20
-	draw_set_font(fTextQuest)
+	draw_set_font(fTextNew)
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_bottom)
 	draw_set_color(c_black)
@@ -125,7 +125,7 @@ if(global.gamePaused){
 	    if(global.questStatus[? "TheMissingFriend"] == 1){
 		xx = 10
 		yy = 40
-		draw_set_font(fTextQuest)
+		draw_set_font(fTextNew)
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
@@ -139,7 +139,7 @@ if(global.gamePaused){
 	if(global.questStatus[? "TheDeadVillage"] == 1){
 		xx = 10
 		yy = 55
-		draw_set_font(fTextQuest)
+		draw_set_font(fTextNew)
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
@@ -153,7 +153,7 @@ if(global.gamePaused){
 	if(global.questStatus[? "TheBrotherDeadCat"] == 1){
 		xx = 10
 		yy = 70
-		draw_set_font(fTextQuest)
+		draw_set_font(fTextNew)
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
@@ -184,7 +184,7 @@ if(global.gamePaused){
 if(global.gamePaused){
 	xx = 250
 	yy = 20
-	draw_set_font(fTextQuest)
+	draw_set_font(fTextNew)
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_bottom)
 	draw_set_color(c_black)

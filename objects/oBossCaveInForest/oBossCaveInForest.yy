@@ -49,6 +49,9 @@
     "name": "sBossCaveInForest",
     "path": "sprites/sBossCaveInForest/sBossCaveInForest.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sBossCaveInForest",
+    "path": "sprites/sBossCaveInForest/sBossCaveInForest.yy",
+  },
   "visible": true,
 }

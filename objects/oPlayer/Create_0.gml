@@ -1,5 +1,4 @@
 
-
 soundStepFoot = true
 soundStepBonk = true
 soundStepDead = true

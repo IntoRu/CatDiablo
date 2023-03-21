@@ -94,7 +94,7 @@ if(keyItem){
 if state = PlayerStateBonk and soundStepBonk = true and !audio_is_playing(sndRollDamafe){
 	audio_play_sound(sndPlayerBonk,5,false)
 	soundStepBonk = false
-	alarm[1] = 30
+	alarm[1] = 60
 } 
 // звук смерти
 if sprite_index = global.spriteDie[global.level] and soundStepDead = true{

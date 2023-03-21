@@ -6,4 +6,6 @@ entityDropList = choose(
 	-1
 )
 
-alarm[0] = 120
+
+
+alarm[0] = 300

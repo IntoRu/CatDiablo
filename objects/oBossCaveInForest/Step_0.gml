@@ -18,7 +18,8 @@ if spawnEnemy = true and enemyHP < maxHP {
 		enemySpeed = 1.0
 		enemyAggroRadius = 70
 		enemyDamageTouch = 0.1
-		enemyForceTouch = 40	
+		enemyForceTouch = 40
+		entityDropList = -1
 	}
 	with(_bulletWeb){
 		move_towards_point(oPlayer.x,oPlayer.y,3)

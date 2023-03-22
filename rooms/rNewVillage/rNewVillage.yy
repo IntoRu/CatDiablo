@@ -244,6 +244,7 @@
     {"name":"inst_42E68F96","path":"rooms/rNewVillage/rNewVillage.yy",},
     {"name":"inst_27A156C6","path":"rooms/rNewVillage/rNewVillage.yy",},
     {"name":"inst_25145C59","path":"rooms/rNewVillage/rNewVillage.yy",},
+    {"name":"inst_2B8C41","path":"rooms/rNewVillage/rNewVillage.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -526,6 +527,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42E68F96","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oRock","path":"objects/oRock/oRock.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":648.0,"y":304.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27A156C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oRock","path":"objects/oRock/oRock.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":808.0,"y":296.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_25145C59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oRock","path":"objects/oRock/oRock.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":824.0,"y":320.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B8C41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oRockStrongDamage","path":"objects/oRockStrongDamage/oRockStrongDamage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":104.0,"y":136.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
 -20,0,-28,-2147483648,-2,0,-10,-2147483648,-20,0,-27,-2147483648,-4,1,-9,-2147483648,-11,0,-8,1,1,0,-23,-2147483648,-5,1,-2,-2147483648,-4,1,-6,-2147483648,-5,0,-7,1,-6,0,-6,1,1,-2147483648,-5,1,-10,-2147483648,-4,1,1,-2147483648,-6,1,-2,-2147483648,1,1,-6,-2147483648,-5,0,

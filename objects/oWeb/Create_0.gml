@@ -1,8 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
+fade = 1 // затухание паутины
 
 
 
-
-alarm[0] = 300

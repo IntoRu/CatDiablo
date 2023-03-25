@@ -5,6 +5,7 @@ function LoadGame(_slot){
 	if(file_exists(_file)){
 		
 		var _json = LoadJSONFromFile(_file)
+		global.lightNight = _json[? "lightNight"]
 		global.count = _json[? "count"]
 		global.informationAboutMonster = _json[? "informationAboutMonster"]
 		global.level = _json[? "level"]

@@ -9,6 +9,7 @@ function SaveGame(){
 	// добавляем в эту карту вещи которые надо сохранять
 	_map[? "room"] = room
 	_map[? "level"] = global.level
+	_map[? "lightNight"] = global.lightNight
 
 	_map[? "count"] = global.count
 	_map[? "informationAbouMonster"] = global.informationAboutMonster

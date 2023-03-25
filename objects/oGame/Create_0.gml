@@ -1,5 +1,6 @@
 
 randomize()
+global.day = 0 //день 1 - ночь
 global.lightNight = 0 // темнота ночью
 
 global.strong = false // можем ли мы поднять тяжёлый камень

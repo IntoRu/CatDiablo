@@ -10,6 +10,7 @@ function SaveGame(){
 	_map[? "room"] = room
 	_map[? "level"] = global.level
 	_map[? "lightNight"] = global.lightNight
+	_map[? "day"] = global.day
 
 	_map[? "count"] = global.count
 	_map[? "informationAbouMonster"] = global.informationAboutMonster

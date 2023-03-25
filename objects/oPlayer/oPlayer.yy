@@ -20,7 +20,10 @@
     "name": "Player",
     "path": "folders/Player.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLightParent",
+    "path": "objects/oLightParent/oLightParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

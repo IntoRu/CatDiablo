@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sSwet",
-    "path": "sprites/sSwet/sSwet.yy",
+    "name": "sFackel",
+    "path": "sprites/sFackel/sFackel.yy",
   },
   "spriteMaskId": null,
   "visible": true,

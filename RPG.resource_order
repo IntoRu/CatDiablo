@@ -278,6 +278,7 @@
     {"name":"oUI","order":4,"path":"objects/oUI/oUI.yy",},
     {"name":"sShadow","order":4,"path":"sprites/sShadow/sShadow.yy",},
     {"name":"HurtPlayer","order":21,"path":"scripts/HurtPlayer/HurtPlayer.yy",},
+    {"name":"sFackel","order":5,"path":"sprites/sFackel/sFackel.yy",},
     {"name":"ActivateManualWeapon","order":8,"path":"scripts/ActivateManualWeapon/ActivateManualWeapon.yy",},
     {"name":"oSLime","order":1,"path":"objects/oSLime/oSLime.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},

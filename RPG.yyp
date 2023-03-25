@@ -311,6 +311,7 @@
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},},
     {"id":{"name":"HurtPlayer","path":"scripts/HurtPlayer/HurtPlayer.yy",},},
+    {"id":{"name":"sFackel","path":"sprites/sFackel/sFackel.yy",},},
     {"id":{"name":"ActivateManualWeapon","path":"scripts/ActivateManualWeapon/ActivateManualWeapon.yy",},},
     {"id":{"name":"oSLime","path":"objects/oSLime/oSLime.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},

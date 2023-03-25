@@ -52,7 +52,7 @@ function SlimeWander(){
 function SlimeChese(){
 	sprite_index = sprMove
 	
-	if(instance_exists(target)){
+	if(instance_exists(target)  and !instance_exists(oText)){
 		xTo = target.x
 		yTo = target.y
 		
@@ -73,7 +73,7 @@ function SlimeChese(){
 	}
 	
 	// аттака
-	if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius){
+	if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText){
 		state = ENEMYSTATE.ATTACK
 		sprite_index = sprAttack
 		image_index = 0

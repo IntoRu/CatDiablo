@@ -2,7 +2,7 @@
 function BatChese(){
 	sprite_index = sprMove
 	
-	if(instance_exists(target)){
+	if(instance_exists(target)  and !instance_exists(oText)){
 		xTo = target.x
 		yTo = target.y
 		

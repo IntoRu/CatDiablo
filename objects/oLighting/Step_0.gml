@@ -12,8 +12,6 @@
 
 
 
-
-
 if global.day == 0{
 	global.lightNight += speedDayNight
 	if global.lightNight >= maxLightNight{
@@ -40,6 +38,8 @@ if global.day == 1{
 		}	
 	} 
 }
+
+
 
 
 

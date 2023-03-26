@@ -15,6 +15,7 @@
     {"name":"Level3","order":4,"path":"folders/Player/Scins/Level3.yy",},
     {"name":"Rooms","order":6,"path":"folders/Rooms.yy",},
     {"name":"Sound","order":11,"path":"folders/Sound.yy",},
+    {"name":"Test","order":14,"path":"folders/Test.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sTilesetForest","order":27,"path":"sprites/sTilesetForest/sTilesetForest.yy",},

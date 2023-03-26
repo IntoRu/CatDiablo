@@ -31,7 +31,7 @@ else
 			{
 				// другие обьекты дети святильника oLightParent неподвижные
 			case oSweet:
-			   if global.lightNight >0.6 draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);
+			   if global.lightNight >0.6 draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.05))*lightScale, (0.5 + random(0.05))*lightScale, 0, c_white, lightPowerfull);
 			    break;
 				// другие обьекты дети святильника oLightParent подвижные
 			//case oRockStrongDamage:
@@ -39,7 +39,7 @@ else
 			//    break;
 			
 			case oPlayer:
-			    if global.lightNight >0.7 draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, (0.5 + random(0.001))*lightScale, (0.5 + random(0.001))*lightScale, 0, c_white, lightPowerfull);            
+			    if global.lightNight >0.7 draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);            
 			    break;
 }
 	    }

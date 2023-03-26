@@ -31,7 +31,7 @@ else
 			{
 				// другие обьекты дети святильника oLightParent неподвижные
 			case oSweet:
-			    draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);
+			    draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.05))*lightScale, (0.5 + random(0.05))*lightScale, 0, c_white, lightPowerfull);
 			    break;
 				// другие обьекты дети святильника oLightParent подвижные
 			//case oRockStrongDamage:

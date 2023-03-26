@@ -18,7 +18,7 @@ else
 		var _cy = camera_get_view_y(view_camera[0]);
 		surface_set_target(surf);
 		draw_set_color(c_black);
-		draw_set_alpha(global.lightNight);
+		draw_set_alpha(lightNight);
 		draw_rectangle(0, 0, _cw, _ch, 0);
 		gpu_set_blendmode(bm_subtract);
 	}
@@ -31,7 +31,7 @@ else
 			{
 				// другие обьекты дети святильника oLightParent неподвижные
 			case oSweet:
-			   if global.lightNight >0.3 draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);
+			    draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);
 			    break;
 				// другие обьекты дети святильника oLightParent подвижные
 			//case oRockStrongDamage:

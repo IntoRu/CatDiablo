@@ -34,6 +34,7 @@ if global.day == 1{
 			timerDay--
 			if timerDay <= 0{
 				global.day = 0
+				timerDay = maxTimerDay
 			}
 		}	
 	} 

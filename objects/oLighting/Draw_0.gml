@@ -31,16 +31,16 @@ else
 			{
 				// другие обьекты дети святильника oLightParent неподвижные
 			case oSweet:
-			   if global.lightNight >0.3 draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);
+			   if global.lightNight >0.6 draw_sprite_ext(sLight, 0, x - _cx, y - _cy -10, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);
 			    break;
 				// другие обьекты дети святильника oLightParent подвижные
 			//case oRockStrongDamage:
 			//    draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy - 10, 0.75, 0.75, 0, c_white, other.lightPowerfull);
 			//    break;
 			
-			//case oPlayer:
-			//    draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, 1, 1, 0, c_white, other.lightPowerfull);            
-			//    break;
+			case oPlayer:
+			    if global.lightNight >0.7 draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, (0.5 + random(0.001))*lightScale, (0.5 + random(0.001))*lightScale, 0, c_white, lightPowerfull);            
+			    break;
 }
 	    }
 	gpu_set_blendmode(bm_normal);

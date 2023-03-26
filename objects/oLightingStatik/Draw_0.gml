@@ -38,9 +38,9 @@ else
 			//    draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy - 10, 0.75, 0.75, 0, c_white, other.lightPowerfull);
 			//    break;
 			
-			//case oPlayer:
-			//    draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, 1, 1, 0, c_white, other.lightPowerfull);            
-			//    break;
+			case oPlayer:
+			    draw_sprite_ext(sLight, 0, x - _cx, y - _sh - _cy, (0.5 + random(0.01))*lightScale, (0.5 + random(0.01))*lightScale, 0, c_white, lightPowerfull);            
+			    break;
 }
 	    }
 	gpu_set_blendmode(bm_normal);

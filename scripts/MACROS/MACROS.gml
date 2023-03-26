@@ -10,7 +10,7 @@
 #macro RESOLUTION_H 180
 
 //эффект перехода из комнаты в комнату
-#macro TRANSITION_SPEED 0.02
+#macro TRANSITION_SPEED 0.02 // 0.02
 #macro OUT 0
 #macro IN 1
 

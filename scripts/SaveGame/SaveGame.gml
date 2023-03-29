@@ -7,6 +7,7 @@ function SaveGame(){
 	
 	
 	// добавляем в эту карту вещи которые надо сохранять
+	_map[? "sword"] = global.sword // сохраняем мечь
 	_map[? "room"] = room
 	_map[? "level"] = global.level
 	_map[? "lightNight"] = global.lightNight

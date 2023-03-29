@@ -18,6 +18,7 @@
     {"name":"inst_4A9F3024","path":"rooms/rShop/rShop.yy",},
     {"name":"inst_19710C72","path":"rooms/rShop/rShop.yy",},
     {"name":"inst_53A33662","path":"rooms/rShop/rShop.yy",},
+    {"name":"inst_6CAB29AA","path":"rooms/rShop/rShop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -71,6 +72,11 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSweet","path":"objects/oSweet/oSweet.yy",},"propertyId":{"name":"lightScale","path":"objects/oSweet/oSweet.yy",},"value":"2.3",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSweet","path":"objects/oSweet/oSweet.yy",},"propertyId":{"name":"lightPowerfull","path":"objects/oSweet/oSweet.yy",},"value":"0.6",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":102.0,"y":35.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6CAB29AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSword","path":"objects/oSword/oSword.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActiveteArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"Ебучий крюк\\n50 золотых\",1,[\"4:Покупка\",\"0:Нет спасибо\"]]",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSword","path":"objects/oSword/oSword.yy",},"propertyId":{"name":"itemCost","path":"objects/oSword/oSword.yy",},"value":"300",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSword","path":"objects/oSword/oSword.yy",},"propertyId":{"name":"item","path":"objects/oSword/oSword.yy",},"value":"ITEM.HOOK",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":112.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -25,-2147483648,-12,1,-2,-2147483648,1,0,-5,-2147483648,2,1,-2147483648,-7,0,-2,-2147483648,1,1,-7,

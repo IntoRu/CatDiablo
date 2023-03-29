@@ -5,6 +5,7 @@ function LoadGame(_slot){
 	if(file_exists(_file)){
 		
 		var _json = LoadJSONFromFile(_file)
+		global.sword = _json[? "sword"] // загружаем мечь
 		global.lightNight = _json[? "lightNight"]
 		global.day = _json[? "day"]
 		global.count = _json[? "count"]

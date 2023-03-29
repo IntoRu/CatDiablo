@@ -8,7 +8,7 @@ function PlayerStateFree(){
 	PlayerCollision()
 	
 	// аттака
-	if (keyAttack) and (global.iLifted == noone){
+	if (keyAttack) and (global.iLifted == noone) and global.sword == true{
 		state = PlayerStateAttack
 		stateAttack = AttackSlash
 	}

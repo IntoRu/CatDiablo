@@ -7,7 +7,7 @@ function SaveGame(){
 	
 	
 	// добавляем в эту карту вещи которые надо сохранять
-	_map[? "sword"] = global.sword // сохраняем мечь
+
 	_map[? "room"] = room
 	_map[? "level"] = global.level
 	_map[? "lightNight"] = global.lightNight
@@ -22,6 +22,10 @@ function SaveGame(){
 	_map[? "playerItemUnlocked"] = global.playerItemUnlocked
 	_map[? "playerAmmo"] = global.playerAmmo
 	_map[? "playerEquipped"] = global.playerEquipped
+	
+	//сохраняем мечь
+	_map[? "swordEquipped"] = global.swordEquipped
+	
 	_map[? "playerHasAnyItems"] = global.playerHasAnyItems
 	_map[? "targetX"] = global.targetX
 	_map[? "targetY"] = global.targetY

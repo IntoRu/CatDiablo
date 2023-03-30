@@ -27,6 +27,7 @@ function DialogueResponses(){
 		case 4:{ // покупка товара
 			PurchaseItem(activate.item,activate.itemAmount,activate.itemCost)
 		}break
+		
 		// квест синего слизняка
 		case 5:{
 			audio_play_sound(sndQuestHatStart,5,false)
@@ -48,6 +49,10 @@ function DialogueResponses(){
 			audio_play_sound(sndQuestHatStart,5,false)	
 			global.questStatus[? "TheBrotherDeadCat"] = 1 // меняем статус авеста на взят
 		}break
+		// покупка мечей
+		case 8:{
+			PurchaseSword(activate.sword,activate.itemCost)
+		}
 		default: break
 	}
 }

@@ -8,7 +8,7 @@ function PlayerStateFree(){
 	PlayerCollision()
 	
 	// аттака
-	if (keyAttack) and (global.iLifted == noone) and global.sword == true{
+	if (keyAttack) and (global.iLifted == noone) and global.swordEquipped == SWORD.SIMPLESWORD{
 		state = PlayerStateAttack
 		stateAttack = AttackSlash
 	}
@@ -106,6 +106,17 @@ function PlayerStateFree(){
 			default: break
 		}
 	}
+	
+	// урон от разных мечей
+	if(global.swordEquipped != SWORD.NONE){
+		switch (global.swordEquipped){
+			case SWORD.SIMPLESWORD: global.slashDamage[global.level] = 5; break
+			default: break
+		}
+		
+	}
+	
+	
 
 	// преключение предметов
 	if(global.playerHasAnyItems){

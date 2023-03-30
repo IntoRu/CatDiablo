@@ -42,6 +42,13 @@ enum HOOKSTATUS{
 	MISSED
 }
 
+//  мечи
+enum SWORD{
+	NONE,
+	SIMPLESWORD,
+	TYPE_COUNT
+}
+
 
 
 

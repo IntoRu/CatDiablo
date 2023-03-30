@@ -5,7 +5,7 @@ function LoadGame(_slot){
 	if(file_exists(_file)){
 		
 		var _json = LoadJSONFromFile(_file)
-		global.sword = _json[? "sword"] // загружаем мечь
+
 		global.lightNight = _json[? "lightNight"]
 		global.day = _json[? "day"]
 		global.count = _json[? "count"]
@@ -16,6 +16,10 @@ function LoadGame(_slot){
 		global.deathCount = _json[? "deathCount"]
 		global.playerMoney = _json[? "playerMoney"]
 		global.playerEquipped = _json[? "playerEquipped"]
+		
+		// загружаем меч
+		global.swordEquipped = _json[? "swordEquipped"]
+		
 		global.playerHasAnyItems = _json[? "playerHasAnyItems"]
 		global.targetX = _json[? "targetX"]
 		global.targetY = _json[? "targetY"]

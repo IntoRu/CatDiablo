@@ -12,8 +12,7 @@ global.itemMessage = true // для оповещения что это за пр
 // для сохранения
 global.gameSaveSlot = 0
 
-// есть ли мечь
-global.sword = false
+
 
 //---------------------------------
 //удаляем унистоженные обьекты
@@ -35,6 +34,11 @@ global.playerAmmo[ITEM.BOMB] = 0
 global.playerAmmo[ITEM.BOW] = 0
 global.playerAmmo[ITEM.HILL] = 0
 global.playerAmmo[ITEM.SHIT] = 0
+
+// мечи
+
+global.swordEquipped = SWORD.NONE
+
 
 //global.playerItemUnlocked[ITEM.SHIT] = true
 //global.playerItemUnlocked[ITEM.BOMB] = true

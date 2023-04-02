@@ -20,6 +20,8 @@
     {"name":"inst_53A33662","path":"rooms/rShop/rShop.yy",},
     {"name":"inst_6CAB29AA","path":"rooms/rShop/rShop.yy",},
     {"name":"inst_305C50DD","path":"rooms/rShop/rShop.yy",},
+    {"name":"inst_51F3D606","path":"rooms/rShop/rShop.yy",},
+    {"name":"inst_59ECFD08","path":"rooms/rShop/rShop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -36,7 +38,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C9CBE68","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":3,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopkeeper","path":"objects/oShopkeeper/oShopkeeper.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"value":"True",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"ActivateManualWeapon",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":96.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":247.0,"y":76.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4504301C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopItem","path":"objects/oShopItem/oShopItem.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oShopItem","path":"objects/oShopItem/oShopItem.yy",},"propertyId":{"name":"itemCost","path":"objects/oShopItem/oShopItem.yy",},"value":"50",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oShopItem","path":"objects/oShopItem/oShopItem.yy",},"propertyId":{"name":"itemAmount","path":"objects/oShopItem/oShopItem.yy",},"value":"1",},
@@ -82,6 +84,16 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSword","path":"objects/oSword/oSword.yy",},"propertyId":{"name":"itemCost","path":"objects/oSword/oSword.yy",},"value":"200",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSword","path":"objects/oSword/oSword.yy",},"propertyId":{"name":"sword","path":"objects/oSword/oSword.yy",},"value":"SWORD.GOODSWORD",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":112.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51F3D606","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActiveteArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"Простой лук\\n200 золотых\",1,[\"9:Покупка\",\"0:Нет спасибо\"]]",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},"propertyId":{"name":"itemCost","path":"objects/oNewBow/oNewBow.yy",},"value":"200",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},"propertyId":{"name":"newBow","path":"objects/oNewBow/oNewBow.yy",},"value":"BOW.SIMPLEBOW",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":80.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59ECFD08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},"propertyId":{"name":"newBow","path":"objects/oNewBow/oNewBow.yy",},"value":"BOW.GOODBOW",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},"propertyId":{"name":"itemCost","path":"objects/oNewBow/oNewBow.yy",},"value":"500",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActiveteArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"Хороший лук\\n500 золотых\",1,[\"9:Покупка\",\"0:Нет спасибо\"]]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":80.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -25,-2147483648,-12,1,-2,-2147483648,1,0,-5,-2147483648,2,1,-2147483648,-7,0,-2,-2147483648,1,1,-7,

@@ -16,8 +16,10 @@
     {"name":"Rooms","order":6,"path":"folders/Rooms.yy",},
     {"name":"Sound","order":11,"path":"folders/Sound.yy",},
     {"name":"Sword","order":13,"path":"folders/Sword.yy",},
+    {"name":"Bow","order":15,"path":"folders/Bow.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sNewBow","order":1,"path":"sprites/sNewBow/sNewBow.yy",},
     {"name":"sTilesetForest","order":27,"path":"sprites/sTilesetForest/sTilesetForest.yy",},
     {"name":"tTiles","order":28,"path":"tilesets/tTiles/tTiles.yy",},
     {"name":"sPlayerRunCarryL3","order":10,"path":"sprites/sPlayerRunCarryL3/sPlayerRunCarryL3.yy",},

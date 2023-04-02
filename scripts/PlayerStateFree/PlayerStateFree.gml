@@ -117,6 +117,16 @@ function PlayerStateFree(){
 		
 	}
 	
+	// урон от разных видов лука
+	if global.newBowEquipped != BOW.NONE{
+		switch global.newBowEquipped{
+			case BOW.SIMPLEBOW: global.bowDamage[global.level] = 20; break
+			case BOW.GOODBOW: global.bowDamage[global.level] = 40; break
+			default: break
+			
+		}
+	}
+	
 	
 
 	// преключение предметов

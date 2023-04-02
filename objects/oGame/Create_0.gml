@@ -22,7 +22,7 @@ global.deathCount = 0 // без этой хуйни невозможно сох�
 global.entityDeath = []
 //---------------------------------
 
-global.playerMoney = 0
+global.playerMoney = 10000
 
 //--------------------------------------------
 // предметы
@@ -39,6 +39,8 @@ global.playerAmmo[ITEM.SHIT] = 0
 global.swordEquipped = SWORD.NONE
 
 
+// луки
+global.newBowEquipped = BOW.NONE
 
 
 //global.playerItemUnlocked[ITEM.SHIT] = true
@@ -256,6 +258,8 @@ global.iUI = instance_create_layer(0,0,layer,oUI)
 surface_resize(application_surface,RESOLUTION_W,RESOLUTION_H)
 
 room_goto(ROOM_START)
+
+
 
 
 

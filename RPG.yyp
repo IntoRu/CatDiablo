@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound","folderPath":"folders/Sound.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sword","folderPath":"folders/Sword.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bow","folderPath":"folders/Bow.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -37,6 +38,7 @@
   },
   "resources": [
     {"id":{"name":"sPlayerL1","path":"sprites/sPlayerL1/sPlayerL1.yy",},},
+    {"id":{"name":"sNewBow","path":"sprites/sNewBow/sNewBow.yy",},},
     {"id":{"name":"sTilesetForest","path":"sprites/sTilesetForest/sTilesetForest.yy",},},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},},
@@ -276,6 +278,7 @@
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},},
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},},
+    {"id":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},},
     {"id":{"name":"sDoorDepth","path":"sprites/sDoorDepth/sDoorDepth.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},

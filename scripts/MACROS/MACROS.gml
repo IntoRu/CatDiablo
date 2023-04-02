@@ -50,6 +50,14 @@ enum SWORD{
 	TYPE_COUNT
 }
 
+// луки
+enum BOW{
+	NONE,
+	SIMPLEBOW,
+	GOODBOW,
+	TYPE_COUNT
+}
+
 
 
 

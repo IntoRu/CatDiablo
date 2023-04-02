@@ -51,3 +51,29 @@ function PurchaseSword(_sword,_cost){
 		NewTextBox("Недостаточно золота",1)
 	}
 }
+
+// покупка новых луков
+function PurchaseNewBow(_newBow,_cost){
+	if(global.playerMoney >= _cost){
+		
+		global.playerMoney -= _cost
+		
+		
+		// добавляем мечь
+		global.newBowEquipped = _newBow
+		
+		
+		if(_newBow != BOW.NONE) instance_destroy(activate)
+		
+		var _desc = ""
+		switch(_newBow){
+			
+			case BOW.SIMPLEBOW: _desc = "Ух ты простой лук";break
+			case BOW.GOODBOW: _desc = "А это уже хороший лук";break
+			default: _desc = "Описание не найдено"; break
+		}
+		NewTextBox(_desc,1)
+	}else{
+		NewTextBox("Недостаточно золота",1)
+	}
+}

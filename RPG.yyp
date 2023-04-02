@@ -27,6 +27,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level3","folderPath":"folders/Player/Scins/Level3.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound","folderPath":"folders/Sound.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sword","folderPath":"folders/Sword.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

@@ -8,7 +8,7 @@ function PlayerStateFree(){
 	PlayerCollision()
 	
 	// аттака
-	if (keyAttack) and (global.iLifted == noone) and global.swordEquipped == SWORD.SIMPLESWORD{
+	if (keyAttack) and (global.iLifted == noone) and global.swordEquipped != SWORD.NONE{
 		state = PlayerStateAttack
 		stateAttack = AttackSlash
 	}
@@ -111,6 +111,7 @@ function PlayerStateFree(){
 	if(global.swordEquipped != SWORD.NONE){
 		switch (global.swordEquipped){
 			case SWORD.SIMPLESWORD: global.slashDamage[global.level] = 5; break
+			case SWORD.GOODSWORD: global.slashDamage[global.level] = 20; break
 			default: break
 		}
 		

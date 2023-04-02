@@ -37,12 +37,13 @@ function PurchaseSword(_sword,_cost){
 		global.swordEquipped = _sword
 		
 		
-		if(_sword == SWORD.SIMPLESWORD) instance_destroy(activate)
+		if(_sword != SWORD.NONE) instance_destroy(activate)
 		
 		var _desc = ""
 		switch(_sword){
 			
 			case SWORD.SIMPLESWORD: _desc = "Ух ты ржавый меч";break
+			case SWORD.GOODSWORD: _desc = "А это уже хороший клинок";break
 			default: _desc = "Описание не найдено"; break
 		}
 		NewTextBox(_desc,1)

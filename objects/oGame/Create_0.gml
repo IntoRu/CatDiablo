@@ -36,8 +36,9 @@ global.playerAmmo[ITEM.HILL] = 0
 global.playerAmmo[ITEM.SHIT] = 0
 
 // мечи
-
 global.swordEquipped = SWORD.NONE
+
+
 
 
 //global.playerItemUnlocked[ITEM.SHIT] = true

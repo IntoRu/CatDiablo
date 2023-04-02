@@ -13,7 +13,9 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba3a0449-6f63-41a9-a1c6-76fa3d3e12d4",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe3522e9-bcf0-4f3a-8807-616a71cb0c01",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5eedb98-62c7-450b-8293-d2054da9e447",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -25,8 +27,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "RPG",
-    "path": "RPG.yyp",
+    "name": "Sword",
+    "path": "folders/Sword.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -43,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -54,7 +56,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe3522e9-bcf0-4f3a-8807-616a71cb0c01","path":"sprites/sSword/sSword.yy",},},},"Disabled":false,"id":"9aff1d4f-4db5-45a0-81f1-7fd0f90710c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba3a0449-6f63-41a9-a1c6-76fa3d3e12d4","path":"sprites/sSword/sSword.yy",},},},"Disabled":false,"id":"bd80362e-717b-4785-a891-c19449416eb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe3522e9-bcf0-4f3a-8807-616a71cb0c01","path":"sprites/sSword/sSword.yy",},},},"Disabled":false,"id":"9aff1d4f-4db5-45a0-81f1-7fd0f90710c4","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b5eedb98-62c7-450b-8293-d2054da9e447","path":"sprites/sSword/sSword.yy",},},},"Disabled":false,"id":"256ff851-074f-4210-8bca-b770be899447","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

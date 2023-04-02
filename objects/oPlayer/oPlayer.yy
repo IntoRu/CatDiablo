@@ -15,7 +15,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oLightParent","path":"objects/oLightParent/oLightParent.yy",},"propertyId":{"name":"startLight","path":"objects/oLightParent/oLightParent.yy",},"value":"0.6",},
+  ],
   "parent": {
     "name": "Player",
     "path": "folders/Player.yy",

@@ -26,9 +26,11 @@ function PurchaseItem(_item,_amount,_cost){
 	}
 }
 
+// покупка меча
 function PurchaseSword(_sword,_cost){
 	if(global.playerMoney >= _cost){
-
+		
+		global.playerMoney -= _cost
 		
 		
 		// добавляем мечь

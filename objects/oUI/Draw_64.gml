@@ -62,6 +62,15 @@ draw_sprite(sItemUIBox,0,_xx,_yy){
 	}
 }
 
+// рисуем используемый мечь
+_xx = 8
+_yy = 44
+
+	if (global.swordEquipped != SWORD.NONE){
+		draw_sprite(sSword,0,_xx,_yy)
+	}
+
+
 
 
 //рисуем меню паузы

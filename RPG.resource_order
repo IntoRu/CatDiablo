@@ -17,6 +17,7 @@
     {"name":"Rooms","order":6,"path":"folders/Rooms.yy",},
     {"name":"Sound","order":11,"path":"folders/Sound.yy",},
     {"name":"Sword","order":13,"path":"folders/Sword.yy",},
+    {"name":"Armor","order":17,"path":"folders/Armor.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sNewBow","order":1,"path":"sprites/sNewBow/sNewBow.yy",},

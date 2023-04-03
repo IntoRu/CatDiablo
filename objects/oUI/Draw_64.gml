@@ -46,7 +46,8 @@ _yy = 24
 
 draw_sprite(sItemUIBox,0,_xx,_yy){
 	if(global.playerHasAnyItems){
-		draw_sprite(sItemUI,global.playerEquipped,_xx,_yy)
+		
+		if global.newBowEquipped == BOW.NONE draw_sprite(sItemUI,global.playerEquipped,_xx,_yy)
 		// рисуем новый лук
 		if global.newBowEquipped != BOW.NONE and global.playerEquipped == ITEM.BOW{
 			draw_sprite(sNewBow,global.newBowEquipped,_xx,_yy)

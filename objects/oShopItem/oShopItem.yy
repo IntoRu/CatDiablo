@@ -39,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sItemUI",
-    "path": "sprites/sItemUI/sItemUI.yy",
+    "name": "sItemUI1",
+    "path": "sprites/sItemUI1/sItemUI1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

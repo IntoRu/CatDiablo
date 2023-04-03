@@ -13,7 +13,7 @@ function PurchaseItem(_item,_amount,_cost){
 		var _desc = ""
 		switch(_item){
 			case ITEM.BOMB: _desc = "Пизда.. у нас теперь есть гранаты"; break
-			case ITEM.BOW: _desc = "Ага... луккккк..."; break
+			case ITEM.BOW: _desc = "ООО... стрелы..."; break
 			case ITEM.HOOK: _desc = "Нихеровый такой крюк"; break
 			case ITEM.HILL: _desc = "Ну будет чем опохмелится"; break
 			case ITEM.SHIT: _desc = "С этим щитом мне никакой враг не страшен";break

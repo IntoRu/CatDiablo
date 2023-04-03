@@ -11,6 +11,7 @@
   },
   "defaultScriptType": 1,
   "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bow","folderPath":"folders/Bow.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialog","folderPath":"folders/Dialog.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Enemy.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entity","folderPath":"folders/Entity.yy",},
@@ -28,7 +29,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sound","folderPath":"folders/Sound.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sword","folderPath":"folders/Sword.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bow","folderPath":"folders/Bow.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

@@ -57,9 +57,12 @@ function PurchaseNewBow(_newBow,_cost){
 	if(global.playerMoney >= _cost){
 		
 		global.playerMoney -= _cost
+		global.playerEquipped = ITEM.BOW
+		global.playerHasAnyItems = true
 		
 		
-		// добавляем мечь
+		
+		// добавляем лук
 		global.newBowEquipped = _newBow
 		
 		

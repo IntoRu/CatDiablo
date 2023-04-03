@@ -120,8 +120,8 @@ function PlayerStateFree(){
 	// урон от разных видов лука
 	if global.newBowEquipped != BOW.NONE{
 		switch global.newBowEquipped{
-			case BOW.SIMPLEBOW: global.bowDamage[global.level] = 20; break
-			case BOW.GOODBOW: global.bowDamage[global.level] = 40; break
+			case BOW.SIMPLEBOW: global.bowDamage[global.level] = 10; break
+			case BOW.GOODBOW: global.bowDamage[global.level] = 20; break
 			default: break
 			
 		}

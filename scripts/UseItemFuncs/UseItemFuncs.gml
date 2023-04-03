@@ -10,7 +10,7 @@ function UseItemBomb(){
 }
 
 function UseItemBow(){
-	if(global.playerAmmo[ITEM.BOW] > 0) and (global.iLifted == noone){
+	if(global.playerAmmo[ITEM.BOW] > 0) and (global.iLifted == noone) and global.newBowEquipped != BOW.NONE{
 		global.playerAmmo[ITEM.BOW]--
 		PlayerActOutAnimation(global.spriteBow[global.level],PlayerFireArrow)
 	}

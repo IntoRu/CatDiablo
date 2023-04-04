@@ -52,16 +52,15 @@ function DialogueResponses(){
 		// покупка мечей
 		case 8:{
 			PurchaseSword(activate.sword,activate.itemCost)
-		}
-		default: break
+		}break
 		// покупка новых луков
 		case 9:{
 			PurchaseNewBow(activate.newBow,activate.itemCost)
-		}
+		}break
 		// покупка брони
 		case 10:{
 			PurchaseArmor(activate.armor,activate.itemCost)
-		}
+		}break
 		default: break
 	}
 }

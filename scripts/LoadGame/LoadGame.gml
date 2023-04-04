@@ -21,6 +21,8 @@ function LoadGame(_slot){
 		global.swordEquipped = _json[? "swordEquipped"]
 		// загружаем луки
 		global.newBowEquipped = _json[? "newBowEquipped"]
+		// загружаем броню
+		global.armorEquipped = _json[? "armorEquipped"]
 		
 		global.playerHasAnyItems = _json[? "playerHasAnyItems"]
 		global.targetX = _json[? "targetX"]

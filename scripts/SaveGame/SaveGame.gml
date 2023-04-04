@@ -27,6 +27,8 @@ function SaveGame(){
 	_map[? "swordEquipped"] = global.swordEquipped
 	// сохраняем новый лук
 	_map[? "newBowEquipped"] = global.newBowEquipped
+	// сохраняем броню
+	_map[? "armorEquipped"] = global.armorEquipped
 	
 	_map[? "playerHasAnyItems"] = global.playerHasAnyItems
 	_map[? "targetX"] = global.targetX

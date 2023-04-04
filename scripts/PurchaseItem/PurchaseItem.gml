@@ -80,3 +80,30 @@ function PurchaseNewBow(_newBow,_cost){
 		NewTextBox("Недостаточно золота",1)
 	}
 }
+
+// покупка брони
+function PurchaseArmor(_armor,_cost){
+	if(global.playerMoney >= _cost){
+		
+		global.playerMoney -= _cost
+		
+		
+		// добавляем мечь
+		global.armorEquipped = _armor
+		
+		
+		if(_armor != ARMOR.NONE) instance_destroy(activate)
+		
+		var _desc = ""
+		switch(_armor){
+			
+			case ARMOR.SIMPLEARMOR: _desc = "Так себе броня";break
+			case ARMOR.GOODARMOR: _desc = "Весьма хороший броник";break
+			case ARMOR.BESTARMOR: _desc = "Отличная броня";break
+			default: _desc = "Описание не найдено"; break
+		}
+		NewTextBox(_desc,1)
+	}else{
+		NewTextBox("Недостаточно золота",1)
+	}
+}

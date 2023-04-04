@@ -58,6 +58,10 @@ function DialogueResponses(){
 		case 9:{
 			PurchaseNewBow(activate.newBow,activate.itemCost)
 		}
+		// покупка брони
+		case 10:{
+			PurchaseArmor(activate.armor,activate.itemCost)
+		}
 		default: break
 	}
 }

@@ -252,6 +252,7 @@
     {"name":"inst_4C886B43","path":"rooms/rNewVillage/rNewVillage.yy",},
     {"name":"inst_3BFFF7BD","path":"rooms/rNewVillage/rNewVillage.yy",},
     {"name":"inst_6D1ADDB0","path":"rooms/rNewVillage/rNewVillage.yy",},
+    {"name":"inst_28E6E399","path":"rooms/rNewVillage/rNewVillage.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -544,6 +545,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C886B43","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlantFasad","path":"objects/oPlantFasad/oPlantFasad.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":440.0,"y":312.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3BFFF7BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlantFasad","path":"objects/oPlantFasad/oPlantFasad.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":443.0,"y":321.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D1ADDB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlantFasad","path":"objects/oPlantFasad/oPlantFasad.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":447.0,"y":330.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28E6E399","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oArmor","path":"objects/oArmor/oArmor.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oArmor","path":"objects/oArmor/oArmor.yy",},"propertyId":{"name":"armor","path":"objects/oArmor/oArmor.yy",},"value":"ARMOR.SIMPLEARMOR",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oArmor","path":"objects/oArmor/oArmor.yy",},"propertyId":{"name":"itemCost","path":"objects/oArmor/oArmor.yy",},"value":"500",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActiveteArgs","path":"objects/pEntity/pEntity.yy",},"value":"[\"Простая броня\\n500 золотых\",1,[\"10:Покупка\",\"0:Нет спасибо\"]]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":248.0,"y":72.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
 -20,0,-28,-2147483648,-2,0,-10,-2147483648,-20,0,-27,-2147483648,-4,1,-9,-2147483648,-11,0,-8,1,1,0,-23,-2147483648,-5,1,-2,-2147483648,-4,1,-6,-2147483648,-5,0,-7,1,-6,0,-6,1,1,-2147483648,-5,1,-10,-2147483648,-4,1,1,-2147483648,-6,1,-2,-2147483648,1,1,-6,-2147483648,-5,0,

@@ -58,6 +58,14 @@ enum BOW{
 	TYPE_COUNT
 }
 
+// броня
+enum ARMOR{
+	NONE,
+	SIMPLEARMOR,
+	GOODARMOR,
+	BESTARMOR
+}
+
 
 
 

@@ -116,6 +116,7 @@
     {"name":"sHillDrop","order":13,"path":"sprites/sHillDrop/sHillDrop.yy",},
     {"name":"BatFunctions","order":20,"path":"scripts/BatFunctions/BatFunctions.yy",},
     {"name":"oFriend","order":3,"path":"objects/oFriend/oFriend.yy",},
+    {"name":"sArmor","order":1,"path":"sprites/sArmor/sArmor.yy",},
     {"name":"sPlayerDeadL1","order":7,"path":"sprites/sPlayerDeadL1/sPlayerDeadL1.yy",},
     {"name":"sPlayerDieL2","order":8,"path":"sprites/sPlayerDieL2/sPlayerDieL2.yy",},
     {"name":"oPlantB","order":4,"path":"objects/oPlantB/oPlantB.yy",},

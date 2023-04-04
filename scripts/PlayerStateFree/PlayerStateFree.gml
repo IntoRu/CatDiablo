@@ -127,6 +127,16 @@ function PlayerStateFree(){
 		}
 	}
 	
+	// виды брони
+	if global.armorEquipped != ARMOR.NONE{
+		switch global.armorEquipped{
+			case ARMOR.SIMPLEARMOR: global.playerHealth[global.level] = 2; break
+			case ARMOR.GOODARMOR: global.playerHealth[global.level] = 3; break
+			case ARMOR.BESTARMOR: global.playerHealth[global.level] = 4; break
+			default: break
+			
+		}
+	}
 	
 
 	// преключение предметов

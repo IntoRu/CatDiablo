@@ -124,6 +124,7 @@
     {"id":{"name":"sHat","path":"sprites/sHat/sHat.yy",},},
     {"id":{"name":"sFrag_Slime","path":"sprites/sFrag_Slime/sFrag_Slime.yy",},},
     {"id":{"name":"PlayerThrown","path":"scripts/PlayerThrown/PlayerThrown.yy",},},
+    {"id":{"name":"oArmor","path":"objects/oArmor/oArmor.yy",},},
     {"id":{"name":"CollectFunctions","path":"scripts/CollectFunctions/CollectFunctions.yy",},},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
     {"id":{"name":"sndBomb","path":"sounds/sndBomb/sndBomb.yy",},},

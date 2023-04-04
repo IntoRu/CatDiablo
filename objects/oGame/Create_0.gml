@@ -42,6 +42,9 @@ global.swordEquipped = SWORD.NONE
 // луки
 global.newBowEquipped = BOW.NONE
 
+// броня
+global.armorEquipped = ARMOR.NONE
+
 
 //global.playerItemUnlocked[ITEM.SHIT] = true
 //global.playerItemUnlocked[ITEM.BOMB] = true

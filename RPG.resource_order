@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+    {"name":"Armor","order":17,"path":"folders/Armor.yy",},
     {"name":"Bow","order":15,"path":"folders/Bow.yy",},
     {"name":"Dialog","order":5,"path":"folders/Dialog.yy",},
     {"name":"Enemy","order":9,"path":"folders/Enemy.yy",},
@@ -17,7 +18,6 @@
     {"name":"Rooms","order":6,"path":"folders/Rooms.yy",},
     {"name":"Sound","order":11,"path":"folders/Sound.yy",},
     {"name":"Sword","order":13,"path":"folders/Sword.yy",},
-    {"name":"Armor","order":17,"path":"folders/Armor.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sNewBow","order":1,"path":"sprites/sNewBow/sNewBow.yy",},

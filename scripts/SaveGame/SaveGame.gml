@@ -30,6 +30,12 @@ function SaveGame(){
 	// сохраняем броню
 	_map[? "armorEquipped"] = global.armorEquipped
 	
+	// сохраняем урон от меча
+	_map[? "slashDamage"] = global.slashDamage
+	// сохраняем урон от лука
+	_map[? "bowDamage"] = global.bowDamage
+	
+	
 	_map[? "playerHasAnyItems"] = global.playerHasAnyItems
 	_map[? "targetX"] = global.targetX
 	_map[? "targetY"] = global.targetY

@@ -60,7 +60,7 @@ function CalcAttack(){
 					// действия при попадании по сущьности
 					if(object_is_ancestor(object_index,pEnemy)){
 						// ЛОГИКА УРОНА И ОТБРОСА ВРАГА
-						HurtEnemy(id,global.slashDamage[global.level],other.id,global.slashRecoil[global.level])
+						HurtEnemy(id,global.slashDamage,other.id,global.slashRecoil[global.level])
 					}
 					else if(entityHitScript != -1) script_execute(entityHitScript)
 				}

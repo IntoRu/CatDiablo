@@ -24,6 +24,11 @@ function LoadGame(_slot){
 		// загружаем броню
 		global.armorEquipped = _json[? "armorEquipped"]
 		
+		// загружаем урон от меча
+		global.slashDamage = _json[? "slashDamage"]
+		// загружаем урон от лука
+		global.bowDamage = _json[? "bowDamage"]
+		
 		global.playerHasAnyItems = _json[? "playerHasAnyItems"]
 		global.targetX = _json[? "targetX"]
 		global.targetY = _json[? "targetY"]

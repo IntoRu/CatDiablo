@@ -110,8 +110,8 @@ function PlayerStateFree(){
 	// урон от разных мечей
 	if(global.swordEquipped != SWORD.NONE){
 		switch (global.swordEquipped){
-			case SWORD.SIMPLESWORD: global.slashDamage[global.level] = 5; break
-			case SWORD.GOODSWORD: global.slashDamage[global.level] = 20; break
+			case SWORD.SIMPLESWORD: global.slashDamage = 5; break
+			case SWORD.GOODSWORD: global.slashDamage = 10; break
 			default: break
 		}
 		
@@ -120,8 +120,8 @@ function PlayerStateFree(){
 	// урон от разных видов лука
 	if global.newBowEquipped != BOW.NONE{
 		switch global.newBowEquipped{
-			case BOW.SIMPLEBOW: global.bowDamage[global.level] = 10; break
-			case BOW.GOODBOW: global.bowDamage[global.level] = 20; break
+			case BOW.SIMPLEBOW: global.bowDamage = 10; break
+			case BOW.GOODBOW: global.bowDamage = 20; break
 			default: break
 			
 		}
@@ -130,9 +130,9 @@ function PlayerStateFree(){
 	// виды брони
 	if global.armorEquipped != ARMOR.NONE{
 		switch global.armorEquipped{
-			case ARMOR.SIMPLEARMOR: global.playerHealth[global.level] = 2; break
-			case ARMOR.GOODARMOR: global.playerHealth[global.level] = 3; break
-			case ARMOR.BESTARMOR: global.playerHealth[global.level] = 4; break
+			case ARMOR.SIMPLEARMOR: global.level = LEVEL1; break
+			case ARMOR.GOODARMOR: global.level = LEVEL2; break
+			case ARMOR.BESTARMOR: global.level = LEVEL3; break
 			default: break
 			
 		}

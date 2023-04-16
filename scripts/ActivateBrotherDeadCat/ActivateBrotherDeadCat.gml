@@ -2,7 +2,7 @@
 
 function ActivateBrotherDeadCat(){
 	var _hasInformation = (global.informationAboutMonster == true)
-	if global.questStatus[? "TheMissingFriend"] == 2 or _hasInformation{ 
+	if global.questStatus[? "TheMissingFriend"] == 2{ 
 		//var _hasInformation = (global.informationAboutMonster == true)
 		switch(global.questStatus[? "TheBrotherDeadCat"]){
 		

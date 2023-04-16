@@ -1,1 +1,1 @@
-//draw_text(100,100,global.playerHealth[global.level])
+//draw_text(100,100,global.hasI)

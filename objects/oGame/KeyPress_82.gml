@@ -1,3 +1,4 @@
 //game_restart()
 //global.strong = true
-global.newBowEquipped = BOW.GOODBOW
+//global.newBowEquipped = BOW.GOODBOW
+

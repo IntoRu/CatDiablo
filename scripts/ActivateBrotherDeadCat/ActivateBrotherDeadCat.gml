@@ -1,9 +1,9 @@
 // активация квеста про мёртвого брата
 
 function ActivateBrotherDeadCat(){
-	var _hasInformation = (global.informationAboutMonster == true)
+	//var _hasInformation = (global.informationAboutMonster == true)
 	if global.questStatus[? "TheMissingFriend"] == 2{ 
-		//var _hasInformation = (global.informationAboutMonster == true)
+		var _hasInformation = (global.informationAboutMonster == true)
 		switch(global.questStatus[? "TheBrotherDeadCat"]){
 		
 			case 0: { // квест ещё не начат

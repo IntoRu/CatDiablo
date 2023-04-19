@@ -12,6 +12,7 @@ function SaveGame(){
 	_map[? "level"] = global.level
 	_map[? "lightNight"] = global.lightNight
 	_map[? "day"] = global.day
+	_map[? "strong"] = global.strong
 
 	_map[? "count"] = global.count
 	_map[? "informationAbouMonster"] = global.informationAboutMonster

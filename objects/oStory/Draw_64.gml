@@ -1,4 +1,4 @@
-// выводим текст
+// выводим текст истории
 
 NineSliceBoxStretched(sStoryBoxBg,x1,y1,x2,y2,0)
 

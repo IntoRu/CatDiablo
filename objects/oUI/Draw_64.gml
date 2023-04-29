@@ -1,3 +1,5 @@
+if room == rStory exit
+
 var _xx, _yy
 
 

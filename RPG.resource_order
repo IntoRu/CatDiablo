@@ -18,6 +18,7 @@
     {"name":"Level3","order":4,"path":"folders/Player/Scins/Level3.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Sound","order":11,"path":"folders/Sound.yy",},
+    {"name":"Story","order":17,"path":"folders/Story.yy",},
     {"name":"Sword","order":13,"path":"folders/Sword.yy",},
   ],
   "ResourceOrderSettings": [
@@ -193,6 +194,7 @@
     {"name":"sPlayerLiftL1","order":6,"path":"sprites/sPlayerLiftL1/sPlayerLiftL1.yy",},
     {"name":"ScriptExecuteArray","order":19,"path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},
     {"name":"tTilesCave","order":29,"path":"tilesets/tTilesCave/tTilesCave.yy",},
+    {"name":"rStory","order":2,"path":"rooms/rStory/rStory.yy",},
     {"name":"sndQuestHatComplited","order":28,"path":"sounds/sndQuestHatComplited/sndQuestHatComplited.yy",},
     {"name":"ActivateDeadVillage","order":7,"path":"scripts/ActivateDeadVillage/ActivateDeadVillage.yy",},
     {"name":"sItemUIBox","order":10,"path":"sprites/sItemUIBox/sItemUIBox.yy",},
@@ -214,6 +216,7 @@
     {"name":"sndText","order":27,"path":"sounds/sndText/sndText.yy",},
     {"name":"sPot","order":29,"path":"sprites/sPot/sPot.yy",},
     {"name":"sBossCaveInForest_hurt","order":12,"path":"sprites/sBossCaveInForest_hurt/sBossCaveInForest_hurt.yy",},
+    {"name":"sStoryBoxBg","order":1,"path":"sprites/sStoryBoxBg/sStoryBoxBg.yy",},
     {"name":"sBombDrop","order":12,"path":"sprites/sBombDrop/sBombDrop.yy",},
     {"name":"sPlayerHurtL2","order":4,"path":"sprites/sPlayerHurtL2/sPlayerHurtL2.yy",},
     {"name":"sBossCaveInForest","order":11,"path":"sprites/sBossCaveInForest/sBossCaveInForest.yy",},

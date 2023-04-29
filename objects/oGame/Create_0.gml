@@ -1,5 +1,6 @@
 
 randomize()
+
 global.day = 0 //день 1 - ночь
 global.lightNight = 0 // темнота ночью
 
@@ -261,6 +262,7 @@ global.iUI = instance_create_layer(0,0,layer,oUI)
 surface_resize(application_surface,RESOLUTION_W,RESOLUTION_H)
 
 room_goto(ROOM_START)
+
 
 
 

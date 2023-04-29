@@ -10,7 +10,14 @@ for(i=0;i<array_length(global.entityDeath);i++){
 
 audio_stop_all()
 switch(room){
-	case rTitle:audio_play_sound(sndRoomTitle,5,true);break
+	case rTitle: audio_play_sound(sndRoomTitle,5,true);break
+	//case rStory: audio_play_sound(sndStory,5,false); break
+	//case rStory: audio_sound_gain(sndStory,5,1000); break
+	case rStory:{
+		var _snd = audio_play_sound(sndStory,5,false)
+		audio_sound_gain(_snd,0,0)
+		audio_sound_gain(_snd,0.5,20000)
+	}break
 	case rNewVillage: audio_play_sound(sndRoomVillage,5,true);break
 	case rShop: audio_play_sound(sndRoomShop,5,true);break
 	case rRiver: audio_play_sound(sndRoomRiver,5,true);break

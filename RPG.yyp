@@ -119,6 +119,7 @@
     {"id":{"name":"sFrag_pot","path":"sprites/sFrag_pot/sFrag_pot.yy",},},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
     {"id":{"name":"oHillDrop","path":"objects/oHillDrop/oHillDrop.yy",},},
+    {"id":{"name":"sndStory","path":"sounds/sndStory/sndStory.yy",},},
     {"id":{"name":"oLighting","path":"objects/oLighting/oLighting.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},},

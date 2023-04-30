@@ -1,16 +1,16 @@
 // Inherit the parent event
 event_inherited();
 
-soundAttack = sndSlimeAttack
+soundAttack = sndSkeletonAttack
 
 soundStepHit = true
 
 state = ENEMYSTATE.WANDER
 
-sprMove = sSlime
-sprAttack = sSlimeAttack
-sprDie = sSlimeDie
-sprHurt = sSlimeHurt
+sprMove = sSkeleton
+sprAttack = sSkeletonAttack
+//sprDie = sSlimeDie
+sprHurt = sSkeletonHurt
 
 enemyScript[ENEMYSTATE.WANDER] = SlimeWander
 enemyScript[ENEMYSTATE.CHASE] = SlimeChese

@@ -52,7 +52,7 @@ function SlimeWander(){
 function SlimeChese(){
 	sprite_index = sprMove
 	
-	if(instance_exists(target)  and !instance_exists(oText)){
+	if(instance_exists(target)  and !instance_exists(oText) and oPlayer.state != PlayerStateDead){
 		xTo = target.x
 		yTo = target.y
 		
@@ -73,12 +73,12 @@ function SlimeChese(){
 	}
 	
 	// аттака
-	if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText){
+	if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText) and oPlayer.state != PlayerStateDead{
 		state = ENEMYSTATE.ATTACK
 		sprite_index = sprAttack
 		image_index = 0
 		image_speed = 1.0
-		audio_play_sound(sndSlimeAttack,5,false)
+		audio_play_sound(soundAttack,5,false)
 		xTo += lengthdir_x(8,dir)
 		yTo += lengthdir_y(8,dir)
 	}

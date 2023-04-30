@@ -6,3 +6,6 @@ if(!global.gamePaused) and !instance_exists(oText){
 	depth = -bbox_bottom
 }
 
+// останавливаем нпс при диалоге
+if instance_exists(oText) image_index = 0
+

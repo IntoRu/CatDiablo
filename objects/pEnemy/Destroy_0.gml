@@ -6,4 +6,10 @@ if (room == rNewVillage){
 		audio_play_sound(sndQuestLoss,5,false)
 	}
 } 
+if (room == rStrangeHome){
+	global.countSkeleton++
+	if(global.countSkeleton == 5){
+		audio_play_sound(sndQuestLoss,5,false)
+	}
+} 
 

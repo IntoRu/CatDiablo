@@ -78,6 +78,7 @@
     {"name":"sPlayerHurt","order":4,"path":"sprites/sPlayerHurt/sPlayerHurt.yy",},
     {"name":"oRock2","order":6,"path":"objects/oRock2/oRock2.yy",},
     {"name":"oSkeleton","order":2,"path":"objects/oSkeleton/oSkeleton.yy",},
+    {"name":"rStrangeHome","order":12,"path":"rooms/rStrangeHome/rStrangeHome.yy",},
     {"name":"oFragPlant","order":5,"path":"objects/oFragPlant/oFragPlant.yy",},
     {"name":"oShopItem","order":8,"path":"objects/oShopItem/oShopItem.yy",},
     {"name":"DoorCaveInForest","order":9,"path":"scripts/DoorCaveInForest/DoorCaveInForest.yy",},

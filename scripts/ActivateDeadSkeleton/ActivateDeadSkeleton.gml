@@ -1,7 +1,7 @@
 // активация квеста синего слизня
 
 function ActivateDeadSkeleton(){
-	var _allSkeletonDead = global.count == 5
+	var _allSkeletonDead = global.countSkeleton == 5
 	switch(global.questStatus[? "TheSkeleton"]){
 		
 		case 0: { // квест ещё не начат

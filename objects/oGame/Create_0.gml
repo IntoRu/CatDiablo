@@ -24,7 +24,6 @@ global.entityDeath = []
 //---------------------------------
 
 global.playerMoney = 0
-
 //--------------------------------------------
 // предметы
 global.playerHasAnyItems = false

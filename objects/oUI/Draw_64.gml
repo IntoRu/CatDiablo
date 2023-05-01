@@ -186,6 +186,20 @@ if(global.gamePaused){
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Выследить и убить монстра")
 	}
+	if(global.questStatus[? "TheSkeleton"] == 1){
+		xx = 10
+		yy = 70
+		draw_set_font(fTextNew)
+		draw_set_halign(fa_left)
+		draw_set_valign(fa_bottom)
+		draw_set_color(c_black)
+		draw_text(xx+1,yy,"Очистить двор от скелетов")
+		draw_text(xx-1,yy,"Очистить двор от скелетов")
+		draw_text(xx,yy-1,"Очистить двор от скелетов")
+		draw_text(xx,yy+1,"Очистить двор от скелетов")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Очистить двор от скелетов")
+	}
 	//else{
 	//	xx = 80
 	//	yy = 40

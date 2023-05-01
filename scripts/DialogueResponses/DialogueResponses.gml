@@ -61,6 +61,19 @@ function DialogueResponses(){
 		case 10:{
 			PurchaseArmor(activate.armor,activate.itemCost)
 		}break
+		// квест незнакомца
+		case 11:{
+			audio_play_sound(sndQuestHatStart,5,false)
+			NewTextBox("Очень хорошо",2)
+			NewTextBox("Вход в мой двор завален камнями...\n и я даю тебе силу что бы их раскидать",2)
+			global.strong = true // даём силу
+			audio_play_sound(sndQuestHatComplited,5,false)
+			NewTextBox("В меню паузы ты увидишь текущие задания",2)
+			global.questStatus[? "TheSkeleton"] = 1 // меняем статус авеста на взят
+		}break
+		case 12:{
+			NewTextBox("Ну если что я тут.....",2)
+		}break
 		default: break
 	}
 }

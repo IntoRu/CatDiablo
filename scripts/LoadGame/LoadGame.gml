@@ -10,6 +10,7 @@ function LoadGame(_slot){
 		global.lightNight = _json[? "lightNight"]
 		global.day = _json[? "day"]
 		global.count = _json[? "count"]
+		global.countSkeleton = _json[? "countSkeleton"]
 		global.informationAboutMonster = _json[? "informationAboutMonster"]
 		global.level = _json[? "level"]
 		global.playerHealth[global.level] = _json[? "playerHealth"]

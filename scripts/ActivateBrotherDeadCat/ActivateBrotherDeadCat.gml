@@ -16,7 +16,7 @@ function ActivateBrotherDeadCat(){
 					global.playerMoney += 500
 					//// повышаем уровень
 					//if(global.level != 3) global.level++
-					global.strong = true // даём силу
+					//global.strong = true // даём силу
 				}
 				else{
 					// предлагаем квест

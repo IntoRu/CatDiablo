@@ -81,6 +81,13 @@ global.informationAboutMonster = false
 global.questStatus[? "TheBrotherDeadCat"] = 0
 #endregion
 
+#region квест незнакомца
+// зачистить двор дома от скелетов
+global.countSkeleton = 0 // сколько скелетов убито
+global.questStatus[? "TheSkeleton"] = 0 // квест не начат(1- начат 2 завершён)
+
+#endregion
+
 // ------------------------------------------------------------
 #region уровень персоонажа
 global.level = LEVEL0

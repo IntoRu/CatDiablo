@@ -67,7 +67,6 @@ function DialogueResponses(){
 			NewTextBox("Очень хорошо",2)
 			NewTextBox("Вход в мой двор завален камнями...\n и я даю тебе силу что бы их раскидать",2)
 			global.strong = true // даём силу
-			audio_play_sound(sndQuestHatComplited,5,false)
 			NewTextBox("В меню паузы ты увидишь текущие задания",2)
 			global.questStatus[? "TheSkeleton"] = 1 // меняем статус авеста на взят
 		}break

@@ -37,7 +37,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"sPlayerL1","path":"sprites/sPlayerL1/sPlayerL1.yy",},},
@@ -59,6 +59,7 @@
     {"id":{"name":"sndLogo","path":"sounds/sndLogo/sndLogo.yy",},},
     {"id":{"name":"sndRoomCaveInForest","path":"sounds/sndRoomCaveInForest/sndRoomCaveInForest.yy",},},
     {"id":{"name":"sPlayerHookL3","path":"sprites/sPlayerHookL3/sPlayerHookL3.yy",},},
+    {"id":{"name":"sndStrangeHome","path":"sounds/sndStrangeHome/sndStrangeHome.yy",},},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},
     {"id":{"name":"oHeadDeadCat","path":"objects/oHeadDeadCat/oHeadDeadCat.yy",},},
     {"id":{"name":"seqLogo","path":"sequences/seqLogo/seqLogo.yy",},},

@@ -38,6 +38,7 @@
     {"name":"sndLogo","order":5,"path":"sounds/sndLogo/sndLogo.yy",},
     {"name":"sndRoomCaveInForest","order":31,"path":"sounds/sndRoomCaveInForest/sndRoomCaveInForest.yy",},
     {"name":"sPlayerHookL3","order":12,"path":"sprites/sPlayerHookL3/sPlayerHookL3.yy",},
+    {"name":"sndStrangeHome","order":38,"path":"sounds/sndStrangeHome/sndStrangeHome.yy",},
     {"name":"sHealth","order":4,"path":"sprites/sHealth/sHealth.yy",},
     {"name":"oHeadDeadCat","order":9,"path":"objects/oHeadDeadCat/oHeadDeadCat.yy",},
     {"name":"seqLogo","order":2,"path":"sequences/seqLogo/seqLogo.yy",},

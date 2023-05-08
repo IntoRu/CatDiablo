@@ -32,8 +32,8 @@ switch(room){
 if room != rStory{
 	instance_create_layer(18,123,"Instances",oLeft)
 	instance_create_layer(58,123,"Instances",oRight)
-	instance_create_layer(30,110,"Instances",oUp)
-	instance_create_layer(31,151,"Instances",oDown)
+	instance_create_layer(32,110,"Instances",oUp)
+	instance_create_layer(32,149,"Instances",oDown)
 	instance_create_layer(280,15,"Instances",oMenu)
 	instance_create_layer(265,131,"Instances",oSpace)
 	instance_create_layer(230,120,"Instances",oShift)

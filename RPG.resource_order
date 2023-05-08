@@ -10,6 +10,7 @@
     {"name":"Items","order":10,"path":"folders/Items.yy",},
     {"name":"LightSystem","order":11,"path":"folders/LightSystem.yy",},
     {"name":"Logo","order":15,"path":"folders/Logo.yy",},
+    {"name":"NewMultiTouch","order":19,"path":"folders/NewMultiTouch.yy",},
     {"name":"NPC","order":7,"path":"folders/NPC.yy",},
     {"name":"Player","order":3,"path":"folders/Player.yy",},
     {"name":"Scins","order":5,"path":"folders/Player/Scins.yy",},
@@ -20,7 +21,6 @@
     {"name":"Sound","order":17,"path":"folders/Sound.yy",},
     {"name":"Story","order":16,"path":"folders/Story.yy",},
     {"name":"Sword","order":12,"path":"folders/Sword.yy",},
-    {"name":"NewMultiTouch","order":19,"path":"folders/NewMultiTouch.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sNewBow","order":1,"path":"sprites/sNewBow/sNewBow.yy",},

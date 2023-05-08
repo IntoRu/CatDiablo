@@ -1,0 +1,1 @@
+touchSpace = virtual_key_add(x,y,38,39,vk_space)

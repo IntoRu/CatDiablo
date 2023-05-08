@@ -72,6 +72,7 @@
     {"id":{"name":"PlayerAttackFunction","path":"scripts/PlayerAttackFunction/PlayerAttackFunction.yy",},},
     {"id":{"name":"sndBatDie","path":"sounds/sndBatDie/sndBatDie.yy",},},
     {"id":{"name":"sPlayerAttackSlashNewL1","path":"sprites/sPlayerAttackSlashNewL1/sPlayerAttackSlashNewL1.yy",},},
+    {"id":{"name":"oSpace","path":"objects/oSpace/oSpace.yy",},},
     {"id":{"name":"sPlayerCarryL3","path":"sprites/sPlayerCarryL3/sPlayerCarryL3.yy",},},
     {"id":{"name":"sPlayerAttackSlashNew","path":"sprites/sPlayerAttackSlashNew/sPlayerAttackSlashNew.yy",},},
     {"id":{"name":"sPlayerDieL1","path":"sprites/sPlayerDieL1/sPlayerDieL1.yy",},},
@@ -319,6 +320,7 @@
     {"id":{"name":"PlayerStateDead","path":"scripts/PlayerStateDead/PlayerStateDead.yy",},},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},},
     {"id":{"name":"oNewBow","path":"objects/oNewBow/oNewBow.yy",},},
+    {"id":{"name":"oTouchParent","path":"objects/oTouchParent/oTouchParent.yy",},},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},},
     {"id":{"name":"sDoorDepth","path":"sprites/sDoorDepth/sDoorDepth.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
@@ -370,6 +372,7 @@
     {"id":{"name":"oQuestNPC","path":"objects/oQuestNPC/oQuestNPC.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"tCol1","path":"tilesets/tCol1/tCol1.yy",},},
+    {"id":{"name":"sSpace","path":"sprites/sSpace/sSpace.yy",},},
     {"id":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
   ],
   "RoomOrderNodes": [

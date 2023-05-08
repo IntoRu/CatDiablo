@@ -1,0 +1,1 @@
+draw_sprite(sRight,0,x,y)

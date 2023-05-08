@@ -1,0 +1,1 @@
+draw_sprite(sUp,0,x,y)

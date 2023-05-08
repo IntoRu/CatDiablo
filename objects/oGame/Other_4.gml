@@ -28,6 +28,16 @@ switch(room){
 	case rStrangeHome: audio_play_sound(sndStrangeHome,5,true);break
 }
 
+// спавним джойстик (виртуальный)
+instance_create_layer(10,135,"Instances",oLeft)
+instance_create_layer(60,135,"Instances",oRight)
+instance_create_layer(41,110,"Instances",oUp)
+instance_create_layer(41,148,"Instances",oDown)
+
+
+
+
+
 
 
 

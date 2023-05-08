@@ -36,6 +36,9 @@ if room != rStory{
 	instance_create_layer(41,148,"Instances",oDown)
 	instance_create_layer(297,5,"Instances",oMenu)
 	instance_create_layer(265,131,"Instances",oSpace)
+	if global.swordEquipped != SWORD.NONE{
+		instance_create_layer(235,113,"Instances",oShift)
+	}
 }
 
 

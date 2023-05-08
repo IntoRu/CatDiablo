@@ -1,0 +1,1 @@
+draw_sprite(sShift,0,x,y)

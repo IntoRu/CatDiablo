@@ -12,13 +12,13 @@ if(slotVisible > 0){
 	
 	for(var _slot=0;_slot<=2;_slot++){
 		var _y = 16+_slot*48
-		var _x = 100 //
+		var _x = 160
 		var _img = 2
 		if(slotSelected==_slot){
 			_img = 3
 			draw_sprite(sMenuPlayer,0,_x-32,_y+24)
 		}
-		NineSliceBoxStretched(sTextBoxBg,_x,_y,250,_y+48,_img)//
+		NineSliceBoxStretched(sTextBoxBg,_x,_y,312,_y+48,_img)
 		
 		//рисуем инфу сохранений
 		draw_set_font(fTextNew)

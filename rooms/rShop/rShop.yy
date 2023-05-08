@@ -43,7 +43,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C9CBE68","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":3,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopkeeper","path":"objects/oShopkeeper/oShopkeeper.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"value":"True",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"ActivateManualWeapon",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4504301C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShopItem","path":"objects/oShopItem/oShopItem.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oShopItem","path":"objects/oShopItem/oShopItem.yy",},"propertyId":{"name":"itemCost","path":"objects/oShopItem/oShopItem.yy",},"value":"50",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oShopItem","path":"objects/oShopItem/oShopItem.yy",},"propertyId":{"name":"itemAmount","path":"objects/oShopItem/oShopItem.yy",},"value":"1",},
@@ -121,7 +121,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58E937AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSweet","path":"objects/oSweet/oSweet.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSweet","path":"objects/oSweet/oSweet.yy",},"propertyId":{"name":"lightScale","path":"objects/oSweet/oSweet.yy",},"value":"2.1",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oSweet","path":"objects/oSweet/oSweet.yy",},"propertyId":{"name":"lightPowerfull","path":"objects/oSweet/oSweet.yy",},"value":"0.6",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":275.0,"y":132.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -21,-2147483648,-18,1,3,0,-2147483648,1,-3,-2147483648,2,0,-2147483648,-7,0,-2,-2147483648,-2,0,3,

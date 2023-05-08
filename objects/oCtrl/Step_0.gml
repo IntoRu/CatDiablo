@@ -1,0 +1,1 @@
+touchCtrl = virtual_key_add(x,y,28,26,vk_control)

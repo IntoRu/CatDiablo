@@ -1,0 +1,1 @@
+draw_sprite(sQ,0,x,y)

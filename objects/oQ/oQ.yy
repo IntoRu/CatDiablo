@@ -1,17 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "_reserve_",
+  "name": "oQ",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "RPG",
-    "path": "RPG.yyp",
+    "name": "NewMultiTouch",
+    "path": "folders/NewMultiTouch.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oTouchParent",
+    "path": "objects/oTouchParent/oTouchParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

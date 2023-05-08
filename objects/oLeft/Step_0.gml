@@ -1,1 +1,1 @@
-touchLeft = virtual_key_add(x,y,36,257,vk_left)
+touchLeft = virtual_key_add(x,y,23,38,vk_left)

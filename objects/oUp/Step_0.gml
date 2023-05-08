@@ -1,1 +1,1 @@
-touchUp = virtual_key_add(x,y,37,29,vk_up)
+touchUp = virtual_key_add(x,y,38,23,vk_up)

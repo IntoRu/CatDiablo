@@ -30,10 +30,10 @@ switch(room){
 
 // спавним джойстик (виртуальный)
 if room != rStory{
-	instance_create_layer(9,114,"Instances",oLeft)
-	instance_create_layer(86,114,"Instances",oRight)
-	instance_create_layer(47,112,"Instances",oUp)
-	instance_create_layer(47,145,"Instances",oDown)
+	instance_create_layer(18,123,"Instances",oLeft)
+	instance_create_layer(58,123,"Instances",oRight)
+	instance_create_layer(30,110,"Instances",oUp)
+	instance_create_layer(31,151,"Instances",oDown)
 	instance_create_layer(280,15,"Instances",oMenu)
 	instance_create_layer(265,131,"Instances",oSpace)
 	instance_create_layer(230,120,"Instances",oShift)

@@ -1,0 +1,1 @@
+touchMenu = virtual_key_add(x,y,16,11,vk_escape)

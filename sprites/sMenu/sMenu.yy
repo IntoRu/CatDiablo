@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sMenu",
-  "bbox_bottom": 10,
+  "bbox_bottom": 14,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 20,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f962d779-9c21-45c7-ad85-0ba528eba82e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aab2fdff-1222-4c14-a526-f349f71e267d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 11,
+  "height": 15,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"853f1d11-9994-4f7b-91cb-728e1143cf50","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"756b8af3-232f-4495-b41f-ace22feb7a0d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f962d779-9c21-45c7-ad85-0ba528eba82e","path":"sprites/sMenu/sMenu.yy",},},},"Disabled":false,"id":"f6d8a41f-0aff-48eb-8a28-f024bd06c4fb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"aab2fdff-1222-4c14-a526-f349f71e267d","path":"sprites/sMenu/sMenu.yy",},},},"Disabled":false,"id":"fdd371eb-338c-4ef3-9ebf-1d4d92978d56","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 21,
 }

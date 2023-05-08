@@ -1,1 +1,1 @@
-draw_sprite(sRight,0,x,y)
+draw_sprite(sLeftRight,0,x,y)

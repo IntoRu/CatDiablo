@@ -1,1 +1,1 @@
-touchMenu = virtual_key_add(x,y,16,11,vk_escape)
+touchMenu = virtual_key_add(x,y,21,15,vk_escape)

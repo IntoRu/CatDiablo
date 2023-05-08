@@ -1,1 +1,1 @@
-touchDown = virtual_key_add(x,y,15,27,vk_down)
+touchDown = virtual_key_add(x,y,37,29,vk_down)

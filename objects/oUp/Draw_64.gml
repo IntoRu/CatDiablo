@@ -1,1 +1,1 @@
-draw_sprite(sUp,0,x,y)
+draw_sprite(sUpDown,0,x,y)

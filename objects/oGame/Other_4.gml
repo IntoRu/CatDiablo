@@ -29,17 +29,17 @@ switch(room){
 }
 
 // спавним джойстик (виртуальный)
-if room != rStory{
-	instance_create_layer(18,123,"Instances",oLeft)
-	instance_create_layer(58,123,"Instances",oRight)
-	instance_create_layer(32,110,"Instances",oUp)
-	instance_create_layer(32,149,"Instances",oDown)
-	instance_create_layer(280,15,"Instances",oMenu)
-	instance_create_layer(265,131,"Instances",oSpace)
-	instance_create_layer(230,120,"Instances",oShift)
-	instance_create_layer(255,100,"Instances",oCtrl)
-	instance_create_layer(285,98,"Instances",oQ)
-}
+//if room != rStory{
+//	instance_create_layer(18,123,"Instances",oLeft)
+//	instance_create_layer(58,123,"Instances",oRight)
+//	instance_create_layer(32,110,"Instances",oUp)
+//	instance_create_layer(32,149,"Instances",oDown)
+//	instance_create_layer(280,15,"Instances",oMenu)
+//	instance_create_layer(265,131,"Instances",oSpace)
+//	instance_create_layer(230,120,"Instances",oShift)
+//	instance_create_layer(255,100,"Instances",oCtrl)
+//	instance_create_layer(285,98,"Instances",oQ)
+//}
 
 
 

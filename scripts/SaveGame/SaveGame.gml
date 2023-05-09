@@ -16,7 +16,7 @@ function SaveGame(){
 
 	_map[? "count"] = global.count
 	_map[? "countSkeleton"] = global.countSkeleton
-	_map[? "informationAbouMonster"] = global.informationAboutMonster
+	_map[? "informationAboutMonster"] = global.informationAboutMonster
 	_map[? "playerHealth"] = global.playerHealth[global.level]
 	_map[? "playerHealthMax"] = global.playerHealthMax[global.level]
 	_map[? "deathCount"] = global.deathCount 

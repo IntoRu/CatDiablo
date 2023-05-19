@@ -156,6 +156,7 @@
     {"name":"sPlayerRunL1","order":1,"path":"sprites/sPlayerRunL1/sPlayerRunL1.yy",},
     {"name":"sCoinUI","order":16,"path":"sprites/sCoinUI/sCoinUI.yy",},
     {"name":"sndPlayerDead","order":16,"path":"sounds/sndPlayerDead/sndPlayerDead.yy",},
+    {"name":"sndBrotherHouse","order":39,"path":"sounds/sndBrotherHouse/sndBrotherHouse.yy",},
     {"name":"sWeb","order":7,"path":"sprites/sWeb/sWeb.yy",},
     {"name":"oBossCaveInForest","order":4,"path":"objects/oBossCaveInForest/oBossCaveInForest.yy",},
     {"name":"sUp","order":23,"path":"sprites/sUp/sUp.yy",},

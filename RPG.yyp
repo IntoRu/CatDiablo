@@ -184,6 +184,7 @@
     {"id":{"name":"sPlayerRunL1","path":"sprites/sPlayerRunL1/sPlayerRunL1.yy",},},
     {"id":{"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},},
     {"id":{"name":"sndPlayerDead","path":"sounds/sndPlayerDead/sndPlayerDead.yy",},},
+    {"id":{"name":"sndBrotherHouse","path":"sounds/sndBrotherHouse/sndBrotherHouse.yy",},},
     {"id":{"name":"sWeb","path":"sprites/sWeb/sWeb.yy",},},
     {"id":{"name":"oBossCaveInForest","path":"objects/oBossCaveInForest/oBossCaveInForest.yy",},},
     {"id":{"name":"sUp","path":"sprites/sUp/sUp.yy",},},

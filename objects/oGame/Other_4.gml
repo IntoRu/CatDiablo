@@ -18,7 +18,10 @@ switch(room){
 		audio_sound_gain(_snd,0,0)
 		audio_sound_gain(_snd,0.5,20000)
 	}break
-	case rNewVillage: audio_play_sound(sndRoomVillage,5,true);break
+	case rNewVillage:{
+		audio_play_sound(sndRoomVillage,5,true)
+		instance_create_layer(800,176,"Instances",oSpawnStrange)
+	} break
 	case rShop: audio_play_sound(sndRoomShop,5,true);break
 	case rRiver: audio_play_sound(sndRoomRiver,5,true);break
 	case rCave: audio_play_sound(sndRoomCave,5,true);break
@@ -27,7 +30,7 @@ switch(room){
 	case rHouseBrotherCat: audio_play_sound(sndBrotherHouse,5,true);break
 	case rStrangeHome: {
 		audio_play_sound(sndStrangeHome,5,true)
-	};break
+	}
 }
 
 // спавним джойстик (виртуальный)

@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sndStrangeHome.mp3",
   "type": 0,
-  "volume": 0.77,
+  "volume": 0.54,
 }

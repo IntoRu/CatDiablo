@@ -26,7 +26,7 @@ switch(room){
 	case rCaveInForest: audio_play_sound(sndRoomCaveInForest,5,true);break
 	case rHouseBrotherCat: audio_play_sound(sndBrotherHouse,5,true);break
 	case rStrangeHome: {
-		audio_play_sound(sndBrotherHouse,5,true)
+		audio_play_sound(sndStrangeHome,5,true)
 	};break
 }
 

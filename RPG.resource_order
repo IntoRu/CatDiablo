@@ -304,6 +304,7 @@
     {"name":"sBoulder","order":19,"path":"sprites/sBoulder/sBoulder.yy",},
     {"name":"sLeft","order":21,"path":"sprites/sLeft/sLeft.yy",},
     {"name":"sBatHurt","order":11,"path":"sprites/sBatHurt/sBatHurt.yy",},
+    {"name":"sndCheck","order":40,"path":"sounds/sndCheck/sndCheck.yy",},
     {"name":"oFragment","order":1,"path":"objects/oFragment/oFragment.yy",},
     {"name":"sCatDeadHead","order":18,"path":"sprites/sCatDeadHead/sCatDeadHead.yy",},
     {"name":"sHookChain","order":19,"path":"sprites/sHookChain/sHookChain.yy",},

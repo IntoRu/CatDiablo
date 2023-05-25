@@ -342,6 +342,7 @@
     {"id":{"name":"sBoulder","path":"sprites/sBoulder/sBoulder.yy",},},
     {"id":{"name":"sLeft","path":"sprites/sLeft/sLeft.yy",},},
     {"id":{"name":"sBatHurt","path":"sprites/sBatHurt/sBatHurt.yy",},},
+    {"id":{"name":"sndCheck","path":"sounds/sndCheck/sndCheck.yy",},},
     {"id":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},},
     {"id":{"name":"sCatDeadHead","path":"sprites/sCatDeadHead/sCatDeadHead.yy",},},
     {"id":{"name":"sHookChain","path":"sprites/sHookChain/sHookChain.yy",},},

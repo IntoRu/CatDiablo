@@ -9,7 +9,7 @@ state = ENEMYSTATE.WANDER
 
 sprMove = sSlime
 sprAttack = sSlimeAttack
-sprDie = sSlimeDie
+//sprDie = sSlimeDie
 sprHurt = sSlimeHurt
 
 enemyScript[ENEMYSTATE.WANDER] = SlimeWander

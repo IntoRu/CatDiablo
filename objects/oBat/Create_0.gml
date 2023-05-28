@@ -7,7 +7,7 @@ state = ENEMYSTATE.WANDER
 
 sprMove = sBat
 sprAttack = sBat
-sprDie = sBatDie
+//sprDie = sBatDie
 sprHurt = sBatHurt
 
 enemyScript[ENEMYSTATE.WANDER] = BatWander

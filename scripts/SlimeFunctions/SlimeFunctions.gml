@@ -73,7 +73,21 @@ function SlimeChese(){
 	}
 	
 	// аттака
-	if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText) and oPlayer.state != PlayerStateDead{
+	if meleAttack == true{ // если враг аттакует оружием (реализованно только у монстра)
+		if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText) and oPlayer.state != PlayerStateDead{
+			state = ENEMYSTATE.ATTACK
+			mask_index = spriteMaskAttack
+			sprite_index = sprAttack
+			image_index = 0
+			image_speed = 1.0
+			audio_play_sound(soundAttack,5,false)
+			xTo += lengthdir_x(8,dir)
+			yTo += lengthdir_y(8,dir)
+		} 
+		else mask_index = spriteMask
+	}
+	else{
+		if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText) and oPlayer.state != PlayerStateDead{
 		state = ENEMYSTATE.ATTACK
 		sprite_index = sprAttack
 		image_index = 0
@@ -81,12 +95,12 @@ function SlimeChese(){
 		audio_play_sound(soundAttack,5,false)
 		xTo += lengthdir_x(8,dir)
 		yTo += lengthdir_y(8,dir)
-	}	
+		} 
+	}
 }
 
 
 function SlimeAttack(){
-
 	var _spd = enemySpeed
 	if(image_index < 2) _spd = 0
 	if (floor(image_index) == 3) or (floor(image_index) == 5) image_speed = 0	

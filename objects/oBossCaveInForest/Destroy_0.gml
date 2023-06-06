@@ -9,3 +9,4 @@ audio_play_sound(sndDoorOpen,5,false)
 global.informationAboutMonster = true
 audio_play_sound(sndCheck,5,false)
 audio_stop_sound(sndBoss1Fight)
+audio_play_sound(sndNewCove,5,true)

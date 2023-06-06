@@ -76,6 +76,7 @@
     {"name":"sPlayerRoll","order":2,"path":"sprites/sPlayerRoll/sPlayerRoll.yy",},
     {"name":"sPlayerDieL3","order":8,"path":"sprites/sPlayerDieL3/sPlayerDieL3.yy",},
     {"name":"oRock","order":13,"path":"objects/oRock/oRock.yy",},
+    {"name":"sndNewCove","order":41,"path":"sounds/sndNewCove/sndNewCove.yy",},
     {"name":"sndSlimeHit","order":12,"path":"sounds/sndSlimeHit/sndSlimeHit.yy",},
     {"name":"sSwitchDoorCaveInForest","order":13,"path":"sprites/sSwitchDoorCaveInForest/sSwitchDoorCaveInForest.yy",},
     {"name":"rHouseBrotherCat","order":10,"path":"rooms/rHouseBrotherCat/rHouseBrotherCat.yy",},

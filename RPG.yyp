@@ -98,6 +98,7 @@
     {"id":{"name":"sPlayerDieL3","path":"sprites/sPlayerDieL3/sPlayerDieL3.yy",},},
     {"id":{"name":"oRock","path":"objects/oRock/oRock.yy",},},
     {"id":{"name":"sPlayerL2","path":"sprites/sPlayerL2/sPlayerL2.yy",},},
+    {"id":{"name":"sndNewCove","path":"sounds/sndNewCove/sndNewCove.yy",},},
     {"id":{"name":"sndSlimeHit","path":"sounds/sndSlimeHit/sndSlimeHit.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"sSwitchDoorCaveInForest","path":"sprites/sSwitchDoorCaveInForest/sSwitchDoorCaveInForest.yy",},},

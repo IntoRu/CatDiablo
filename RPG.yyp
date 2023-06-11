@@ -183,6 +183,7 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"sPlayerAttackSlashL1","path":"sprites/sPlayerAttackSlashL1/sPlayerAttackSlashL1.yy",},},
+    {"id":{"name":"sSkeletonAttackHB","path":"sprites/sSkeletonAttackHB/sSkeletonAttackHB.yy",},},
     {"id":{"name":"sPlayerHook","path":"sprites/sPlayerHook/sPlayerHook.yy",},},
     {"id":{"name":"sPlayerRunL1","path":"sprites/sPlayerRunL1/sPlayerRunL1.yy",},},
     {"id":{"name":"sCoinUI","path":"sprites/sCoinUI/sCoinUI.yy",},},

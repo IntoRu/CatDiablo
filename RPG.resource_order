@@ -155,6 +155,7 @@
     {"name":"MACROS","order":17,"path":"scripts/MACROS/MACROS.yy",},
     {"name":"ScreenShake","order":18,"path":"scripts/ScreenShake/ScreenShake.yy",},
     {"name":"sPlayerAttackSlashL1","order":5,"path":"sprites/sPlayerAttackSlashL1/sPlayerAttackSlashL1.yy",},
+    {"name":"sSkeletonAttackHB","order":35,"path":"sprites/sSkeletonAttackHB/sSkeletonAttackHB.yy",},
     {"name":"sPlayerHook","order":12,"path":"sprites/sPlayerHook/sPlayerHook.yy",},
     {"name":"sPlayerRunL1","order":1,"path":"sprites/sPlayerRunL1/sPlayerRunL1.yy",},
     {"name":"sCoinUI","order":16,"path":"sprites/sCoinUI/sCoinUI.yy",},

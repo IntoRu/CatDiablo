@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-// для врагов с оружием (реализованно только у монстра)
+// для врагов с оружием (реализованно только у монстра и у скелета)
 spriteMask = sMonster
 spriteMaskAttack = sMonsterAttackHB
 

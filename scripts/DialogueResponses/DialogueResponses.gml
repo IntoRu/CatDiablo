@@ -32,7 +32,7 @@ function DialogueResponses(){
 		case 5:{
 			audio_play_sound(sndQuestHatStart,5,false)
 			NewTextBox("Отлично",2)
-			NewTextBox("Я думаю ты справишься",2)
+			NewTextBox("Я думаю ты справишься. Используй камни",2)
 			NewTextBox("В меню паузы ты увидишь текущие задания",2)
 			global.questStatus[? "TheDeadVillage"] = 1 // меняем статус авеста на взят
 		}break

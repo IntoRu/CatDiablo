@@ -97,7 +97,8 @@ if(global.gamePaused){
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_middle)
 	
-	draw_text(RESOLUTION_W*0.5,RESOLUTION_H*0.5,"....ПАУЗА....")
+	if global.local == "RU" draw_text(RESOLUTION_W*0.5,RESOLUTION_H*0.5,"....ПАУЗА....")
+	if global.local == "EN" draw_text(RESOLUTION_W*0.5,RESOLUTION_H*0.5,"....PAUSE....")
 	for(var i=0;i<array_length(pauseOption);i++){
 			var _print = ""
 			if(i==pauseOptionSelected){
@@ -121,12 +122,22 @@ if(global.gamePaused){
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_bottom)
 	draw_set_color(c_black)
+	if global.local == "RU"{
 	draw_text(xx+1,yy,"Текущие задания")
 	draw_text(xx-1,yy,"Текущие задания")
 	draw_text(xx,yy-1,"Текущие задания")
 	draw_text(xx,yy+1,"Текущие задания")
 	draw_set_color(c_white)
 	draw_text(xx,yy,"Текущие задания")
+	}
+	if global.local == "EN"{
+	draw_text(xx+1,yy,"Current tasks")
+	draw_text(xx-1,yy,"Current tasks")
+	draw_text(xx,yy-1,"Current tasks")
+	draw_text(xx,yy+1,"Current tasks")
+	draw_set_color(c_white)
+	draw_text(xx,yy,"Current tasks")
+	}
 	
 
 	//if(!global.questStatus[? "TheMissingFriend"] == 1) and (!global.questStatus[? "TheDeadVillage"] == 1){
@@ -151,12 +162,22 @@ if(global.gamePaused){
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
+		if global.local == "RU"{
 		draw_text(xx+1,yy,"Найти пропавшего друга")
 		draw_text(xx-1,yy,"Найти пропавшего друга")
 		draw_text(xx,yy-1,"Найти пропавшего друга")
 		draw_text(xx,yy+1,"Найти пропавшего друга")
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Найти пропавшего друга")
+		}
+		if global.local == "EN"{
+		draw_text(xx+1,yy,"Find a missing friend")
+		draw_text(xx-1,yy,"Find a missing friend")
+		draw_text(xx,yy-1,"Find a missing friend")
+		draw_text(xx,yy+1,"Find a missing friend")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Find a missing friend")
+		}
 	}
 	if(global.questStatus[? "TheDeadVillage"] == 1){
 		xx = 10
@@ -165,12 +186,22 @@ if(global.gamePaused){
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
+		if global.local == "RU"{
 		draw_text(xx+1,yy,"Убей всю нечисть")
 		draw_text(xx-1,yy,"Убей всю нечисть")
 		draw_text(xx,yy-1,"Убей всю нечисть")
 		draw_text(xx,yy+1,"Убей всю нечисть")
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Убей всю нечисть")
+		}
+		if global.local == "EN"{
+		draw_text(xx+1,yy,"Kill all evil")
+		draw_text(xx-1,yy,"Kill all evil")
+		draw_text(xx,yy-1,"Kill all evil")
+		draw_text(xx,yy+1,"Kill all evil")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Kill all evil")
+		}
 	}
 	if(global.questStatus[? "TheBrotherDeadCat"] == 1){
 		xx = 10
@@ -179,12 +210,22 @@ if(global.gamePaused){
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
+		if global.local == "RU"{
 		draw_text(xx+1,yy,"Выследить и убить монстра")
 		draw_text(xx-1,yy,"Выследить и убить монстра")
 		draw_text(xx,yy-1,"Выследить и убить монстра")
 		draw_text(xx,yy+1,"Выследить и убить монстра")
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Выследить и убить монстра")
+		}
+		if global.local == "EN"{
+		draw_text(xx+1,yy,"Track down and kill the monster")
+		draw_text(xx-1,yy,"Track down and kill the monster")
+		draw_text(xx,yy-1,"Track down and kill the monster")
+		draw_text(xx,yy+1,"Track down and kill the monster")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Track down and kill the monster")
+		}
 	}
 	if(global.questStatus[? "TheSkeleton"] == 1){
 		xx = 10
@@ -193,12 +234,22 @@ if(global.gamePaused){
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_bottom)
 		draw_set_color(c_black)
+		if global.local == "RU"{
 		draw_text(xx+1,yy,"Очистить двор от скелетов")
 		draw_text(xx-1,yy,"Очистить двор от скелетов")
 		draw_text(xx,yy-1,"Очистить двор от скелетов")
 		draw_text(xx,yy+1,"Очистить двор от скелетов")
 		draw_set_color(c_blue)
 		draw_text(xx,yy,"Очистить двор от скелетов")
+		}
+		if global.local == "EN"{
+		draw_text(xx+1,yy,"Clear the yard of skeletons")
+		draw_text(xx-1,yy,"Clear the yard of skeletons")
+		draw_text(xx,yy-1,"Clear the yard of skeletons")
+		draw_text(xx,yy+1,"Clear the yard of skeletons")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Clear the yard of skeletons")
+		}
 	}
 	//else{
 	//	xx = 80

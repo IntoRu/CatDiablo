@@ -26,14 +26,16 @@ if(slotVisible > 0){
 		draw_set_valign(fa_top)
 		draw_set_color(c_white)
 		if(slotData[_slot] == -1){
-			draw_text(_x+8,_y+8,"Начни новую игру")
+			if global.local == "RU"	draw_text(_x+8,_y+8,"Начни новую игру")
+			if global.local == "EN"	draw_text(_x+8,_y+8,"Start a new game")
 		}
 		else{
 			// название комнаты
 			draw_text(_x+8,_y+8, RoomToAreaName(slotData[_slot][? "room"]))
 			
 			// уровень персоонажа
-			draw_text(_x+80,_y+30,"Уровень : "+string(slotData[_slot][? "level"]))
+			if global.local == "RU" draw_text(_x+80,_y+30,"Уровень : "+string(slotData[_slot][? "level"]))
+			if global.local == "EN" draw_text(_x+80,_y+30,"Level : "+string(slotData[_slot][? "level"]))
 			
 			// здоровье
 			var _playerHealth = slotData[_slot][? "playerHealth"]

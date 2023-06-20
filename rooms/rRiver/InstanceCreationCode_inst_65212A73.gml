@@ -1,1 +1,2 @@
-entityActiveteArgs = ["Да мне похуй на твой мечь и стрелы....\n Вот на счёт ганат не уверен...:(",0]
+if global.local == "RU" entityActiveteArgs = ["Да мне похуй на твой мечь и стрелы....\n Вот на счёт ганат не уверен...:(",0]
+if global.local == "EN" entityActiveteArgs = ["Give me a fuck about your sword and arrows....\n I'm not sure about the ganat...:(",0]

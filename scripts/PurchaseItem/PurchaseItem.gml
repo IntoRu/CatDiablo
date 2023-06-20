@@ -1,4 +1,5 @@
 // покупка 
+
 function PurchaseItem(_item,_amount,_cost){
 	if(global.playerMoney >= _cost){
 		global.playerHasAnyItems = true
@@ -11,6 +12,7 @@ function PurchaseItem(_item,_amount,_cost){
 		if(_item == ITEM.HOOK) instance_destroy(activate)	
 		
 		var _desc = ""
+		if global.local == "RU"{
 		switch(_item){
 			case ITEM.BOMB: _desc = "Пизда.. у нас теперь есть гранаты"; break
 			case ITEM.BOW: _desc = "ООО... стрелы..."; break
@@ -20,9 +22,22 @@ function PurchaseItem(_item,_amount,_cost){
 			//case SWORD.SIMPLESWORD: _desc = "Ух ты ржавый меч";break
 			default: _desc = "Описание не найдено"; break
 		}
+		}
+		if global.local == "EN"{
+		switch(_item){
+			case ITEM.BOMB: _desc = "Cunt.. we now have grenades"; break
+			case ITEM.BOW: _desc = "OOO... arrows..."; break
+			case ITEM.HOOK: _desc = "Such a fucking hook"; break
+			case ITEM.HILL: _desc = "Well, it will be something to get drunk"; break
+			case ITEM.SHIT: _desc = "With this shield, no enemy is afraid of me";break
+			//case SWORD.SIMPLESWORD: _desc = "Ух ты ржавый меч";break
+			default: _desc = "Description not found"; break
+		}
+		}
 		NewTextBox(_desc,1)
 	}else{
-		NewTextBox("Недостаточно золота",1)
+		if global.local == "RU" NewTextBox("Недостаточно золота",1)
+		if global.local == "EN"	NewTextBox("Not enough gold",1)
 	}
 }
 
@@ -40,15 +55,24 @@ function PurchaseSword(_sword,_cost){
 		if(_sword != SWORD.NONE) instance_destroy(activate)
 		
 		var _desc = ""
+		if global.local == "RU"{
 		switch(_sword){
-			
 			case SWORD.SIMPLESWORD: _desc = "Ух ты ржавый меч";break
 			case SWORD.GOODSWORD: _desc = "А это уже хороший клинок";break
 			default: _desc = "Описание не найдено"; break
 		}
+		}
+		if global.local == "EN"{
+		switch(_sword){
+			case SWORD.SIMPLESWORD: _desc = "Wow rusty sword";break
+			case SWORD.GOODSWORD: _desc = "And this is a good blade";break
+			default: _desc = "Description not found"; break
+		}
+		}
 		NewTextBox(_desc,1)
 	}else{
-		NewTextBox("Недостаточно золота",1)
+		if global.local == "RU" NewTextBox("Недостаточно золота",1)
+		if global.local == "EN" NewTextBox("Not enough gold",1)
 	}
 }
 
@@ -69,15 +93,24 @@ function PurchaseNewBow(_newBow,_cost){
 		if(_newBow != BOW.NONE) instance_destroy(activate)
 		
 		var _desc = ""
+		if global.local == "RU"{
 		switch(_newBow){
-			
 			case BOW.SIMPLEBOW: _desc = "Ух ты простой лук";break
 			case BOW.GOODBOW: _desc = "А это уже хороший лук";break
 			default: _desc = "Описание не найдено"; break
 		}
+		}
+		if global.local == "EN"{
+		switch(_newBow){
+			case BOW.SIMPLEBOW: _desc = "Wow simple bow";break
+			case BOW.GOODBOW: _desc = "And that's a good bow.";break
+			default: _desc = "Description not found"; break
+		}
+		}
 		NewTextBox(_desc,1)
 	}else{
-		NewTextBox("Недостаточно золота",1)
+		if global.local == "RU" NewTextBox("Недостаточно золота",1)
+		if global.local == "EN" NewTextBox("Not enough gold",1)
 	}
 }
 
@@ -95,15 +128,27 @@ function PurchaseArmor(_armor,_cost){
 		if(_armor != ARMOR.NONE) instance_destroy(activate)
 		
 		var _desc = ""
+		if global.local == "RU"{
 		switch(_armor){
-			
 			case ARMOR.SIMPLEARMOR: _desc = "Так себе броня";break
 			case ARMOR.GOODARMOR: _desc = "Весьма хороший броник";break
 			case ARMOR.BESTARMOR: _desc = "Отличная броня";break
 			default: _desc = "Описание не найдено"; break
 		}
+		}
+		if global.local == "EN"{
+		switch(_armor){
+			case ARMOR.SIMPLEARMOR: _desc = "So so armor";break
+			case ARMOR.GOODARMOR: _desc = "Very good armor";break
+			case ARMOR.BESTARMOR: _desc = "Excellent armor";break
+			default: _desc = "Description not found"; break
+		}
+		}
 		NewTextBox(_desc,1)
 	}else{
-		NewTextBox("Недостаточно золота",1)
+		if global.local == "RU" NewTextBox("Недостаточно золота",1)
+		if global.local == "EN" NewTextBox("Not enough gold",1)
 	}
 }
+
+

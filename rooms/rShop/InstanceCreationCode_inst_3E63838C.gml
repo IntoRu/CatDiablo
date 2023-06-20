@@ -1,0 +1,2 @@
+if global.local == "RU" entityActiveteArgs = ["Магический щит\n500 золотых за 10 зарядов",1,["4:Покупка","0:Нет спасибо"]]
+if global.local == "EN" entityActiveteArgs = ["Magic shield\n500 gold for 10 charges",1,["4:Purchase","0:No thanks"]]

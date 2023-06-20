@@ -1,1 +1,2 @@
-entityActiveteArgs = ["У тебя только две руки\nНе забывай об это когда что то несёшь...",0]
+if global.local == "RU" entityActiveteArgs = ["У тебя только две руки\nНе забывай об это когда что то несёшь...",0]
+if global.local == "EN" entityActiveteArgs = ["You only have two hands\nDon't forget about it when you carry something...",0]

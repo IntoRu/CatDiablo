@@ -1,1 +1,2 @@
-entityActiveteArgs = ["Крюк может не только притягивать тебя,\nно и притягивать предметы....",0]
+if global.local == "RU"  entityActiveteArgs = ["Крюк может не только притягивать тебя,\nно и притягивать предметы....",0]
+if global.local == "EN" entityActiveteArgs = ["The hook can not only pull you,\nbut also to attract objects....",0]

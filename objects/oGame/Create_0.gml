@@ -1,6 +1,8 @@
 
 randomize()
 
+global.local = "RU"
+
 global.day = 0 //день 1 - ночь
 global.lightNight = 0 // темнота ночью
 

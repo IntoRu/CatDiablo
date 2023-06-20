@@ -118,7 +118,8 @@ if  state == PlayerStateRoll and global.playerEquipped == ITEM.SHIT and global.p
 //---------------ПИШЕМ ЧЁ ЗА ПРЕДМЕТ------------------------
 
 if distance_to_object(oHeadDeadCat) < 30 and global.itemMessage == true{
-	NewTextBox("Чья то голова",2)
+	if global.local == "RU" NewTextBox("Чья то голова",2)
+	if global.local == "EN" NewTextBox("Whose head is",2)
 	global.itemMessage = false
 }
 

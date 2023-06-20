@@ -1,1 +1,2 @@
-entityActiveteArgs = ["Тут один долбаёб полез в пещеры без грюка...\nНу и больше его нико не видел...\nИз за таких как он вход и завалили валуном",0]
+if global.local == "RU" entityActiveteArgs = ["Тут один долбаёб полез в пещеры без грюка...\nНу и больше его нико не видел...\nИз за таких как он вход и завалили валуном",0]
+if global.local == "EN" entityActiveteArgs = ["Here one fucker climbed into the caves without\na hook...Well, I never saw him again....\nBecause of people like him, the entrance was filled up\nwith a boulder",0]

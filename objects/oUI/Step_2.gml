@@ -39,10 +39,12 @@ if(global.gamePaused){
 			case 2: // сохранить и выйти в виндовс
 			{
 				SaveGame()
-				game_end()
+				//game_end()
+				game_restart()
 			}break;
 			case 3:{// выйти без сохранения
-				game_end()
+				//game_end()
+				game_restart()
 			}break
 			case 4:{// начать новую игру
 				file_delete("save"+string(global.gameSaveSlot)+".sav")

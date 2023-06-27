@@ -30,7 +30,7 @@ switch(room){
 	case rHouseBrotherCat: audio_play_sound(sndBrotherHouse,5,true);break
 	case rStrangeHome: {
 		audio_play_sound(sndStrangeHome,5,true)
-	}
+	}; break
 }
 
 // спавним джойстик (виртуальный)

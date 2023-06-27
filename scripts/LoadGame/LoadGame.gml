@@ -7,6 +7,7 @@ function LoadGame(_slot){
 		var _json = LoadJSONFromFile(_file)
 
 		global.strong = _json[? "strong"]
+		global.friendCat = _json[? "friendCat"]
 		global.lightNight = _json[? "lightNight"]
 		global.day = _json[? "day"]
 		global.count = _json[? "count"]

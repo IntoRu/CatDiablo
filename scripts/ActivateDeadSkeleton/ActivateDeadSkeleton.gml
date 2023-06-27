@@ -15,6 +15,7 @@ function ActivateDeadSkeleton(){
 				global.playerMoney += 500
 				NewTextBox("Ты доказал что достоин моей работёнки",2)
 				NewTextBox("Эта работёнка на стадии написания",2)
+				global.friendCat = false
 			}
 			else{
 				// предлагаем квест
@@ -37,6 +38,7 @@ function ActivateDeadSkeleton(){
 				global.playerMoney += 500
 				NewTextBox("Ты доказал что достоин моей работёнки",2)
 				NewTextBox("Эта работёнка на стадии написания",2)
+				global.friendCat = false
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
@@ -48,6 +50,7 @@ function ActivateDeadSkeleton(){
 		case 2:{ // квест завершён
 			// благодарим и т.д.
 			NewTextBox("Эта работёнка на стадии написания",2)
+			global.friendCat = false
 		}break	
 	}
 	}
@@ -64,6 +67,7 @@ function ActivateDeadSkeleton(){
 				global.playerMoney += 500
 				NewTextBox("You proved that you are worthy of my job",2)
 				NewTextBox("This work is in the process of being written.",2)
+				global.friendCat = false
 			}
 			else{
 				// предлагаем квест
@@ -86,6 +90,7 @@ function ActivateDeadSkeleton(){
 				global.playerMoney += 500
 				NewTextBox("You proved that you are worthy of my job",2)
 				NewTextBox("This work is in the process of being written.",2)
+				global.friendCat = false
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
@@ -97,6 +102,7 @@ function ActivateDeadSkeleton(){
 		case 2:{ // квест завершён
 			// благодарим и т.д.
 			NewTextBox("This work is in the process of being written.",2)
+			global.friendCat = false
 		}break	
 	}
 	}

@@ -1,0 +1,1 @@
+if global.friendCat == false instance_deactivate_object(oQuestNPC)

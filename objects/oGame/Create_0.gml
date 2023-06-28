@@ -25,7 +25,7 @@ global.deathCount = 0 // без этой хуйни невозможно сох�
 global.entityDeath = []
 //---------------------------------
 
-global.playerMoney = 9999999
+global.playerMoney = 0
 //--------------------------------------------
 // предметы
 global.playerHasAnyItems = false

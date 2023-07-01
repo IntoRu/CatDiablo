@@ -25,7 +25,7 @@ global.deathCount = 0 // без этой хуйни невозможно сох�
 global.entityDeath = []
 //---------------------------------
 
-global.playerMoney = 0
+global.playerMoney = 999999
 //--------------------------------------------
 // предметы
 global.playerHasAnyItems = false
@@ -87,6 +87,11 @@ global.questStatus[? "TheBrotherDeadCat"] = 0
 global.countSkeleton = 0 // сколько скелетов убито
 global.questStatus[? "TheSkeleton"] = 0 // квест не начат(1- начат 2 завершён)
 
+#endregion
+
+#region квест обыск дома у котэ
+global.lockedLuke = true
+global.key = false
 #endregion
 
 // ------------------------------------------------------------

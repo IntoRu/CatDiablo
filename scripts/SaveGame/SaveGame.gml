@@ -14,6 +14,9 @@ function SaveGame(){
 	_map[? "lightNight"] = global.lightNight
 	_map[? "day"] = global.day
 	_map[? "strong"] = global.strong
+	_map[? "lockedLuke"] = global.lockedLuke
+	_map[? "key"] = global.key
+	
 
 	_map[? "count"] = global.count
 	_map[? "countSkeleton"] = global.countSkeleton

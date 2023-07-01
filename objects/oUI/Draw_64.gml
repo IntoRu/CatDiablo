@@ -83,6 +83,12 @@ _yy = 44
 		draw_sprite(sSword,global.swordEquipped,_xx,_yy)
 	}
 
+// рисуем ключь от погреба у кота дома
+_xx = 8
+_yy = 70
+
+if global.key == true draw_sprite(sKey,0,_xx,_yy)
+
 
 
 

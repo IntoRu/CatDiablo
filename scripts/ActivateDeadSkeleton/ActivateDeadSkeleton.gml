@@ -53,6 +53,8 @@ function ActivateDeadSkeleton(){
 			global.friendCat = false
 		}break	
 	}
+	
+	//-----------------------------------------------------------
 	}
 	if global.local == "EN"{
 	switch(global.questStatus[? "TheSkeleton"]){

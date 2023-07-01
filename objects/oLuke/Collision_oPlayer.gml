@@ -18,11 +18,11 @@ if global.key == true {
 
 // переходим в погреб
 if global.lockedLuke == false and keyboard_check_pressed(vk_space){
-	entityActivateScript = RoomTransition(TRANS_TYPE.SLIDE,rCaveInForest) // в какую комнату
+	entityActivateScript = RoomTransition(TRANS_TYPE.SLIDE,rCaveLuke) // в какую комнату
 	// координаты
-	global.targetX = 20 
-	global.targetY = 300
+	global.targetX = 160 
+	global.targetY = 620
 	// куда будет смотреть игрок
-	global.targetDirection = 0 // (0, 90, 180, 270)
+	global.targetDirection = 90 // (0, 90, 180, 270)
 } 
 

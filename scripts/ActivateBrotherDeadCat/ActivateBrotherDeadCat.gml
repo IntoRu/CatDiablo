@@ -39,7 +39,7 @@ function ActivateBrotherDeadCat(){
 				
 					// повышаем уровень
 					//if(global.level != 3) global.level++
-					global.strong = true // даём силу
+					//global.strong = true // даём силу
 					audio_play_sound(sndQuestHatComplited,5,false)
 				}
 				else{
@@ -100,7 +100,7 @@ function ActivateBrotherDeadCat(){
 				
 					// повышаем уровень
 					//if(global.level != 3) global.level++
-					global.strong = true // даём силу
+					//global.strong = true // даём силу
 					audio_play_sound(sndQuestHatComplited,5,false)
 				}
 				else{

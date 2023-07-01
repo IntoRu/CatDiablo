@@ -17,11 +17,11 @@
   "option_operagx_mod_team_id": "",
   "option_operagx_mod_team_name": "",
   "option_operagx_mod_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.3",
+  "option_operagx_next_version": "1.0.0.4",
   "option_operagx_publicShareUrl": "",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "64b4b4f2-45ce-4315-a0d3-257a48807d97",
   "option_operagx_team_name": "IntoRu studio",
   "option_operagx_texture_page": "2048x2048",
-  "option_operagx_version": "1.0.0.2",
+  "option_operagx_version": "1.0.0.3",
 }

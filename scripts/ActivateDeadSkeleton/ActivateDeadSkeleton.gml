@@ -14,7 +14,12 @@ function ActivateDeadSkeleton(){
 				audio_play_sound(sndQuestHatComplited,5,false)
 				global.playerMoney += 500
 				NewTextBox("Ты доказал что достоин моей работёнки",2)
-				NewTextBox("Эта работёнка на стадии написания",2)
+				NewTextBox("А теперь слушай меня внимательно....",2)
+				NewTextBox("Я думаю кто то из местных причастен \n к появлению монстров....",2)
+				NewTextBox("Я думаю их кто то призывает сюда. \n И мне кажется этот кто то - Котэ.",2)
+				NewTextBox("Её друг хотел мне рассказать что - то \n важное про неё. Но не успел...",2)
+				NewTextBox("Как ты сам знаешь - он мёртв.",2)
+				NewTextBox("Дождись когда Котэ уйдёт и проберись в её дом. \n Возможно там мы найдём зацепки. ",2)
 				global.friendCat = false
 			}
 			else{
@@ -37,7 +42,12 @@ function ActivateDeadSkeleton(){
 				audio_play_sound(sndQuestHatComplited,5,false)
 				global.playerMoney += 500
 				NewTextBox("Ты доказал что достоин моей работёнки",2)
-				NewTextBox("Эта работёнка на стадии написания",2)
+				NewTextBox("А теперь слушай меня внимательно....",2)
+				NewTextBox("Я думаю кто то из местных причастен \n к появлению монстров....",2)
+				NewTextBox("Я думаю их кто то призывает сюда. \n И мне кажется этот кто то - Котэ.",2)
+				NewTextBox("Её друг хотел мне рассказать что - то \n важное про неё. Но не успел...",2)
+				NewTextBox("Как ты сам знаешь - он мёртв.",2)
+				NewTextBox("Дождись когда Котэ уйдёт и проберись в её дом. \n Возможно там мы найдём зацепки. ",2)
 				global.friendCat = false
 			}
 			else{
@@ -49,7 +59,7 @@ function ActivateDeadSkeleton(){
 		
 		case 2:{ // квест завершён
 			// благодарим и т.д.
-			NewTextBox("Эта работёнка на стадии написания",2)
+			NewTextBox("Иди и обыщи дом Котэ....",2)
 			global.friendCat = false
 		}break	
 	}
@@ -68,7 +78,12 @@ function ActivateDeadSkeleton(){
 				audio_play_sound(sndQuestHatComplited,5,false)
 				global.playerMoney += 500
 				NewTextBox("You proved that you are worthy of my job",2)
-				NewTextBox("This work is in the process of being written.",2)
+				NewTextBox("Now listen to me carefully....",2)
+				NewTextBox("I think one of the locals is involved in \n the appearance of monsters ....",2)
+				NewTextBox("I think someone calls them here. \n And it seems to me that someone is Kote.",2)
+				NewTextBox("Her friend wanted to tell me something important \n about her. But didn't make it...",2)
+				NewTextBox("As you know, he is dead.",2)
+				NewTextBox("Wait for Kote to leave and sneak into her house. \n Maybe we'll find clues there.",2)
 				global.friendCat = false
 			}
 			else{
@@ -91,7 +106,12 @@ function ActivateDeadSkeleton(){
 				audio_play_sound(sndQuestHatComplited,5,false)
 				global.playerMoney += 500
 				NewTextBox("You proved that you are worthy of my job",2)
-				NewTextBox("This work is in the process of being written.",2)
+				NewTextBox("Now listen to me carefully....",2)
+				NewTextBox("I think one of the locals is involved in \n the appearance of monsters ....",2)
+				NewTextBox("I think someone calls them here. \n And it seems to me that someone is Kote.",2)
+				NewTextBox("Her friend wanted to tell me something important \n about her. But didn't make it...",2)
+				NewTextBox("As you know, he is dead.",2)
+				NewTextBox("Wait for Kote to leave and sneak into her house. \n Maybe we'll find clues there.",2)
 				global.friendCat = false
 			}
 			else{
@@ -103,7 +123,7 @@ function ActivateDeadSkeleton(){
 		
 		case 2:{ // квест завершён
 			// благодарим и т.д.
-			NewTextBox("This work is in the process of being written.",2)
+			NewTextBox("Go and search Kote's house....",2)
 			global.friendCat = false
 		}break	
 	}

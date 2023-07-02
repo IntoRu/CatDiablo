@@ -31,6 +31,8 @@ switch(room){
 	case rStrangeHome: {
 		audio_play_sound(sndStrangeHome,5,true)
 	}; break
+	case rHouseFriendCat: audio_play_sound(sndHouseKote,5,true);break
+	case rCaveLuke: audio_play_sound(sndLukeCave,5,true);break
 }
 
 // спавним джойстик (виртуальный)

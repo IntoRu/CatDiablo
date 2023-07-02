@@ -25,7 +25,7 @@ global.deathCount = 0 // без этой хуйни невозможно сох�
 global.entityDeath = []
 //---------------------------------
 
-global.playerMoney = 999999
+global.playerMoney = 0
 //--------------------------------------------
 // предметы
 global.playerHasAnyItems = false
@@ -64,7 +64,7 @@ global.hillPlus = 0.5
 // Найти пропавшего друга коту
 // для квеста пропавшего дркга
 global.questStatus = ds_map_create() // создаётся один раз для всех квестов
-global.questStatus[? "TheMissingFriend"] = 2 // квест не начат(1- начат 2 завершён)
+global.questStatus[? "TheMissingFriend"] = 0 // квест не начат(1- начат 2 завершён)
 #endregion 
 
 
@@ -79,13 +79,13 @@ global.questStatus[? "TheDeadVillage"] = 0 // квест не начат(1- на
 global.fight = false // бой с боссом ещё не начат
 // будет базироватся на основе инфы после убийства монстра в пещере в лесу
 global.informationAboutMonster = false
-global.questStatus[? "TheBrotherDeadCat"] = 2
+global.questStatus[? "TheBrotherDeadCat"] = 0
 #endregion
 
 #region квест незнакомца
 // зачистить двор дома от скелетов
 global.countSkeleton = 0 // сколько скелетов убито
-global.questStatus[? "TheSkeleton"] = 2 // квест не начат(1- начат 2 завершён)
+global.questStatus[? "TheSkeleton"] = 0 // квест не начат(1- начат 2 завершён)
 
 #endregion
 

@@ -13,6 +13,7 @@ function RoomToAreaName(_room){
 			case rHouseBrotherCat: return "Дом братьев котов"; break;
 			case rStrangeHome: return "Двор незнакомца"; break;
 			case rHouseFriendCat: return "Дом котэ"; break;
+			case rCaveLuke: return "Подвал дома котэ"; break;
 		
 			default: return "Неизвестная облать"; break;
 		}
@@ -30,6 +31,7 @@ function RoomToAreaName(_room){
 			case rHouseBrotherCat: return "House of cat brothers"; break;
 			case rStrangeHome: return "Stranger's yard"; break;
 			case rHouseFriendCat: return "Cat House"; break;
+			case rCaveLuke: return "Kote house basement"; break;
 		
 			default: return "Unknown area"; break;
 		}	

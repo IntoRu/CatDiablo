@@ -84,6 +84,9 @@ function PurchaseNewBow(_newBow,_cost){
 		global.playerEquipped = ITEM.BOW
 		global.playerHasAnyItems = true
 		
+		// при покупке любого лука даётся десять стрел (они же становятся доступны в мире)
+		PurchaseItem(ITEM.BOW,10,0)
+		
 		
 		
 		// добавляем лук

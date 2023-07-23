@@ -34,8 +34,8 @@ if(slotVisible > 0){
 			draw_text(_x+8,_y+8, RoomToAreaName(slotData[_slot][? "room"]))
 			
 			// уровень персоонажа
-			if global.local == "RU" draw_text(_x+80,_y+30,"Уровень : "+string(slotData[_slot][? "level"]))
-			if global.local == "EN" draw_text(_x+80,_y+30,"Level : "+string(slotData[_slot][? "level"]))
+			//if global.local == "RU" draw_text(_x+80,_y+30,"Уровень : "+string(slotData[_slot][? "level"]))
+			//if global.local == "EN" draw_text(_x+80,_y+30,"Level : "+string(slotData[_slot][? "level"]))
 			
 			// здоровье
 			var _playerHealth = slotData[_slot][? "playerHealth"]
@@ -49,10 +49,12 @@ if(slotVisible > 0){
 					_imageIndex += (_playerHealthFrac>0.25)
 					_imageIndex += (_playerHealthFrac>0.5)
 				}
-				draw_sprite(sHealth,_imageIndex,_x+48+((i-1)*16),_y+24)
+				//draw_sprite(sHealth,_imageIndex,_x+48+((i-1)*16),_y+24)
+				draw_sprite(sHealth,_imageIndex,_x+88+((i-1)*16),_y+34)
 			}
 			// рисум бабосы
-			draw_sprite(sCoin,0,_x+8,_y+28)
+			//draw_sprite(sCoin,0,_x+8,_y+28)
+			draw_sprite(sCoin,0,_x+8,_y+33)
 			draw_text(_x+20,_y+24,slotData[_slot][? "playerMoney"])
 			
 			

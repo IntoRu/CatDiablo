@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sndQuestHatComplited",
+  "name": "sndStartMission",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 5.064,
+  "duration": 6.556735,
   "parent": {
     "name": "Sound",
     "path": "folders/Sound.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sndQuestHatComplited.mp3",
+  "soundFile": "sndStartMission.mp3",
   "type": 0,
-  "volume": 0.6,
+  "volume": 0.47,
 }

@@ -11,12 +11,12 @@ function ActivateDeadVillage(){
 				NewTextBox("Ахуеть, ты зделал это",2)
 				NewTextBox("Ты убил их всех!!!",2)
 				global.questStatus[? "TheDeadVillage"] = 2 // завершаем квест
-				audio_play_sound(sndQuestHatComplited,5,false)
 				global.playerMoney += 100
 				// повышаем уровень
 				//if(global.level != 3) global.level++
 				NewTextBox("В центре деревни есть отличный магаз!\nА на севере деревни живёт Котэ!!!",2)
 				NewTextBox("У неё всегда найдётся работёнка для таких как ты!!!",2)
+				audio_play_sound(sndEndMission,5,false)
 			}
 			else{
 				// предлагаем квест
@@ -34,10 +34,10 @@ function ActivateDeadVillage(){
 				NewTextBox("Теперь можно вздохнуть свободно...",2)
 				global.questStatus[? "TheDeadVillage"] = 2 // завершаем квест
 				//if(global.level != 3) global.level++ // при желании можно добавить уровень и т д
-				audio_play_sound(sndQuestHatComplited,5,false)
 				global.playerMoney += 100
 				NewTextBox("В центре деревни есть отличный магаз!\nА на севере деревни живёт Котэ!!!",2)
 				NewTextBox("У неё всегда найдётся работёнка для таких как ты!!!",2)
+				audio_play_sound(sndEndMission,5,false)
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
@@ -62,7 +62,7 @@ function ActivateDeadVillage(){
 				NewTextBox("Wow you did it",2)
 				NewTextBox("You killed them all!!!",2)
 				global.questStatus[? "TheDeadVillage"] = 2 // завершаем квест
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 100
 				// повышаем уровень
 				//if(global.level != 3) global.level++
@@ -85,7 +85,7 @@ function ActivateDeadVillage(){
 				NewTextBox("Now you can breathe freely...",2)
 				global.questStatus[? "TheDeadVillage"] = 2 // завершаем квест
 				//if(global.level != 3) global.level++ // при желании можно добавить уровень и т д
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 100
 				NewTextBox("There is a great shop in the center of the village!\nAnd in the north of the village lives Kote!!!",2)
 				NewTextBox("She always has a job for people like you!!!",2)

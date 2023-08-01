@@ -11,7 +11,7 @@ function ActivateDeadSkeleton(){
 				NewTextBox("Ну ты реально крут братишка....",2)
 				NewTextBox("Ты завалил всех костяных уродов!!!",2)
 				global.questStatus[? "TheSkeleton"] = 2 // завершаем квест
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 500
 				NewTextBox("Ты доказал что достоин моей работёнки",2)
 				NewTextBox("А теперь слушай меня внимательно....",2)
@@ -39,7 +39,7 @@ function ActivateDeadSkeleton(){
 				NewTextBox("Ну ты реально крут братишка....",2)
 				NewTextBox("Ты завалил всех костяных уродов!!!",2)
 				global.questStatus[? "TheSkeleton"] = 2 // завершаем квест
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 500
 				NewTextBox("Ты доказал что достоин моей работёнки",2)
 				NewTextBox("А теперь слушай меня внимательно....",2)
@@ -75,7 +75,7 @@ function ActivateDeadSkeleton(){
 				NewTextBox("You are really cool bro...",2)
 				NewTextBox("You killed all the bone freaks!!!",2)
 				global.questStatus[? "TheSkeleton"] = 2 // завершаем квест
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 500
 				NewTextBox("You proved that you are worthy of my job",2)
 				NewTextBox("Now listen to me carefully....",2)
@@ -103,7 +103,7 @@ function ActivateDeadSkeleton(){
 				NewTextBox("You are really cool bro...",2)
 				NewTextBox("You flunked all the bone freaks!!!",2)
 				global.questStatus[? "TheSkeleton"] = 2 // завершаем квест
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 500
 				NewTextBox("You proved that you are worthy of my job",2)
 				NewTextBox("Now listen to me carefully....",2)

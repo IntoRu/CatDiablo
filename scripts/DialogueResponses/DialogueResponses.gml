@@ -7,7 +7,7 @@ function DialogueResponses(){
 		//квест пропавшего друга
 		case 0: break
 		case 1:{// мы согласились на квест
-			audio_play_sound(sndQuestHatStart,5,false)
+			audio_play_sound(sndStartMission,5,false)
 			NewTextBox("Спасибо",2)
 			NewTextBox("Я думаю что он пошёл в пещеру...",2)
 			NewTextBox("Вход в пещеру в речной долине",2)
@@ -31,7 +31,7 @@ function DialogueResponses(){
 		
 		// квест синего слизняка
 		case 5:{
-			audio_play_sound(sndQuestHatStart,5,false)
+			audio_play_sound(sndStartMission,5,false)
 			NewTextBox("Отлично",2)
 			NewTextBox("Я думаю ты справишься. Используй камни",2)
 			NewTextBox("В меню паузы ты увидишь текущие задания",2)
@@ -47,7 +47,7 @@ function DialogueResponses(){
 			NewTextBox("Очевидно это дело рук более сильного монстра.....",2)
 			NewTextBox("Выследи и убей эту тварь.......\nа я в долгу не останусь....",2)
 			NewTextBox("В меню паузы ты увидишь текущие задания",2)
-			audio_play_sound(sndQuestHatStart,5,false)	
+			audio_play_sound(sndStartMission,5,false)	
 			global.questStatus[? "TheBrotherDeadCat"] = 1 // меняем статус авеста на взят
 		}break
 		// покупка мечей
@@ -64,7 +64,7 @@ function DialogueResponses(){
 		}break
 		// квест незнакомца
 		case 11:{
-			audio_play_sound(sndQuestHatStart,5,false)
+			audio_play_sound(sndStartMission,5,false)
 			NewTextBox("Очень хорошо",2)
 			NewTextBox("Вход в мой двор завален камнями...\n и я даю тебе силу что бы их раскидать",2)
 			global.strong = true // даём силу
@@ -83,7 +83,7 @@ function DialogueResponses(){
 		//квест пропавшего друга
 		case 0: break
 		case 1:{// мы согласились на квест
-			audio_play_sound(sndQuestHatStart,5,false)
+			audio_play_sound(sndStartMission,5,false)
 			NewTextBox("Thank you",2)
 			NewTextBox("I think he went to the cave...",2)
 			NewTextBox("Entrance to a cave in a river valley",2)
@@ -107,7 +107,7 @@ function DialogueResponses(){
 		
 		// квест синего слизняка
 		case 5:{
-			audio_play_sound(sndQuestHatStart,5,false)
+			audio_play_sound(sndStartMission,5,false)
 			NewTextBox("Great",2)
 			NewTextBox("I think you can do it. Use the stones",2)
 			NewTextBox("In the pause menu you will see the current tasks",2)
@@ -123,7 +123,7 @@ function DialogueResponses(){
 			NewTextBox("Obviously this is the work of a stronger monster .....",2)
 			NewTextBox("Hunt down and kill this creature.......\nAnd I won't be in debt...",2)
 			NewTextBox("In the pause menu you will see the current tasks",2)
-			audio_play_sound(sndQuestHatStart,5,false)	
+			audio_play_sound(sndStartMission,5,false)	
 			global.questStatus[? "TheBrotherDeadCat"] = 1 // меняем статус авеста на взят
 		}break
 		// покупка мечей
@@ -140,7 +140,7 @@ function DialogueResponses(){
 		}break
 		// квест незнакомца
 		case 11:{
-			audio_play_sound(sndQuestHatStart,5,false)
+			audio_play_sound(sndStartMission,5,false)
 			NewTextBox("Very good",2)
 			NewTextBox("The entrance to my yard is littered with stones...\n and I give you the strength to scatter them",2)
 			global.strong = true // даём силу

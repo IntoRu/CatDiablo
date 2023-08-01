@@ -28,7 +28,7 @@ function ActivateHeadDeadCat(){
 				global.spriteRun[LEVEL1] = sPlayerRunL1
 				global.spriteRun[LEVEL2] = sPlayerRunL2
 				global.spriteRun[LEVEL3] = sPlayerRunL3
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 100
 				//// повышаем уровень
 				//if(global.level != 3) global.level++
@@ -69,7 +69,7 @@ function ActivateHeadDeadCat(){
 				
 				// повышаем уровень
 				//if(global.level != 3) global.level++
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
@@ -117,7 +117,7 @@ function ActivateHeadDeadCat(){
 				global.spriteRun[LEVEL1] = sPlayerRunL1
 				global.spriteRun[LEVEL2] = sPlayerRunL2
 				global.spriteRun[LEVEL3] = sPlayerRunL3
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 				global.playerMoney += 100
 				//// повышаем уровень
 				//if(global.level != 3) global.level++
@@ -158,7 +158,7 @@ function ActivateHeadDeadCat(){
 				
 				// повышаем уровень
 				//if(global.level != 3) global.level++
-				audio_play_sound(sndQuestHatComplited,5,false)
+				audio_play_sound(sndEndMission,5,false)
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку

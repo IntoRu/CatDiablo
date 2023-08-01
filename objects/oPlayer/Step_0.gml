@@ -98,7 +98,7 @@ if state = PlayerStateBonk and soundStepBonk = true and !audio_is_playing(sndRol
 } 
 // звук смерти
 if sprite_index = global.spriteDie[global.level] and soundStepDead = true{
-	audio_play_sound(sndPlayerDead,5,false)
+	audio_play_sound(sndHeroDead,5,false)
 	soundStepDead = false
 }
 else if sprite_index = global.spriteDead[global.level] soundStepDead = true

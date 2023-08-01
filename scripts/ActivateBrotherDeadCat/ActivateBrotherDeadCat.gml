@@ -13,7 +13,7 @@ function ActivateBrotherDeadCat(){
 					NewTextBox("И так эта тварь мертва...",2)
 					NewTextBox("Спасибо что отомстил за моего братишку",2)
 					global.questStatus[? "TheBrotherDeadCat"] = 2 // завершаем квест
-					audio_play_sound(sndQuestHatComplited,5,false)
+					audio_play_sound(sndEndMission,5,false)
 					global.playerMoney += 500
 					//// повышаем уровень
 					//if(global.level != 3) global.level++
@@ -40,7 +40,7 @@ function ActivateBrotherDeadCat(){
 					// повышаем уровень
 					//if(global.level != 3) global.level++
 					//global.strong = true // даём силу
-					audio_play_sound(sndQuestHatComplited,5,false)
+					audio_play_sound(sndEndMission,5,false)
 				}
 				else{
 					// мы напоминаем что надо сделать или даём подсказку
@@ -74,7 +74,7 @@ function ActivateBrotherDeadCat(){
 					NewTextBox("And so this creature is dead...",2)
 					NewTextBox("Thank you for avenging my brother",2)
 					global.questStatus[? "TheBrotherDeadCat"] = 2 // завершаем квест
-					audio_play_sound(sndQuestHatComplited,5,false)
+					audio_play_sound(sndEndMission,5,false)
 					global.playerMoney += 500
 					//// повышаем уровень
 					//if(global.level != 3) global.level++
@@ -101,7 +101,7 @@ function ActivateBrotherDeadCat(){
 					// повышаем уровень
 					//if(global.level != 3) global.level++
 					//global.strong = true // даём силу
-					audio_play_sound(sndQuestHatComplited,5,false)
+					audio_play_sound(sndEndMission,5,false)
 				}
 				else{
 					// мы напоминаем что надо сделать или даём подсказку

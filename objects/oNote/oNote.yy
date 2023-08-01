@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"value":"ActivateCoteNote",},
   ],
   "parent": {
-    "name": "RPG",
-    "path": "RPG.yyp",
+    "name": "Enviroment",
+    "path": "folders/Enviroment.yy",
   },
   "parentObjectId": {
     "name": "pEntity",

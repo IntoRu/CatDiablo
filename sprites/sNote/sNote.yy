@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "RPG",
-    "path": "RPG.yyp",
+    "name": "Enviroment",
+    "path": "folders/Enviroment.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

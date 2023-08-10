@@ -35,6 +35,16 @@ switch(room){
 	case rCaveLuke: audio_play_sound(sndLukeCave,5,true);break
 }
 
+// рисуем кровавую дорожку что бы выследить монстра
+if global.questStatus[? "TheBrotherDeadCat"] == 1
+{
+	layer_set_visible("BloodRoad", true)
+}
+else if global.questStatus[? "TheBrotherDeadCat"] == 2
+{
+	layer_set_visible("BloodRoad", false)
+}
+
 // спавним джойстик (виртуальный)
 //if room != rStory{
 //	instance_create_layer(18,123,"Instances",oLeft)

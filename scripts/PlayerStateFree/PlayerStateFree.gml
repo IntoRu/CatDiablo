@@ -53,7 +53,6 @@ function PlayerStateFree(){
 		}
 	}
 	
-	
 	ds_list_destroy(_activateList)
 	//----------------------------------------------------------------------------
 		

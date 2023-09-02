@@ -123,6 +123,12 @@ if distance_to_object(oHeadDeadCat) < 30 and global.itemMessage == true{
 	global.itemMessage = false
 }
 
+// пыль под ногами
+dustInt = irandom_range(1,5) // рандомный интервал появления пыли
+if sprite_index == global.spriteRun[global.level] and dustInt == 1 and !global.gamePaused instance_create_depth(x, bbox_bottom, -1, oDust)
+
+
+
 
 
 

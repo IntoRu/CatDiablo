@@ -29,8 +29,8 @@ else{
 if(state == PlayerStateHook) and (image_index == 3) DrawHookChain()
 
 
-// рисуем восклицательный знак когда есть что активировать
-if(readyMess) draw_sprite(sAttention,0,x+1,y-23)
+// рисуем знак когда есть что активировать
+if(readyMess) draw_sprite(sHelping,0,x,y-20)
 
 function DrawHookChain(){
 	var _originX = x

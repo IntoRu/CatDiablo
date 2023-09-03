@@ -56,7 +56,7 @@ draw_text(_xx,_yy,_str)
 _xx = 90
 _yy = 1
 
-draw_sprite(sItemUIBox,0,_xx,_yy){
+if global.playerHasAnyItems draw_sprite(sItemUIBox,0,_xx,_yy)
 	if(global.playerHasAnyItems){
 		
 		if global.playerEquipped != 2 draw_sprite(sItemUI,global.playerEquipped,_xx,_yy)
@@ -83,7 +83,7 @@ draw_sprite(sItemUIBox,0,_xx,_yy){
 			)
 		}
 	}
-}
+
 
 // рисуем используемый мечь
 //_xx = 8

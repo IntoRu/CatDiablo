@@ -74,15 +74,16 @@ function SlimeChese(){
 	
 	// аттака
 	if meleAttack == true{ // если враг аттакует оружием (реализованно только у монстра)
-		if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText) and oPlayer.state != PlayerStateDead{
+		if(instance_exists(target)) and (point_distance(x,y,target.x,target.y) <= enemyAttackRadius) and !instance_exists(oText) and oPlayer.state != PlayerStateDead and damagCuldown < 0 {
 			state = ENEMYSTATE.ATTACK
 			mask_index = spriteMaskAttack
 			sprite_index = sprAttack
 			image_index = 0
 			image_speed = 1.0
 			audio_play_sound(soundAttack,5,false)
-			xTo += lengthdir_x(8,dir)
-			yTo += lengthdir_y(8,dir)
+			xTo += lengthdir_x(2,dir)
+			yTo += lengthdir_y(2,dir)
+			damagCuldown = timeFight // кулдавн аттаки
 		} 
 		else mask_index = spriteMask
 	}

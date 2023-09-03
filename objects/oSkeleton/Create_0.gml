@@ -4,6 +4,7 @@ event_inherited();
 // для врагов с оружием (реализованно только у монстра и у скелета)
 spriteMask = sSkeleton
 spriteMaskAttack = sSkeletonAttackHB
+//spriteMaskAttack = sSkeletonAttack
 
 soundAttack = sndSkeletonAttack
 

@@ -1,5 +1,6 @@
 // Inherit the parent event
 event_inherited();
+damagCuldown = 0 // кулдавн аттаки
 
 //переменные врага
 state = ENEMYSTATE.IDLE

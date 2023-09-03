@@ -23,8 +23,11 @@ for(var i = 1; i <= _playerHealthMax; i++){
 // рисуем монеты
 
 
-_xx = 28
-_yy = 31
+//_xx = 28
+//_yy = 31
+
+_xx = 270
+_yy = 2
 draw_sprite(sCoinUI,0,_xx,_yy)
 
 // рисуем текст для монет
@@ -32,8 +35,12 @@ draw_set_color(c_black)
 draw_set_font(fText)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
+
+//_xx += sprite_get_width(sCoin)+4
+//_yy = 29
 _xx += sprite_get_width(sCoin)+4
-_yy = 29
+_yy = 2
+
 var _str = string(global.playerMoney)
 draw_text(_xx+1,_yy,_str)
 draw_text(_xx-1,_yy,_str)
@@ -43,8 +50,11 @@ draw_set_color(c_white)
 draw_text(_xx,_yy,_str)
 
 //рисуем предметы
-_xx = 8
-_yy = 24
+//_xx = 8
+//_yy = 24
+
+_xx = 90
+_yy = 1
 
 draw_sprite(sItemUIBox,0,_xx,_yy){
 	if(global.playerHasAnyItems){
@@ -76,16 +86,21 @@ draw_sprite(sItemUIBox,0,_xx,_yy){
 }
 
 // рисуем используемый мечь
-_xx = 8
-_yy = 44
+//_xx = 8
+//_yy = 44
+_xx = 1
+_yy = 20
 
 	if (global.swordEquipped != SWORD.NONE){
 		draw_sprite(sSword,global.swordEquipped,_xx,_yy)
 	}
 
 // рисуем ключь от погреба у кота дома
-_xx = 8
-_yy = 70
+//_xx = 8
+//_yy = 70
+
+_xx = 245
+_yy = 2
 
 if global.key == true draw_sprite(sKey,0,_xx,_yy)
 

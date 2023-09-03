@@ -1,6 +1,8 @@
 
 randomize()
 
+chitCode = 0 // для чит кода
+
 global.local = "RU"
 
 global.day = 0 //день 1 - ночь

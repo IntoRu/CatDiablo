@@ -20,7 +20,7 @@ function ActivateHouseSearch(){
 		{
 			// если квест активировался
 			case 1:
-			{
+			{  
 				NewTextBox("Go and search Kote's house....",2)
 			}
 			break

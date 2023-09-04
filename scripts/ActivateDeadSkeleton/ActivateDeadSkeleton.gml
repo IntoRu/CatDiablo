@@ -62,6 +62,7 @@ function ActivateDeadSkeleton(){
 			//NewTextBox("Иди и обыщи дом Котэ....",2)
 			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
 			global.friendCat = false
+			audio_play_sound(sndStartMission,5,false)
 		}break	
 	}
 	
@@ -127,6 +128,7 @@ function ActivateDeadSkeleton(){
 			//NewTextBox("Go and search Kote's house....",2)
 			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
 			global.friendCat = false
+			audio_play_sound(sndStartMission,5,false)
 		}break	
 	}
 	}

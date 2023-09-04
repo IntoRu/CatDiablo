@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sndEndMission.mp3",
   "type": 0,
-  "volume": 0.51,
+  "volume": 0.05,
 }

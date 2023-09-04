@@ -92,6 +92,7 @@ global.questStatus[? "TheSkeleton"] = 0 // квест не начат(1- нач�
 #endregion
 
 #region квест обыск дома у котэ
+global.questStatus[? "HouseSearch"] = 0
 global.lockedLuke = true
 global.key = false
 #endregion

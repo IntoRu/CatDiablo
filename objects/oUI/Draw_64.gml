@@ -272,6 +272,30 @@ if(global.gamePaused){
 		draw_text(xx,yy,"Clear the yard of skeletons")
 		}
 	}
+	if(global.questStatus[? "HouseSearch"] == 1){
+		xx = 10
+		yy = 70
+		draw_set_font(fTextNew)
+		draw_set_halign(fa_left)
+		draw_set_valign(fa_bottom)
+		draw_set_color(c_black)
+		if global.local == "RU"{
+		draw_text(xx+1,yy,"Обыскать дом Котэ")
+		draw_text(xx-1,yy,"Обыскать дом Котэ")
+		draw_text(xx,yy-1,"Обыскать дом Котэ")
+		draw_text(xx,yy+1,"Обыскать дом Котэ")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Обыскать дом Котэ")
+		}
+		if global.local == "EN"{
+		draw_text(xx+1,yy,"Search Kote's house")
+		draw_text(xx-1,yy,"Search Kote's house")
+		draw_text(xx,yy-1,"Search Kote's house")
+		draw_text(xx,yy+1,"Search Kote's house")
+		draw_set_color(c_blue)
+		draw_text(xx,yy,"Search Kote's house")
+		}
+	}
 	//else{
 	//	xx = 80
 	//	yy = 40

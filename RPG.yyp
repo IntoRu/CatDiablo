@@ -333,6 +333,7 @@
     {"id":{"name":"sPlayerAttackSlashL3","path":"sprites/sPlayerAttackSlashL3/sPlayerAttackSlashL3.yy",},},
     {"id":{"name":"ActivateCoteNote","path":"scripts/ActivateCoteNote/ActivateCoteNote.yy",},},
     {"id":{"name":"sSword","path":"sprites/sSword/sSword.yy",},},
+    {"id":{"name":"ActivateHouseSearch","path":"scripts/ActivateHouseSearch/ActivateHouseSearch.yy",},},
     {"id":{"name":"sndRoomForest","path":"sounds/sndRoomForest/sndRoomForest.yy",},},
     {"id":{"name":"sPlayerHookL1","path":"sprites/sPlayerHookL1/sPlayerHookL1.yy",},},
     {"id":{"name":"sTilesCave","path":"sprites/sTilesCave/sTilesCave.yy",},},

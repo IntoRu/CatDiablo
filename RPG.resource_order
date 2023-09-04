@@ -300,6 +300,7 @@
     {"name":"sPlayerAttackSlashL3","order":5,"path":"sprites/sPlayerAttackSlashL3/sPlayerAttackSlashL3.yy",},
     {"name":"ActivateCoteNote","order":12,"path":"scripts/ActivateCoteNote/ActivateCoteNote.yy",},
     {"name":"sSword","order":1,"path":"sprites/sSword/sSword.yy",},
+    {"name":"ActivateHouseSearch","order":13,"path":"scripts/ActivateHouseSearch/ActivateHouseSearch.yy",},
     {"name":"sndRoomForest","order":28,"path":"sounds/sndRoomForest/sndRoomForest.yy",},
     {"name":"sPlayerHookL1","order":12,"path":"sprites/sPlayerHookL1/sPlayerHookL1.yy",},
     {"name":"sTilesCave","order":25,"path":"sprites/sTilesCave/sTilesCave.yy",},

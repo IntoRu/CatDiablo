@@ -59,7 +59,8 @@ function ActivateDeadSkeleton(){
 		
 		case 2:{ // квест завершён
 			// благодарим и т.д.
-			NewTextBox("Иди и обыщи дом Котэ....",2)
+			//NewTextBox("Иди и обыщи дом Котэ....",2)
+			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
 			global.friendCat = false
 		}break	
 	}
@@ -123,7 +124,8 @@ function ActivateDeadSkeleton(){
 		
 		case 2:{ // квест завершён
 			// благодарим и т.д.
-			NewTextBox("Go and search Kote's house....",2)
+			//NewTextBox("Go and search Kote's house....",2)
+			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
 			global.friendCat = false
 		}break	
 	}

@@ -61,6 +61,21 @@ global.armorEquipped = ARMOR.NONE
 // аптечка
 global.hillPlus = 0.5
 
+//для магического прогресс бара
+global.currentAmount = 0
+global.maxAmount = 70 // чем больше число тем дольше будет заполнятся шкала
+
+// магические руны
+global.playerHasAnyItemsMagic = false
+global.playerEquippedMagic = ITEMMAGIC.FAERSINGL // первая будет руна наносящая урон по одному противнику
+//global.playerAmmoMagic = array_create(ITEMMAGIC.TYPE_COUNT, -1) // кол-во на всякий случай
+global.playerItemUnlockedMagic = array_create(ITEMMAGIC.TYPE_COUNT, false)
+
+// для проверки
+//global.playerItemUnlockedMagic[ITEMMAGIC.FAERSINGL] = true
+//global.playerItemUnlockedMagic[ITEMMAGIC.FAERALL] = true
+//global.playerHasAnyItemsMagic = true
+
 //--------------КВЕСТЫ----------------
 #region квест пропавшего друга
 // Найти пропавшего друга коту

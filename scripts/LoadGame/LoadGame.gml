@@ -5,7 +5,14 @@ function LoadGame(_slot){
 	if(file_exists(_file)){
 		
 		var _json = LoadJSONFromFile(_file)
-
+		//---------------------------------------------------
+		// загружаем магические руны
+		global.playerHasAnyItemsMagic = _json[? "playerHasAnyItemsMagic"]
+		global.playerEquippedMagic = _json[? "playerEquippedMagic"]
+		for (var i=0;i<ITEMMAGIC.TYPE_COUNT;i++){
+			global.playerItemUnlockedMagic[i] = _json[? "playerItemUnlockedMagic"][| i]
+		}
+		//-----------------------------------------------------
 		global.strong = _json[? "strong"]
 		global.lockedLuke = _json[? "lockedLuke"]
 		global.key = _json[? "key"]

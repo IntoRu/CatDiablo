@@ -86,6 +86,11 @@ function DialogueResponses(){
 		{
 			NewTextBox("Хорошо. Я подожду...")
 		}break
+		// покупка магических рун
+		case 15:
+		{
+			PurchaseMagic(activate.itemMagic,activate.itemCost)
+		}break
 		default: break
 	}
 	}
@@ -173,6 +178,10 @@ function DialogueResponses(){
 		case 14:
 		{
 			NewTextBox("Fine. I'll wait...")
+		}break
+		case 15:
+		{
+			PurchaseMagic(activate.itemMagic,activate.itemCost)
 		}break
 		default: break
 	}

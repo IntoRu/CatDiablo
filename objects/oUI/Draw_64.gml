@@ -104,9 +104,27 @@ _yy = 2
 
 if global.key == true draw_sprite(sKey,0,_xx,_yy)
 
+// --------//-------------//---------------//------------//
+
+// рисуем магические предметы
+// рисуем бох для магических предметов
+_xx = 130
+_yy = 1
+
+if global.playerHasAnyItemsMagic
+{
+	// бокс
+	draw_sprite(sItemUIBoxMagic,0,_xx,_yy)
+	// прогресс бар
+	draw_sprite(sMagicBarBG,0,_xx+17,_yy+8)
+	draw_sprite_ext(sMagicBar,0,_xx+22,_yy+8,global.currentAmount / global.maxAmount,image_yscale,image_angle,image_blend,image_alpha)
+	// рисуем руны
+	draw_sprite(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1)
+}
 
 
 
+// --------//-------------//---------------//------------//
 //рисуем меню паузы
 if(global.gamePaused){
 	draw_set_color(c_black)

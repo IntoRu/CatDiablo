@@ -12,6 +12,11 @@ keyItem = keyboard_check_pressed(vk_control)
 keyItemSelectUp = keyboard_check_pressed(ord("E"))
 keyItemSelectDown = keyboard_check_pressed(ord("Q"))
 
+// активация и выбор магических рун
+keyItemMagic = keyboard_check_pressed(ord("X"))
+keyItemSelectUpMagic = keyboard_check_pressed(ord("C"))
+keyItemSelectDownMagic = keyboard_check_pressed(ord("Z"))
+
 #region геймпад
 if left or right or up or down {
 	controller = 0

@@ -7,7 +7,12 @@ function SaveGame(){
 	
 	
 	// добавляем в эту карту вещи которые надо сохранять
-
+	
+	// сохраняем магические руны
+	_map[? "playerHasAnyItemsMagic"] = global.playerHasAnyItemsMagic
+	_map[? "playerEquippedMagic"] = global.playerEquippedMagic
+	_map[? "playerItemUnlockedMagic"] = global.playerItemUnlockedMagic
+	//-----------------------------------------------------
 	_map[? "room"] = room
 	_map[? "friendCat"] = global.friendCat
 	_map[? "level"] = global.level
@@ -16,8 +21,6 @@ function SaveGame(){
 	_map[? "strong"] = global.strong
 	_map[? "lockedLuke"] = global.lockedLuke
 	_map[? "key"] = global.key
-	
-
 	_map[? "count"] = global.count
 	_map[? "countSkeleton"] = global.countSkeleton
 	_map[? "informationAboutMonster"] = global.informationAboutMonster

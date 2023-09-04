@@ -106,6 +106,18 @@ function PlayerStateFree(){
 		}
 	}
 	
+	// использование магических рун
+	if keyItemMagic and !keyActivate and global.playerHasAnyItemsMagic and global.playerEquippedMagic != ITEM.NONE
+	{
+		switch global.playerEquippedMagic
+		{
+			case ITEMMAGIC.FAERSINGL: UseItemMagicFaerSingl(); break
+			case ITEMMAGIC.FAERALL: UseItemMagicFaerAll(); break
+			default: break
+			
+		}
+	}
+	
 	// урон от разных мечей
 	if(global.swordEquipped != SWORD.NONE){
 		switch (global.swordEquipped){
@@ -148,6 +160,22 @@ function PlayerStateFree(){
 				if(global.playerEquipped >= ITEM.TYPE_COUNT) global.playerEquipped = 1
 			}
 			until (global.playerItemUnlocked[global.playerEquipped])
+		}
+	}
+	
+	//переключение магических рун
+	if global.playerHasAnyItemsMagic
+	{
+		var _cycleDirectionMagic = keyItemSelectUpMagic - keyItemSelectDownMagic
+		if _cycleDirectionMagic != 0
+		{
+			do
+			{
+				global.playerEquippedMagic += _cycleDirectionMagic
+				if global.playerEquippedMagic < 1 global.playerEquippedMagic = ITEMMAGIC.TYPE_COUNT-1
+				if global.playerEquippedMagic >= ITEMMAGIC.TYPE_COUNT global.playerEquippedMagic = 1
+			}
+			until global.playerItemUnlockedMagic[global.playerEquippedMagic]
 		}
 	}
 }

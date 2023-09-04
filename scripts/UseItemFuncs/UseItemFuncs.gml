@@ -48,3 +48,23 @@ function PlayerFireArrow(){
 		speed = 6
 	}
 }
+
+//-----------------------------------------------------------
+// использование магических рун
+function UseItemMagicFaerSingl()
+{
+	if global.currentAmount == global.maxAmount
+	{
+		global.currentAmount = 0 // запускаем перезарядку магии
+		show_debug_message("Faer to nearest enemy")
+	}
+}
+
+function UseItemMagicFaerAll()
+{
+	if global.currentAmount == global.maxAmount
+	{
+		global.currentAmount = 0 // запускаем перезарядку магии
+		show_debug_message("Faer to all enemy")
+	}
+}

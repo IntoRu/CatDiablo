@@ -154,4 +154,40 @@ function PurchaseArmor(_armor,_cost){
 	}
 }
 
+// покупка магических рун
+function PurchaseMagic(_magic,_cost){
+	if(global.playerMoney >= _cost){
+		
+		global.playerMoney -= _cost
+		global.playerHasAnyItemsMagic = true
+		global.playerItemUnlockedMagic[_magic] = true
+		
+		// добавляем руну
+		global.playerEquippedMagic = _magic
+		
+		
+		if(_magic != ITEMMAGIC.NONE) instance_destroy(activate)
+		
+		var _desc = ""
+		if global.local == "RU"{
+		switch(_magic){
+			case ITEMMAGIC.FAERSINGL: _desc = "Руна огненного удара по врагу";break
+			case ITEMMAGIC.FAERALL: _desc = "Руна массового огненного удара";break
+			default: _desc = "Описание не найдено"; break
+		}
+		}
+		if global.local == "EN"{
+		switch(_magic){
+			case ITEMMAGIC.FAERSINGL: _desc = "Rune of Fiery Strike on the Enemy";break
+			case ITEMMAGIC.FAERALL: _desc = "Rune of Massive Fire Strike";break
+			default: _desc = "Description not found"; break
+		}
+		}
+		NewTextBox(_desc,1)
+	}else{
+		if global.local == "RU" NewTextBox("Недостаточно золота",1)
+		if global.local == "EN" NewTextBox("Not enough gold",1)
+	}
+}
+
 

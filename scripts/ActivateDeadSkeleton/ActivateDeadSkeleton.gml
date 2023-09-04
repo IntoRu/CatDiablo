@@ -20,7 +20,7 @@ function ActivateDeadSkeleton(){
 				NewTextBox("Её друг хотел мне рассказать что - то \n важное про неё. Но не успел...",2)
 				NewTextBox("Как ты сам знаешь - он мёртв.",2)
 				NewTextBox("Дождись когда Котэ уйдёт и проберись в её дом. \n Возможно там мы найдём зацепки. ",2)
-				global.friendCat = false
+				
 			}
 			else{
 				// предлагаем квест
@@ -48,7 +48,8 @@ function ActivateDeadSkeleton(){
 				NewTextBox("Её друг хотел мне рассказать что - то \n важное про неё. Но не успел...",2)
 				NewTextBox("Как ты сам знаешь - он мёртв.",2)
 				NewTextBox("Дождись когда Котэ уйдёт и проберись в её дом. \n Возможно там мы найдём зацепки. ",2)
-				global.friendCat = false
+				NewTextBox("Ну что???? Ты в деле???",2,
+				["13:Да я в деле!","14:Возможно позже...."])
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
@@ -58,11 +59,11 @@ function ActivateDeadSkeleton(){
 		}break
 		
 		case 2:{ // квест завершён
-			// благодарим и т.д.
-			//NewTextBox("Иди и обыщи дом Котэ....",2)
-			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
-			global.friendCat = false
-			audio_play_sound(sndStartMission,5,false)
+			if global.questStatus[? "HouseSearch"] == 0
+			{
+				NewTextBox("Ну что???? Ты в деле???",2,
+				["13:Да я в деле!","14:Возможно позже...."])
+			}
 		}break	
 	}
 	
@@ -86,7 +87,7 @@ function ActivateDeadSkeleton(){
 				NewTextBox("Her friend wanted to tell me something important \n about her. But didn't make it...",2)
 				NewTextBox("As you know, he is dead.",2)
 				NewTextBox("Wait for Kote to leave and sneak into her house. \n Maybe we'll find clues there.",2)
-				global.friendCat = false
+				
 			}
 			else{
 				// предлагаем квест
@@ -114,7 +115,8 @@ function ActivateDeadSkeleton(){
 				NewTextBox("Her friend wanted to tell me something important \n about her. But didn't make it...",2)
 				NewTextBox("As you know, he is dead.",2)
 				NewTextBox("Wait for Kote to leave and sneak into her house. \n Maybe we'll find clues there.",2)
-				global.friendCat = false
+				NewTextBox("Well???? Are you in business???",2,
+				["13:Yes, I'm in!","14:Maybe later...."])
 			}
 			else{
 				// мы напоминаем что надо сделать или даём подсказку
@@ -126,9 +128,9 @@ function ActivateDeadSkeleton(){
 		case 2:{ // квест завершён
 			// благодарим и т.д.
 			//NewTextBox("Go and search Kote's house....",2)
-			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
-			global.friendCat = false
-			audio_play_sound(sndStartMission,5,false)
+			//global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
+			//global.friendCat = false
+			//audio_play_sound(sndStartMission,5,false)
 		}break	
 	}
 	}

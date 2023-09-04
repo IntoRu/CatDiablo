@@ -74,6 +74,18 @@ function DialogueResponses(){
 		case 12:{
 			NewTextBox("Ну если что я тут.....",2)
 		}break
+		// открываем квест обыска дома
+		case 13:
+		{
+			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
+			global.friendCat = false
+			audio_play_sound(sndStartMission,5,false)
+			NewTextBox("Отлично...Но будь осторожен...", 2)
+		}break
+		case 14:
+		{
+			NewTextBox("Хорошо. Я подожду...")
+		}break
 		default: break
 	}
 	}
@@ -149,6 +161,18 @@ function DialogueResponses(){
 		}break
 		case 12:{
 			NewTextBox("Well, if I'm here...",2)
+		}break
+		// открываем квест обыска дома
+		case 13:
+		{
+			global.questStatus[? "HouseSearch"] = 1 // запускаем квест обыска дома котэ
+			global.friendCat = false
+			audio_play_sound(sndStartMission,5,false)
+			NewTextBox("Great... But be careful...", 2)
+		}break
+		case 14:
+		{
+			NewTextBox("Fine. I'll wait...")
 		}break
 		default: break
 	}

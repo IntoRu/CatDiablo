@@ -148,6 +148,7 @@
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},},
     {"id":{"name":"sPlayerRunL3","path":"sprites/sPlayerRunL3/sPlayerRunL3.yy",},},
     {"id":{"name":"sHat","path":"sprites/sHat/sHat.yy",},},
+    {"id":{"name":"PlayerStateMagic","path":"scripts/PlayerStateMagic/PlayerStateMagic.yy",},},
     {"id":{"name":"sFrag_Slime","path":"sprites/sFrag_Slime/sFrag_Slime.yy",},},
     {"id":{"name":"PlayerThrown","path":"scripts/PlayerThrown/PlayerThrown.yy",},},
     {"id":{"name":"oArmor","path":"objects/oArmor/oArmor.yy",},},

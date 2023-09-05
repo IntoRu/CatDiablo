@@ -63,7 +63,7 @@ global.hillPlus = 0.5
 
 //для магического прогресс бара
 global.currentAmount = 0
-global.maxAmount = 70 // чем больше число тем дольше будет заполнятся шкала
+global.maxAmount = 20 // чем больше число тем дольше будет заполнятся шкала
 
 // магические руны
 global.playerHasAnyItemsMagic = false

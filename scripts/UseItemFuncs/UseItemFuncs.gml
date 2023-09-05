@@ -53,18 +53,28 @@ function PlayerFireArrow(){
 // использование магических рун
 function UseItemMagicFaerSingl()
 {
-	if global.currentAmount == global.maxAmount
+	nearEnemy = instance_nearest(x,y,pEnemy) // находим ближайшего врага
+	if global.currentAmount == global.maxAmount and distance_to_object(nearEnemy) < 70 // проверка дистанции
 	{
+		// и если дистанция позволяет
+		state = PlayerStateMagic // меняем спрайт
 		global.currentAmount = 0 // запускаем перезарядку магии
 		show_debug_message("Faer to nearest enemy")
+		HurtEnemy(nearEnemy,20,other.id,10) // ебашим по противнику
 	}
 }
 
 function UseItemMagicFaerAll()
 {
-	if global.currentAmount == global.maxAmount
+	if global.currentAmount == global.maxAmount and distance_to_object(pEnemy) < 70 // проверка дистанции
 	{
+		state = PlayerStateMagic
 		global.currentAmount = 0 // запускаем перезарядку магии
 		show_debug_message("Faer to all enemy")
+		
+		with pEnemy
+		{
+			if point_distance(x,y,other.x,other.y) < 70 HurtEnemy(id,20,other.id,10) // ебашим по всем пративникам
+		}
 	}
 }

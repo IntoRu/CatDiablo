@@ -61,9 +61,24 @@ global.armorEquipped = ARMOR.NONE
 // аптечка
 global.hillPlus = 0.5
 
+// -------------------------------------------------------------------------
 //для магического прогресс бара
-global.currentAmount = 0
-global.maxAmount = 20 // чем больше число тем дольше будет заполнятся шкала
+
+// перезарядка магии(не сохраненно)
+global.currentAmount = 0 
+global.maxAmount = 200 // чем больше число тем дольше будет заполнятся шкала
+
+// дистанция аттаки одиночной руны (не сохраненно)
+global.disMagicSingl = 70
+global.disMagicAll = 100
+
+// дистанция аттаки массовой руны (не сохраненно)
+global.damagMagicSingl = 8
+global.damagMagicAll = 5
+
+// дистанция отброса от рун (не сохраненно)
+global.disThrowSingl = 20
+global.disThrowAll = 30
 
 // магические руны
 global.playerHasAnyItemsMagic = false

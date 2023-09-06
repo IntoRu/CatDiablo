@@ -51,30 +51,39 @@ function PlayerFireArrow(){
 
 //-----------------------------------------------------------
 // использование магических рун
+
+// руна одиночного удара
 function UseItemMagicFaerSingl()
 {
 	nearEnemy = instance_nearest(x,y,pEnemy) // находим ближайшего врага
-	if global.currentAmount == global.maxAmount and distance_to_object(nearEnemy) < 70 // проверка дистанции
+	if global.currentAmount == global.maxAmount and distance_to_object(nearEnemy) < global.disMagicSingl and global.iLifted == noone// проверка дистанции
 	{
 		// и если дистанция позволяет
 		state = PlayerStateMagic // меняем спрайт
 		global.currentAmount = 0 // запускаем перезарядку магии
-		show_debug_message("Faer to nearest enemy")
-		HurtEnemy(nearEnemy,20,other.id,10) // ебашим по противнику
+		HurtEnemy(nearEnemy,global.damagMagicSingl,other.id,global.disThrowSingl) // ебашим по противнику
+		// эффект частиц
+		instance_create_depth(nearEnemy.x,nearEnemy.y,-9999,oMagicEffectEnemy)
 	}
 }
 
+// руна массового удара
 function UseItemMagicFaerAll()
 {
-	if global.currentAmount == global.maxAmount and distance_to_object(pEnemy) < 70 // проверка дистанции
+	if global.currentAmount == global.maxAmount and distance_to_object(pEnemy) < global.disMagicAll and global.iLifted == noone // проверка дистанции
 	{
 		state = PlayerStateMagic
 		global.currentAmount = 0 // запускаем перезарядку магии
-		show_debug_message("Faer to all enemy")
 		
 		with pEnemy
 		{
-			if point_distance(x,y,other.x,other.y) < 70 HurtEnemy(id,20,other.id,10) // ебашим по всем пративникам
+			if point_distance(x,y,other.x,other.y) < global.disMagicAll
+			{
+				HurtEnemy(id,global.damagMagicAll,other.id,global.disThrowAll) // ебашим по всем пративникам
+				instance_create_depth(id.x,id.y,-9999,oMagicEffectEnemy)
+			}
+			
 		}
 	}
 }
+//-----------------------------------------------

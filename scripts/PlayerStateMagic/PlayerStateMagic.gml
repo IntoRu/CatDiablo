@@ -6,7 +6,7 @@ function PlayerStateMagic(){
 	if(sprite_index != global.spriteHook[global.level]){
 		sprite_index = global.spriteHook[global.level]
 		image_index = CARDINAL_DIR	
-		image_speed = 1
+		image_speed = 0
 		audio_play_sound(sndMagicAttack,5,false)
 	}
 	PlayerAnimateSprite()

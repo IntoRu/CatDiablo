@@ -94,6 +94,7 @@ function UseItemMagicHill()
 	{
 		state = PlayerStateMagic
 		global.playerHealth[global.level] = global.playerHealthMax[global.level]
+		instance_create_depth(x,y-10,-9999,oMagicEffectHill)
 	}
 }
 //-----------------------------------------------

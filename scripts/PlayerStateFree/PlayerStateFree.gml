@@ -113,6 +113,7 @@ function PlayerStateFree(){
 		{
 			case ITEMMAGIC.FAERSINGL: UseItemMagicFaerSingl(); break
 			case ITEMMAGIC.FAERALL: UseItemMagicFaerAll(); break
+			case ITEMMAGIC.HILL: UseItemMagicHill(); break
 			default: break
 			
 		}

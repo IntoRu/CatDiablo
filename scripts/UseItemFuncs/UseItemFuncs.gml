@@ -86,4 +86,14 @@ function UseItemMagicFaerAll()
 		}
 	}
 }
+
+// руна полного исцеления
+function UseItemMagicHill()
+{
+	if global.currentAmount == global.maxAmount and global.iLifted == noone and global.playerHealth[global.level] != global.playerHealthMax[global.level]
+	{
+		state = PlayerStateMagic
+		global.playerHealth[global.level] = global.playerHealthMax[global.level]
+	}
+}
 //-----------------------------------------------

@@ -173,6 +173,7 @@ function PurchaseMagic(_magic,_cost){
 		switch(_magic){
 			case ITEMMAGIC.FAERSINGL: _desc = "Руна огненного удара по врагу";break
 			case ITEMMAGIC.FAERALL: _desc = "Руна массового огненного удара";break
+			case ITEMMAGIC.HILL: _desc = "Руна полного исцеления";break
 			default: _desc = "Описание не найдено"; break
 		}
 		}
@@ -180,6 +181,7 @@ function PurchaseMagic(_magic,_cost){
 		switch(_magic){
 			case ITEMMAGIC.FAERSINGL: _desc = "Rune of Fiery Strike on the Enemy";break
 			case ITEMMAGIC.FAERALL: _desc = "Rune of Massive Fire Strike";break
+			case ITEMMAGIC.HILL: _desc = "Rune of Full Healing";break
 			default: _desc = "Description not found"; break
 		}
 		}

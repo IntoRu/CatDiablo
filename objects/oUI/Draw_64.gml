@@ -119,7 +119,15 @@ if global.playerHasAnyItemsMagic
 	draw_sprite(sMagicBarBG,0,_xx+17,_yy+8)
 	draw_sprite_ext(sMagicBar,0,_xx+22,_yy+8,global.currentAmount / global.maxAmount,image_yscale,image_angle,image_blend,image_alpha)
 	// рисуем руны
-	draw_sprite(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1)
+	//draw_sprite(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1)
+	//draw_sprite_ext(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1,image_xscale,image_yscale,image_angle,image_blend,alpha)
+	// делае  прозрачными руны если их нельзя использовать
+	if global.playerEquippedMagic == ITEMMAGIC.FAERSINGL draw_sprite_ext(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1,image_xscale,image_yscale,image_angle,image_blend,alphaSingl)
+	if global.playerEquippedMagic == ITEMMAGIC.FAERALL draw_sprite_ext(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1,image_xscale,image_yscale,image_angle,image_blend,alphaAll)
+	if global.playerEquippedMagic == ITEMMAGIC.HILL draw_sprite_ext(sItemUIMagic,global.playerEquippedMagic,_xx,_yy-1,image_xscale,image_yscale,image_angle,image_blend,alphaHill)
+	
+
+	
 }
 
 

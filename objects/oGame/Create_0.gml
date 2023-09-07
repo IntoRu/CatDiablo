@@ -65,8 +65,16 @@ global.hillPlus = 0.5
 //для магического прогресс бара
 
 // перезарядка магии(не сохраненно)
-global.currentAmount = 0 
-global.maxAmount = 10 // чем больше число тем дольше будет заполнятся шкала
+global.currentAmount = 0  // текущая манна (сохраненно что бы не терять манну при загрузке)
+global.maxAmount = 200 // максимальная манна
+
+// скорость востановление магии (сохранён с целью дальнейшего обгрейда)
+global.mannaSpeed = 0.05
+
+// расход манны от разных рун (не сохраненно)
+global.mannaMagicSingl = 50
+global.mannaMagicAll = 100
+global.mannaMagicHill = 50
 
 // дистанция аттаки одиночной руны (не сохраненно)
 global.disMagicSingl = 70

@@ -56,11 +56,11 @@ function PlayerFireArrow(){
 function UseItemMagicFaerSingl()
 {
 	nearEnemy = instance_nearest(x,y,pEnemy) // находим ближайшего врага
-	if global.currentAmount == global.maxAmount and distance_to_object(nearEnemy) < global.disMagicSingl and global.iLifted == noone// проверка дистанции
+	if global.currentAmount >= global.mannaMagicSingl and distance_to_object(nearEnemy) < global.disMagicSingl and global.iLifted == noone// проверка дистанции
 	{
 		// и если дистанция позволяет
 		state = PlayerStateMagic // меняем спрайт
-		global.currentAmount = 0 // запускаем перезарядку магии
+		global.currentAmount -= global.mannaMagicSingl // отнимаем манну
 		HurtEnemy(nearEnemy,global.damagMagicSingl,other.id,global.disThrowSingl) // ебашим по противнику
 		// эффект частиц
 		instance_create_depth(nearEnemy.x,nearEnemy.y,-9999,oMagicEffectEnemy)
@@ -70,10 +70,10 @@ function UseItemMagicFaerSingl()
 // руна массового удара
 function UseItemMagicFaerAll()
 {
-	if global.currentAmount == global.maxAmount and distance_to_object(pEnemy) < global.disMagicAll and global.iLifted == noone // проверка дистанции
+	if global.currentAmount >= global.mannaMagicAll and distance_to_object(pEnemy) < global.disMagicAll and global.iLifted == noone // проверка дистанции
 	{
 		state = PlayerStateMagic
-		global.currentAmount = 0 // запускаем перезарядку магии
+		global.currentAmount -= global.mannaMagicAll  // отнимаем манну
 		
 		with pEnemy
 		{
@@ -90,9 +90,10 @@ function UseItemMagicFaerAll()
 // руна полного исцеления
 function UseItemMagicHill()
 {
-	if global.currentAmount == global.maxAmount and global.iLifted == noone and global.playerHealth[global.level] != global.playerHealthMax[global.level]
+	if global.currentAmount >= global.mannaMagicHill and global.iLifted == noone and global.playerHealth[global.level] != global.playerHealthMax[global.level]
 	{
 		state = PlayerStateMagic
+		global.currentAmount -= global.mannaMagicHill // отнимаем манну
 		global.playerHealth[global.level] = global.playerHealthMax[global.level]
 		instance_create_depth(x,y-10,-9999,oMagicEffectHill)
 	}

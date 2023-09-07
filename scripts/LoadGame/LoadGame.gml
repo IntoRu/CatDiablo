@@ -12,6 +12,8 @@ function LoadGame(_slot){
 		for (var i=0;i<ITEMMAGIC.TYPE_COUNT;i++){
 			global.playerItemUnlockedMagic[i] = _json[? "playerItemUnlockedMagic"][| i]
 		}
+		global.mannaSpeed = _json[? "mannaSpeed"]
+		global.currentAmount = _json[? "currentAmount"]
 		//-----------------------------------------------------
 		global.strong = _json[? "strong"]
 		global.lockedLuke = _json[? "lockedLuke"]

@@ -7,8 +7,12 @@ if keyboard_check(ord("M")) and keyboard_check(ord("O")) and keyboard_check(ord(
 	chitCode = 20	
 }
 
-//для магического прогресс бара
-if global.currentAmount < global.maxAmount  global.currentAmount += 0.1
+//для магического прогресс бара (востановление магии)
+if global.playerHasAnyItemsMagic and global.playerEquippedMagic != ITEM.NONE
+{
+	if global.currentAmount < global.maxAmount  global.currentAmount += global.mannaSpeed
+}
+
 
 
 

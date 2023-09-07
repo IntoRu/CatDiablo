@@ -12,6 +12,9 @@ function SaveGame(){
 	_map[? "playerHasAnyItemsMagic"] = global.playerHasAnyItemsMagic
 	_map[? "playerEquippedMagic"] = global.playerEquippedMagic
 	_map[? "playerItemUnlockedMagic"] = global.playerItemUnlockedMagic
+	_map[? "mannaSpeed"] = global.mannaSpeed
+	_map[? "currentAmount"] = global.currentAmount
+	
 	//-----------------------------------------------------
 	_map[? "room"] = room
 	_map[? "friendCat"] = global.friendCat

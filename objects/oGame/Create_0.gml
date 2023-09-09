@@ -1,6 +1,8 @@
 
 randomize()
 
+
+
 chitCode = 0 // для чит кода
 
 global.local = "RU"

@@ -45,6 +45,8 @@ else if global.questStatus[? "TheBrotherDeadCat"] == 2
 	layer_set_visible("BloodRoad", false)
 }
 
+
+
 // спавним джойстик (виртуальный)
 //if room != rStory{
 //	instance_create_layer(18,123,"Instances",oLeft)

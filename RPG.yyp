@@ -41,6 +41,7 @@
   "LibraryEmitters": [
     {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
     {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
+    {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
   ],
   "MetaData": {
     "IDEVersion": "2023.8.0.98",

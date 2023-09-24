@@ -52,9 +52,11 @@
     {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
     {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
     {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
+    {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
+    {"name":"GM_Fire","path":"particlelib/GM_Fire/GM_Fire.yy",},
   ],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"sPlayerL1","path":"sprites/sPlayerL1/sPlayerL1.yy",},},
